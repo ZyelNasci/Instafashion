@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class BaseState 
 {
     protected PlayerController player;
-    protected Animator anim;
+    protected Animator[] anim;
 
     public void InitializeState() { }
     public abstract void EnterState();

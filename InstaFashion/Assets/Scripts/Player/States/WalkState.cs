@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WalkState : BaseState
 {
-    public void InitializeState(PlayerController _player, Animator _anim)
+    public void InitializeState(PlayerController _player, Animator[] _anim)
     {
         player = _player;
         anim = _anim;
@@ -13,12 +13,14 @@ public class WalkState : BaseState
 
     public override void EnterState()
     {
-        anim.SetBool("walk", true);
+        for (int i = 0; i < anim.Length; i++)        
+            anim[i].SetBool("walk", true);
     }
 
     public override void ExitState()
     {
-        anim.SetBool("walk", false);
+        for (int i = 0; i < anim.Length; i++)
+            anim[i].SetBool("walk", false);
     }
 
     public override void UpdateState()
@@ -28,9 +30,12 @@ public class WalkState : BaseState
             player.SwitchState(player.idleState);
             return;
         }
-
-        anim.SetFloat("velX", player.input_walk.x);
-        anim.SetFloat("velY", player.input_walk.y);
+        
+        for (int i = 0; i < anim.Length; i++)
+        {
+            anim[i].SetFloat("velX", player.input_walk.x);
+            anim[i].SetFloat("velY", player.input_walk.y);
+        }        
     }
 
     public override void FixedUpdateState()

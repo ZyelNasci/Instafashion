@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: e490958f6852d124cb96bef1642b5e13, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0b26aea39b31c364285ce41568ccd3cd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -130,11 +130,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_f94d5a27b89f4b088765e2f5e75eed08: {r: 1, g: 0.1641509, b: 0.2136637, a: 1}
+    - Color_f94d5a27b89f4b088765e2f5e75eed08: {r: 1, g: 0.032075405, b: 0.032075405, a: 1}
     - Vector4_31335FCD: {r: 1, g: 1, b: 1, a: 1}
     - Vector4_b867a4649e894921825df08cdfc28ca8: {r: 1.55, g: 1.8, b: 2.6, a: 5}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0.9345465, b: 1, a: 1}
     - _ColorGlitch: {r: 0, g: 0, b: 0, a: 0}
     - _ColorOutline: {r: 103.96829, g: 86.436386, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -134,7 +134,7 @@ Material:
     - Vector4_31335FCD: {r: 1, g: 1, b: 1, a: 1}
     - Vector4_b867a4649e894921825df08cdfc28ca8: {r: 1.55, g: 1.8, b: 2.6, a: 5}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.88131624, b: 0.63584906, a: 1}
     - _ColorGlitch: {r: 0, g: 0, b: 0, a: 0}
     - _ColorOutline: {r: 103.96829, g: 86.436386, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

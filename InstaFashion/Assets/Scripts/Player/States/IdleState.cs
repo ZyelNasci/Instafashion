@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdleState : BaseState
 {
-    public void InitialiseState(PlayerController _player, Animator _anim)
+    public void InitialiseState(PlayerController _player, Animator[] _anim)
     {
         player = _player;
         anim = _anim;
