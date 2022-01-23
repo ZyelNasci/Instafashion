@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ba29de9bb070945a652a3493a9a14f, type: 3}
+  m_Name: ClothesSO
+  m_EditorClassIdentifier: 
+  type: 1
+  outfits:
+  - name: No Clothe
+    popularityStars: 1
+    price: 10
+    unlocked: 1
+    inventoryType: 0
+    itemColor: {r: 0.5030705, g: 0.72454613, b: 0.8018868, a: 1}
+    outlineIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
+    fillIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
+    animator: {fileID: 9100000, guid: 3085d1f40b37a134ea6de54f226da32a, type: 2}
+    myType: 1
+  - name: Green Dress
+    popularityStars: 1
+    price: 10
+    unlocked: 0
+    inventoryType: 0
+    itemColor: {r: 0.46966904, g: 0.9622642, b: 0.34042364, a: 1}
+    outlineIcon: {fileID: 5650614870903355552, guid: 33f6256e801ec644a8e88cd77fe6ed35, type: 3}
+    fillIcon: {fileID: 1054976742048838750, guid: 39be3d785c5be8c458e0414d09dbe2ba, type: 3}
+    animator: {fileID: 22100000, guid: fa074d51b9485c44ab5d77c3708b07b8, type: 2}
+    myType: 1
+  - name: Red Dress
+    popularityStars: 1
+    price: 10
+    unlocked: 0
+    inventoryType: 1
+    itemColor: {r: 0.9433962, g: 0.3426486, b: 0.3426486, a: 1}
+    outlineIcon: {fileID: 3449516276273612904, guid: ea7635cec7ac93741badf2248b7d29b6, type: 3}
+    fillIcon: {fileID: -353501473770525153, guid: e7a2ee20a4204a5459f905c2288ed849, type: 3}
+    animator: {fileID: 22100000, guid: 9392f6c4a76bdfb47909a1519d46cbd3, type: 2}
+    myType: 1
+  - name: Yellow Dress
+    popularityStars: 1
+    price: 10
+    unlocked: 0
+    inventoryType: 1
+    itemColor: {r: 0.9339623, g: 0.8915142, b: 0.41852084, a: 1}
+    outlineIcon: {fileID: 8802913035944514198, guid: 05f5e42590d5aac40a7ef1565af2ac28, type: 3}
+    fillIcon: {fileID: 4105489828954677280, guid: 7bc40daa2bfe56247bef392991f36f5a, type: 3}
+    animator: {fileID: 22100000, guid: b95e4bf9a8204a64c94f18204de516b5, type: 2}
+    myType: 1
+  - name: Cyan Dress
+    popularityStars: 1
+    price: 10
+    unlocked: 0
+    inventoryType: 1
+    itemColor: {r: 0.5030705, g: 0.72454613, b: 0.8018868, a: 1}
+    outlineIcon: {fileID: -459605062208929630, guid: 2cccc83090e0acd43a8a340046c9a611, type: 3}
+    fillIcon: {fileID: -4054001526638384783, guid: c7d86a8b8c47c544fb894c42d4af1c37, type: 3}
+    animator: {fileID: 22100000, guid: 46402d8f8dac03740965e0dbbda0b8a8, type: 2}
+    myType: 1
+  - name: Pink Dress
+    popularityStars: 1
+    price: 10
+    unlocked: 0
+    inventoryType: 1
+    itemColor: {r: 0.7735849, g: 0.41963333, b: 0.7583163, a: 1}
+    outlineIcon: {fileID: 8494773886079037348, guid: 0a784ff51d9461a4fa495a795826dc1a, type: 3}
+    fillIcon: {fileID: -1554201771654785577, guid: 6b69b148373058b47b070552799970e4, type: 3}
+    animator: {fileID: 22100000, guid: 3d0532de1f32f3c499907ffaca07aceb, type: 2}
+    myType: 1

@@ -148,7 +148,7 @@ TextureImporter:
     second: Accessory_01_Ladybug_48x48_02_47
   - first:
       213: 4333674536857108632
-    second: Accessory_01_Ladybug_48x48_02_48
+    second: None
   - first:
       213: 6030087024088934176
     second: Accessory_01_Ladybug_48x48_02_49
@@ -2540,6 +2540,27 @@ TextureImporter:
       bones: []
       spriteID: 34ddbfc0309775e60800000000000000
       internalID: 7950956721155595587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: None
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890068dc70e442c30800000000000000
+      internalID: 4333674536857108632
       vertices: []
       indices: 
       edges: []

@@ -15,6 +15,9 @@ public class Outfit
 {
     public string name;
     public int popularityStars = 1;
+    public float price = 10;
+    public bool unlocked;
+    public InventoryType inventoryType= InventoryType.Store_1;
     public Color itemColor;
     public Sprite outlineIcon;
     public Sprite fillIcon;

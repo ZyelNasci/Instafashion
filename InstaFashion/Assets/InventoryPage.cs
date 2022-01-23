@@ -1,24 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InventoryPage : MonoBehaviour
 {
     [SerializeField]
-    private Transform Content;
-
+    protected Transform Content;
     [SerializeField]
-    private OutfitSO outfitSO;
+    protected OutfitSO outfitSO;
 
-    private InventoryManager manager;
-    private List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
+    protected InventoryManager manager;
+    protected List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
 
-    private OutfitType myType;
-
-    public void InitializePage(InventoryManager _manager)
+    public void InitializePage(InventoryManager _manager, InventoryType _type)
     {
         manager = _manager;
-        SetContainer();
+        SetContainer(_type);
     }
 
     public void OpenPage()
@@ -31,17 +29,32 @@ public class InventoryPage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    private void SetContainer()
+    public virtual void SetContainer(InventoryType type)
     {
         currentOutfits.Clear();
         Outfit[] outfits = outfitSO.outfits;
         for (int i = 0; i < outfits.Length; i++)
         {
-            OutfitContainer temp = manager.GetContainer();
-            outfits[i].myType = outfitSO.type;
-            temp.transform.SetParent(Content);
-            temp.SetContainer(manager, outfits[i], outfits[i].itemColor);
-            currentOutfits.Add(temp);
+            if (type == outfits[i].inventoryType|| 
+                type == InventoryType.PlayerInventory && outfits[i].unlocked)
+            {
+                OutfitContainer temp    = manager.GetContainer();
+                outfits[i].myType       = outfitSO.type;
+                temp.transform.parent   = Content;
+                temp.transform.SetAsLastSibling();
+                temp.SetContainer(manager, outfits[i]);
+                currentOutfits.Add(temp);                
+            }
         }
+    }
+
+    public void AddNewPageContainer(Outfit _outfitInfo)
+    {
+        OutfitContainer temp = manager.GetContainer();
+        _outfitInfo.myType = outfitSO.type;
+        temp.transform.parent = Content;
+        temp.transform.SetAsLastSibling();
+        temp.SetContainer(manager, _outfitInfo);
+        currentOutfits.Add(temp);
     }
 }
