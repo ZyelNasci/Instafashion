@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [Header("Components")]    
     [SerializeField]
     private Animator[] anim;
+    [SerializeField]
+    private SpriteRenderer[] spRender;
 
     //Inputs
     public Vector2 input_walk { get; private set; }
@@ -34,18 +36,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (input_test)
-        {
-            float normalizedTime = anim[0].GetCurrentAnimatorStateInfo(0).normalizedTime;
-            int hashTemp = anim[0].GetCurrentAnimatorStateInfo(0).fullPathHash;
-            anim[0].Play(hashTemp, 0, normalizedTime);
-            anim[1].Play(hashTemp, 0, normalizedTime);
-            anim[2].Play(hashTemp, 0, normalizedTime);
-        }
-
         currentState?.UpdateState();
-
-
         input_test = false;
     }
 
@@ -69,7 +60,24 @@ public class PlayerController : MonoBehaviour
         currentState = newState;
     }
 
-    //public void 
+    #region Outfit_Methods
+    public void SetClotheOutfit(Outfit _newOutfit)
+    {
+        int index = (int)_newOutfit.myType + 1;
+        spRender[index].material.SetColor("_ColorMask", _newOutfit.itemColor);
+        anim[index].runtimeAnimatorController = _newOutfit.animator;
+        SetAnimatorTime();
+    }
+
+    public void SetAnimatorTime()
+    {
+        float normalizedTime = anim[0].GetCurrentAnimatorStateInfo(0).normalizedTime;
+        int hashTemp = anim[0].GetCurrentAnimatorStateInfo(0).fullPathHash;
+        anim[0].Play(hashTemp, 0, normalizedTime);
+        anim[1].Play(hashTemp, 0, normalizedTime);
+        anim[2].Play(hashTemp, 0, normalizedTime);
+    }
+    #endregion
 
     #region InputMethods
     public void Input_Move(InputAction.CallbackContext _value)

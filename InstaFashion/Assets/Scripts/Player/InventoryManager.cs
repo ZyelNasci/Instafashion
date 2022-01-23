@@ -5,41 +5,69 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     [SerializeField]
+    private PlayerController player;
+    [SerializeField]
     private Transform content;
-
     [SerializeField]
     private OutfitContainer outfitContainerPrefab;
 
     [SerializeField]
-    private OutfitSO outfitSO;
+    private InventoryPage clothesPage;
+    [SerializeField]
+    private InventoryPage hairsPage;
+    [SerializeField]
+    private InventoryPage accessoriesPage;
 
+    private InventoryPage currentPage;
+    private OutfitType currentScreen;
     private Stack<OutfitContainer> outfitStack = new Stack<OutfitContainer>();
     private List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
 
     private void Start()
     {
         CreateContainers();
-        SetContainer();
+        InitializePages();
+        SwitchScreen(clothesPage);
     }
 
-    private void SetContainer()
+    public void InitializePages()
     {
-        currentOutfits.Clear();
-        Debug.Log("VeioAqui");
-        Outfit[] outfits = outfitSO.outfits;
-        for (int i = 0; i < outfits.Length; i++)
-        {
-            OutfitContainer temp = GetContainer();
-            temp.SetContainer(outfits[i], outfits[i].itemColor);            
-            currentOutfits.Add(temp);
-        }
+        clothesPage?.InitializePage(this);
+        hairsPage?.InitializePage(this);
+        accessoriesPage?.InitializePage(this);
     }
+
+    public void SwitchScreen(InventoryPage _newScreen)
+    {
+        currentPage?.ClosePage();
+        _newScreen.OpenPage();
+        currentPage = _newScreen;
+    }
+
+    public void SetPlayerOutfit(Outfit _outfitInfo)
+    {
+        player.SetClotheOutfit(_outfitInfo);
+    }
+
+    #region Click_Methods
+    public void OnClick_HairPage()
+    {
+        SwitchScreen(hairsPage);
+    }
+    public void OnClick_ClothesPage()
+    {
+        SwitchScreen(clothesPage);
+    }
+    public void OnClick_AccessoriesPage()
+    {
+        SwitchScreen(accessoriesPage);
+    }
+    #endregion
 
     #region Pooling
     private void CreateContainers()
     {
-        Debug.Log("VeioAquiTambem");
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 20; i++)
         {
             OutfitContainer temp = Instantiate(outfitContainerPrefab, content);
             temp.gameObject.SetActive(false);
@@ -47,7 +75,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    private OutfitContainer GetContainer()
+    public OutfitContainer GetContainer()
     {
         if(outfitStack.Count > 0)
         {
@@ -63,7 +91,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    private void StoreContainer (OutfitContainer _container)
+    public void StoreContainer (OutfitContainer _container)
     {
         outfitStack.Push(_container);
     }

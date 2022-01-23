@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ba29de9bb070945a652a3493a9a14f, type: 3}
+  m_Name: HairSO
+  m_EditorClassIdentifier: 
+  type: 1
+  outfits:
+  - name: Hair 1
+    popularityStars: 1
+    itemColor: {r: 0.20864272, g: 1, b: 0, a: 1}
+    outlineIcon: {fileID: -6241618335872450788, guid: 66b177a57f5f1304d9f8ca0a5c5c6fd0, type: 3}
+    fillIcon: {fileID: 3105321146142586948, guid: 0b26aea39b31c364285ce41568ccd3cd, type: 3}
+    animator: {fileID: 22100000, guid: fbac23db3ad0f764cbb577b51868190e, type: 2}
+  - name: Hair 2
+    popularityStars: 1
+    itemColor: {r: 1, g: 0, b: 0, a: 1}
+    outlineIcon: {fileID: -8731112576078581093, guid: e6fe8e9920ed64e4cb0d49ffd934854c, type: 3}
+    fillIcon: {fileID: -4268822256989850243, guid: 2d41e835c9325a145b39193ce4ce252f, type: 3}
+    animator: {fileID: 22100000, guid: dcf8f8b128e1e264987362e6ae13c962, type: 2}
+  - name: Hair 3
+    popularityStars: 1
+    itemColor: {r: 1, g: 0.91594565, b: 0, a: 1}
+    outlineIcon: {fileID: -8921377445385366223, guid: 667b0e190e965d14eb21eafdf2b01237, type: 3}
+    fillIcon: {fileID: 4462252853231901577, guid: b7f3374bcaa77ec43beeba62f11330ec, type: 3}
+    animator: {fileID: 22100000, guid: 8ce1b628670954d4e96bc0b50795157d, type: 2}
+  - name: Hair 4
+    popularityStars: 1
+    itemColor: {r: 1, g: 0, b: 0.95686245, a: 1}
+    outlineIcon: {fileID: 7282743251114054685, guid: 608087c3d5b33c0469a1e885747644e2, type: 3}
+    fillIcon: {fileID: -3111357429699748455, guid: 159fa587952a67e4abd93e93fc14d366, type: 3}
+    animator: {fileID: 22100000, guid: 845316b190c710e4e8721af52f04522a, type: 2}
+  - name: Hair 5
+    popularityStars: 1
+    itemColor: {r: 0, g: 0.74235535, b: 1, a: 1}
+    outlineIcon: {fileID: 1902412557081100117, guid: 38063a3c186edb3478fc00cf00e051e1, type: 3}
+    fillIcon: {fileID: -1252423595896024346, guid: b3bc3e2803d9dcd439512f57c706b526, type: 3}
+    animator: {fileID: 22100000, guid: d80bdd3238e14c042be289c308e57c13, type: 2}

@@ -136,6 +136,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0, g: 0.9345465, b: 1, a: 1}
     - _ColorGlitch: {r: 0, g: 0, b: 0, a: 0}
+    - _ColorMask: {r: 0.41585082, g: 0.8396226, b: 0.6159653, a: 0}
     - _ColorOutline: {r: 103.96829, g: 86.436386, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

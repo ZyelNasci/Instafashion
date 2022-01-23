@@ -15,28 +15,30 @@ public class OutfitContainer : MonoBehaviour
     [SerializeField]
     private Image fillImage;
 
-
     private int popularity;
     private int postedCount;
+    private int myIndex;
 
-    public Color myColor;
-
-    public void SetContainer(Outfit _newOutfit, Color _color)
+    private InventoryManager manager;
+    private Outfit myInfo;
+    public void SetContainer(InventoryManager _manager, Outfit _outfitInfo, Color _color)
     {
-        nameText.text       = _newOutfit.name;
-        popularity          = _newOutfit.popularityStars;
-        outlineImage.sprite = _newOutfit.outlineIcon;
-        fillImage.sprite    = _newOutfit.fillIcon;
-
-        myColor             = _newOutfit.itemColor;
+        manager             = _manager;
+        myInfo              = _outfitInfo;
+        nameText.text       = _outfitInfo.name;
+        popularity          = _outfitInfo.popularityStars;
+        outlineImage.sprite = _outfitInfo.outlineIcon;
+        fillImage.sprite    = _outfitInfo.fillIcon;
 
         Material mat = Instantiate(fillImage.material);
-        mat.SetColor("_ColorMask", _newOutfit.itemColor);
+        mat.SetColor("_ColorMask", _outfitInfo.itemColor);
         fillImage.material = mat;
 
-        //fillImage.material.SetColor("_ColorMask", _newOutfit.itemColor);
-
         posted.text         = "Posts: 00";        
-    }    
+    }
 
+    public void OnClick_SetOutfit()
+    {
+        manager.SetPlayerOutfit(myInfo);
+    }
 }

@@ -1,0 +1,2484 @@
+fileFormatVersion: 2
+guid: ac74907a51bb00540925918d8f1da19a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5476567034996162373
+    second: Accessory_03_Backpack_48x48_02_0
+  - first:
+      213: -928711600305596218
+    second: Accessory_03_Backpack_48x48_02_1
+  - first:
+      213: -1177691925750889156
+    second: Accessory_03_Backpack_48x48_02_2
+  - first:
+      213: -1494877955315303384
+    second: Accessory_03_Backpack_48x48_02_3
+  - first:
+      213: 8139559115005103985
+    second: Accessory_03_Backpack_48x48_02_4
+  - first:
+      213: -5837383817577192802
+    second: Accessory_03_Backpack_48x48_02_5
+  - first:
+      213: -4336128511207994002
+    second: Accessory_03_Backpack_48x48_02_6
+  - first:
+      213: -2275089850498772162
+    second: Accessory_03_Backpack_48x48_02_7
+  - first:
+      213: -3519067673773173503
+    second: Accessory_03_Backpack_48x48_02_8
+  - first:
+      213: -5754276543515460119
+    second: Accessory_03_Backpack_48x48_02_9
+  - first:
+      213: -4628455734832180302
+    second: Accessory_03_Backpack_48x48_02_10
+  - first:
+      213: 6251966779564961024
+    second: Accessory_03_Backpack_48x48_02_11
+  - first:
+      213: 6219177683470946422
+    second: Accessory_03_Backpack_48x48_02_12
+  - first:
+      213: 1901241666960962225
+    second: Accessory_03_Backpack_48x48_02_13
+  - first:
+      213: 4376170999132988513
+    second: Accessory_03_Backpack_48x48_02_14
+  - first:
+      213: 518137580168104220
+    second: Accessory_03_Backpack_48x48_02_15
+  - first:
+      213: -7062272078609690840
+    second: Accessory_03_Backpack_48x48_02_16
+  - first:
+      213: 5285427082511697983
+    second: Accessory_03_Backpack_48x48_02_17
+  - first:
+      213: -643338688135457462
+    second: Accessory_03_Backpack_48x48_02_18
+  - first:
+      213: -1610775685799155510
+    second: Accessory_03_Backpack_48x48_02_19
+  - first:
+      213: -1267469551313467530
+    second: Accessory_03_Backpack_48x48_02_20
+  - first:
+      213: 4286545404056942930
+    second: Accessory_03_Backpack_48x48_02_21
+  - first:
+      213: -1991367808488138304
+    second: Accessory_03_Backpack_48x48_02_22
+  - first:
+      213: -1787175730169679258
+    second: Accessory_03_Backpack_48x48_02_23
+  - first:
+      213: -4065232513232969290
+    second: Accessory_03_Backpack_48x48_02_24
+  - first:
+      213: -2049336017336408612
+    second: Accessory_03_Backpack_48x48_02_25
+  - first:
+      213: 1982122450167477704
+    second: Accessory_03_Backpack_48x48_02_26
+  - first:
+      213: -2278757855202239061
+    second: Accessory_03_Backpack_48x48_02_27
+  - first:
+      213: 7325340258697971746
+    second: Accessory_03_Backpack_48x48_02_28
+  - first:
+      213: 3749505682201025611
+    second: Accessory_03_Backpack_48x48_02_29
+  - first:
+      213: -8277439849009529581
+    second: Accessory_03_Backpack_48x48_02_30
+  - first:
+      213: -200455998364287694
+    second: Accessory_03_Backpack_48x48_02_31
+  - first:
+      213: -1008020744997467086
+    second: Accessory_03_Backpack_48x48_02_32
+  - first:
+      213: -5670737919555317164
+    second: Accessory_03_Backpack_48x48_02_33
+  - first:
+      213: -2417242342327928228
+    second: Accessory_03_Backpack_48x48_02_34
+  - first:
+      213: -8409774492908891333
+    second: Accessory_03_Backpack_48x48_02_35
+  - first:
+      213: 735160362201636156
+    second: Accessory_03_Backpack_48x48_02_36
+  - first:
+      213: 3712414500822151813
+    second: Accessory_03_Backpack_48x48_02_37
+  - first:
+      213: -5758458064610625047
+    second: Accessory_03_Backpack_48x48_02_38
+  - first:
+      213: 376588131510646071
+    second: Accessory_03_Backpack_48x48_02_39
+  - first:
+      213: -3556570508679163237
+    second: Accessory_03_Backpack_48x48_02_40
+  - first:
+      213: -4096302857634320652
+    second: Accessory_03_Backpack_48x48_02_41
+  - first:
+      213: 3150130409376764901
+    second: Accessory_03_Backpack_48x48_02_42
+  - first:
+      213: 5558810272590092023
+    second: Accessory_03_Backpack_48x48_02_43
+  - first:
+      213: 4648158349896588425
+    second: Accessory_03_Backpack_48x48_02_44
+  - first:
+      213: 5611520562180089495
+    second: Accessory_03_Backpack_48x48_02_45
+  - first:
+      213: 605923963607319609
+    second: Accessory_03_Backpack_48x48_02_46
+  - first:
+      213: -6452157124656125631
+    second: Accessory_03_Backpack_48x48_02_47
+  - first:
+      213: 6973013457930305225
+    second: Accessory_03_Backpack_48x48_02_48
+  - first:
+      213: 135726738903490981
+    second: Accessory_03_Backpack_48x48_02_49
+  - first:
+      213: 8397842676077338170
+    second: Accessory_03_Backpack_48x48_02_50
+  - first:
+      213: 7460471114403349234
+    second: Accessory_03_Backpack_48x48_02_51
+  - first:
+      213: -4007795886156538052
+    second: Accessory_03_Backpack_48x48_02_52
+  - first:
+      213: 5755591046904469995
+    second: Accessory_03_Backpack_48x48_02_53
+  - first:
+      213: 2727615638955030389
+    second: Accessory_03_Backpack_48x48_02_54
+  - first:
+      213: 4980661972052502270
+    second: Accessory_03_Backpack_48x48_02_55
+  - first:
+      213: -1025756382069983449
+    second: Accessory_03_Backpack_48x48_02_56
+  - first:
+      213: -1867035874813048145
+    second: Accessory_03_Backpack_48x48_02_57
+  - first:
+      213: -1132126262377975030
+    second: Accessory_03_Backpack_48x48_02_58
+  - first:
+      213: 5961129465987290026
+    second: Accessory_03_Backpack_48x48_02_59
+  - first:
+      213: -1162251197657346609
+    second: Accessory_03_Backpack_48x48_02_60
+  - first:
+      213: 1134808477026633540
+    second: Accessory_03_Backpack_48x48_02_61
+  - first:
+      213: -7376252831253698320
+    second: Accessory_03_Backpack_48x48_02_62
+  - first:
+      213: -8226415041485741817
+    second: Accessory_03_Backpack_48x48_02_63
+  - first:
+      213: -3998382509786959331
+    second: Accessory_03_Backpack_48x48_02_64
+  - first:
+      213: -2202362815619230004
+    second: Accessory_03_Backpack_48x48_02_65
+  - first:
+      213: -5190185412978851035
+    second: Accessory_03_Backpack_48x48_02_66
+  - first:
+      213: -378398288183171703
+    second: Accessory_03_Backpack_48x48_02_67
+  - first:
+      213: 3118559540151397701
+    second: Accessory_03_Backpack_48x48_02_68
+  - first:
+      213: 1851795260904840319
+    second: Accessory_03_Backpack_48x48_02_69
+  - first:
+      213: -9046451396185993759
+    second: Accessory_03_Backpack_48x48_02_70
+  - first:
+      213: -7947486961013915358
+    second: Accessory_03_Backpack_48x48_02_71
+  - first:
+      213: -6405455892189346453
+    second: Accessory_03_Backpack_48x48_02_72
+  - first:
+      213: 3824579445503526247
+    second: Accessory_03_Backpack_48x48_02_73
+  - first:
+      213: 1176954342562045438
+    second: Accessory_03_Backpack_48x48_02_74
+  - first:
+      213: -8309099552075547885
+    second: Accessory_03_Backpack_48x48_02_75
+  - first:
+      213: -3977331508050202698
+    second: Accessory_03_Backpack_48x48_02_76
+  - first:
+      213: 987471544005346647
+    second: Accessory_03_Backpack_48x48_02_77
+  - first:
+      213: 1461066648817832068
+    second: Accessory_03_Backpack_48x48_02_78
+  - first:
+      213: -7641406503641840575
+    second: Accessory_03_Backpack_48x48_02_79
+  - first:
+      213: 554013619502558070
+    second: Accessory_03_Backpack_48x48_02_80
+  - first:
+      213: -2543378433176789221
+    second: Accessory_03_Backpack_48x48_02_81
+  - first:
+      213: 5111938713660677919
+    second: Accessory_03_Backpack_48x48_02_82
+  - first:
+      213: -6822317282048761718
+    second: Accessory_03_Backpack_48x48_02_83
+  - first:
+      213: -8120690997562465235
+    second: Accessory_03_Backpack_48x48_02_84
+  - first:
+      213: -3350309934513610979
+    second: Accessory_03_Backpack_48x48_02_85
+  - first:
+      213: 4253591366934830396
+    second: Accessory_03_Backpack_48x48_02_86
+  - first:
+      213: -2888018012520327903
+    second: Accessory_03_Backpack_48x48_02_87
+  - first:
+      213: -5121492108103816571
+    second: Accessory_03_Backpack_48x48_02_88
+  - first:
+      213: 569847860873600811
+    second: Accessory_03_Backpack_48x48_02_89
+  - first:
+      213: 380143381374247241
+    second: Accessory_03_Backpack_48x48_02_90
+  - first:
+      213: 4093799561781793540
+    second: Accessory_03_Backpack_48x48_02_91
+  - first:
+      213: 5357282558716029215
+    second: Accessory_03_Backpack_48x48_02_92
+  - first:
+      213: 8211670495442292089
+    second: Accessory_03_Backpack_48x48_02_93
+  - first:
+      213: -5586613414246623315
+    second: Accessory_03_Backpack_48x48_02_94
+  - first:
+      213: -5786448580384265356
+    second: Accessory_03_Backpack_48x48_02_95
+  - first:
+      213: 369778051159403032
+    second: Accessory_03_Backpack_48x48_02_96
+  - first:
+      213: 4478087308356190657
+    second: Accessory_03_Backpack_48x48_02_97
+  - first:
+      213: 2261008349721176073
+    second: Accessory_03_Backpack_48x48_02_98
+  - first:
+      213: 5513727581385210452
+    second: Accessory_03_Backpack_48x48_02_99
+  - first:
+      213: -5968384740838832970
+    second: Accessory_03_Backpack_48x48_02_100
+  - first:
+      213: -7856414796598106684
+    second: Accessory_03_Backpack_48x48_02_101
+  - first:
+      213: 6910141630734121517
+    second: Accessory_03_Backpack_48x48_02_102
+  - first:
+      213: -2912853943983520773
+    second: Accessory_03_Backpack_48x48_02_103
+  - first:
+      213: 5531919293673639999
+    second: Accessory_03_Backpack_48x48_02_104
+  - first:
+      213: 3045289975509958285
+    second: Accessory_03_Backpack_48x48_02_105
+  - first:
+      213: -7792592837575671015
+    second: Accessory_03_Backpack_48x48_02_106
+  - first:
+      213: 2918733614164269363
+    second: Accessory_03_Backpack_48x48_02_107
+  - first:
+      213: -6189645254292251651
+    second: Accessory_03_Backpack_48x48_02_108
+  - first:
+      213: -5148791660380833228
+    second: Accessory_03_Backpack_48x48_02_109
+  - first:
+      213: 9199456719888871940
+    second: Accessory_03_Backpack_48x48_02_110
+  - first:
+      213: -9159880368989360021
+    second: Accessory_03_Backpack_48x48_02_111
+  - first:
+      213: 8273051426174523599
+    second: Accessory_03_Backpack_48x48_02_112
+  - first:
+      213: 5073610087592462798
+    second: Accessory_03_Backpack_48x48_02_113
+  - first:
+      213: -864525601865244940
+    second: Accessory_03_Backpack_48x48_02_114
+  - first:
+      213: -2542781236748783992
+    second: Accessory_03_Backpack_48x48_02_115
+  - first:
+      213: 2833622378931214934
+    second: Accessory_03_Backpack_48x48_02_116
+  - first:
+      213: 5530425441762169961
+    second: Accessory_03_Backpack_48x48_02_117
+  - first:
+      213: 6021318207564135955
+    second: Accessory_03_Backpack_48x48_02_118
+  - first:
+      213: 3993889909413841873
+    second: Accessory_03_Backpack_48x48_02_119
+  - first:
+      213: 7064572980896428095
+    second: Accessory_03_Backpack_48x48_02_120
+  - first:
+      213: 6276979645895765467
+    second: Accessory_03_Backpack_48x48_02_121
+  - first:
+      213: -2649242868410861241
+    second: Accessory_03_Backpack_48x48_02_122
+  - first:
+      213: -1999620285914176633
+    second: Accessory_03_Backpack_48x48_02_123
+  - first:
+      213: -3834866942155450928
+    second: Accessory_03_Backpack_48x48_02_124
+  - first:
+      213: -2026178676904625917
+    second: Accessory_03_Backpack_48x48_02_125
+  - first:
+      213: -5475299444233350885
+    second: Accessory_03_Backpack_48x48_02_126
+  - first:
+      213: 8896058591951523722
+    second: Accessory_03_Backpack_48x48_02_127
+  - first:
+      213: 571325641975396827
+    second: Accessory_03_Backpack_48x48_02_128
+  - first:
+      213: -587458944069624390
+    second: Accessory_03_Backpack_48x48_02_129
+  - first:
+      213: -131256960714252106
+    second: Accessory_03_Backpack_48x48_02_130
+  - first:
+      213: 6363480154720858153
+    second: Accessory_03_Backpack_48x48_02_131
+  - first:
+      213: 2904928056277267186
+    second: Accessory_03_Backpack_48x48_02_132
+  - first:
+      213: -6992539005184811879
+    second: Accessory_03_Backpack_48x48_02_133
+  - first:
+      213: 6137496950655145053
+    second: Accessory_03_Backpack_48x48_02_134
+  - first:
+      213: 7848510314227175461
+    second: Accessory_03_Backpack_48x48_02_135
+  - first:
+      213: 891918625604311796
+    second: Accessory_03_Backpack_48x48_02_136
+  - first:
+      213: -1136891114286603458
+    second: Accessory_03_Backpack_48x48_02_137
+  - first:
+      213: 924696147649899519
+    second: Accessory_03_Backpack_48x48_02_138
+  - first:
+      213: -786585660004683812
+    second: Accessory_03_Backpack_48x48_02_139
+  - first:
+      213: -9175372070395315999
+    second: Accessory_03_Backpack_48x48_02_140
+  - first:
+      213: -2916312885381300771
+    second: Accessory_03_Backpack_48x48_02_141
+  - first:
+      213: 3317374649574752763
+    second: Accessory_03_Backpack_48x48_02_142
+  - first:
+      213: 3706656689382981068
+    second: Accessory_03_Backpack_48x48_02_143
+  - first:
+      213: -4655989833362494780
+    second: Accessory_03_Backpack_48x48_02_144
+  - first:
+      213: -8743893407141980409
+    second: Accessory_03_Backpack_48x48_02_145
+  - first:
+      213: -8529854715849873213
+    second: Accessory_03_Backpack_48x48_02_146
+  - first:
+      213: 7220266713049961551
+    second: Accessory_03_Backpack_48x48_02_147
+  - first:
+      213: 7990115025207020444
+    second: Accessory_03_Backpack_48x48_02_148
+  - first:
+      213: -7655839160889521077
+    second: Accessory_03_Backpack_48x48_02_149
+  - first:
+      213: 4369051475534745958
+    second: Accessory_03_Backpack_48x48_02_150
+  - first:
+      213: 3673178263336210852
+    second: Accessory_03_Backpack_48x48_02_151
+  - first:
+      213: 4278574255654983764
+    second: Accessory_03_Backpack_48x48_02_152
+  - first:
+      213: -1645765023904897440
+    second: Accessory_03_Backpack_48x48_02_153
+  - first:
+      213: 100040633120012923
+    second: Accessory_03_Backpack_48x48_02_154
+  - first:
+      213: 7624013271421294389
+    second: Accessory_03_Backpack_48x48_02_155
+  - first:
+      213: -5565368380345693213
+    second: Accessory_03_Backpack_48x48_02_156
+  - first:
+      213: 74664505989871464
+    second: Accessory_03_Backpack_48x48_02_157
+  - first:
+      213: 7076729030408127551
+    second: Accessory_03_Backpack_48x48_02_158
+  - first:
+      213: -7289765633030520723
+    second: Accessory_03_Backpack_48x48_02_159
+  - first:
+      213: -6910813194708994930
+    second: Accessory_03_Backpack_48x48_02_160
+  - first:
+      213: 833780871366639933
+    second: Accessory_03_Backpack_48x48_02_161
+  - first:
+      213: 7826259635474684991
+    second: Accessory_03_Backpack_48x48_02_162
+  - first:
+      213: -8037379344606868744
+    second: Accessory_03_Backpack_48x48_02_163
+  - first:
+      213: 768342736319271979
+    second: Accessory_03_Backpack_48x48_02_164
+  - first:
+      213: -1435851793059417801
+    second: Accessory_03_Backpack_48x48_02_165
+  - first:
+      213: 8864066215704001323
+    second: Accessory_03_Backpack_48x48_02_166
+  - first:
+      213: -465315295199602377
+    second: Accessory_03_Backpack_48x48_02_167
+  - first:
+      213: 7256848219838249966
+    second: Accessory_03_Backpack_48x48_02_168
+  - first:
+      213: 6656063289953052679
+    second: Accessory_03_Backpack_48x48_02_169
+  - first:
+      213: 7542795142926476711
+    second: Accessory_03_Backpack_48x48_02_170
+  - first:
+      213: -5765586158361368292
+    second: Accessory_03_Backpack_48x48_02_171
+  - first:
+      213: 3992908120914854080
+    second: Accessory_03_Backpack_48x48_02_172
+  - first:
+      213: -7729609269157749444
+    second: Accessory_03_Backpack_48x48_02_173
+  - first:
+      213: -6524765591896638057
+    second: Accessory_03_Backpack_48x48_02_174
+  - first:
+      213: 4791267670507319394
+    second: Accessory_03_Backpack_48x48_02_175
+  - first:
+      213: 8974641600164891326
+    second: Accessory_03_Backpack_48x48_02_176
+  - first:
+      213: 1384910123190685030
+    second: Accessory_03_Backpack_48x48_02_177
+  - first:
+      213: -806964174536755488
+    second: Accessory_03_Backpack_48x48_02_178
+  - first:
+      213: -6146988488999835696
+    second: Accessory_03_Backpack_48x48_02_179
+  - first:
+      213: -4554092751619897682
+    second: Accessory_03_Backpack_48x48_02_180
+  - first:
+      213: 909677768660231313
+    second: Accessory_03_Backpack_48x48_02_181
+  - first:
+      213: -2250851559023352933
+    second: Accessory_03_Backpack_48x48_02_182
+  - first:
+      213: -5136834342357010556
+    second: Accessory_03_Backpack_48x48_02_183
+  - first:
+      213: -6036395374308263218
+    second: Accessory_03_Backpack_48x48_02_184
+  - first:
+      213: 4903599529498344311
+    second: Accessory_03_Backpack_48x48_02_185
+  - first:
+      213: 1080940864954214406
+    second: Accessory_03_Backpack_48x48_02_186
+  - first:
+      213: -5290100226223617835
+    second: Accessory_03_Backpack_48x48_02_187
+  - first:
+      213: 3891921747174398966
+    second: Accessory_03_Backpack_48x48_02_188
+  - first:
+      213: -3617866850386263358
+    second: Accessory_03_Backpack_48x48_02_189
+  - first:
+      213: 2991045134493080603
+    second: Accessory_03_Backpack_48x48_02_190
+  - first:
+      213: -6122003441941574299
+    second: Accessory_03_Backpack_48x48_02_191
+  - first:
+      213: 3787966775799398221
+    second: Accessory_03_Backpack_48x48_02_192
+  - first:
+      213: -7065702136366890655
+    second: Accessory_03_Backpack_48x48_02_193
+  - first:
+      213: 1136817061044615874
+    second: Accessory_03_Backpack_48x48_02_194
+  - first:
+      213: 5019691788683781604
+    second: Accessory_03_Backpack_48x48_02_195
+  - first:
+      213: -7050337740553093635
+    second: Accessory_03_Backpack_48x48_02_196
+  - first:
+      213: -4131421484430444608
+    second: Accessory_03_Backpack_48x48_02_197
+  - first:
+      213: -4785684122448721083
+    second: Accessory_03_Backpack_48x48_02_198
+  - first:
+      213: -8459175792947680148
+    second: Accessory_03_Backpack_48x48_02_199
+  - first:
+      213: -5917711157936838147
+    second: Accessory_03_Backpack_48x48_02_200
+  - first:
+      213: -1793475677391076043
+    second: Accessory_03_Backpack_48x48_02_201
+  - first:
+      213: 3033779493297606276
+    second: Accessory_03_Backpack_48x48_02_202
+  - first:
+      213: -2654597258863074796
+    second: Accessory_03_Backpack_48x48_02_203
+  - first:
+      213: -6930292871739783710
+    second: Accessory_03_Backpack_48x48_02_204
+  - first:
+      213: 3314974077684426073
+    second: Accessory_03_Backpack_48x48_02_205
+  - first:
+      213: 2477538766964201047
+    second: Accessory_03_Backpack_48x48_02_206
+  - first:
+      213: -1815850452582558288
+    second: Accessory_03_Backpack_48x48_02_207
+  - first:
+      213: -147028294825893517
+    second: Accessory_03_Backpack_48x48_02_208
+  - first:
+      213: -1762828759625029991
+    second: Accessory_03_Backpack_48x48_02_209
+  - first:
+      213: -6559600011825842938
+    second: Accessory_03_Backpack_48x48_02_210
+  - first:
+      213: 2509592618159238344
+    second: Accessory_03_Backpack_48x48_02_211
+  - first:
+      213: 3449262757355965364
+    second: Accessory_03_Backpack_48x48_02_212
+  - first:
+      213: 8688999831087621599
+    second: Accessory_03_Backpack_48x48_02_213
+  - first:
+      213: -9174347414321571539
+    second: Accessory_03_Backpack_48x48_02_214
+  - first:
+      213: 6141871206147351996
+    second: Accessory_03_Backpack_48x48_02_215
+  - first:
+      213: 5466371223534519084
+    second: Accessory_03_Backpack_48x48_02_216
+  - first:
+      213: -712927231810200332
+    second: Accessory_03_Backpack_48x48_02_217
+  - first:
+      213: -8266963118316221876
+    second: Accessory_03_Backpack_48x48_02_218
+  - first:
+      213: -6840728392482580164
+    second: Accessory_03_Backpack_48x48_02_219
+  - first:
+      213: -3793010621312959712
+    second: Accessory_03_Backpack_48x48_02_220
+  - first:
+      213: 3251325039407442797
+    second: Accessory_03_Backpack_48x48_02_221
+  - first:
+      213: 1943080032130819087
+    second: Accessory_03_Backpack_48x48_02_222
+  - first:
+      213: -6385890844110462387
+    second: Accessory_03_Backpack_48x48_02_223
+  - first:
+      213: -4887264108241033155
+    second: Accessory_03_Backpack_48x48_02_224
+  - first:
+      213: 4430758093663588776
+    second: Accessory_03_Backpack_48x48_02_225
+  - first:
+      213: -8075544280225191822
+    second: Accessory_03_Backpack_48x48_02_226
+  - first:
+      213: -8467936830475508374
+    second: Accessory_03_Backpack_48x48_02_227
+  - first:
+      213: 7295550402288320401
+    second: Accessory_03_Backpack_48x48_02_228
+  - first:
+      213: 5483233040239655576
+    second: Accessory_03_Backpack_48x48_02_229
+  - first:
+      213: 8667906533210671611
+    second: Accessory_03_Backpack_48x48_02_230
+  - first:
+      213: -2786882776455145414
+    second: Accessory_03_Backpack_48x48_02_231
+  - first:
+      213: -8652852765244284904
+    second: Accessory_03_Backpack_48x48_02_232
+  - first:
+      213: 949527730691901686
+    second: Accessory_03_Backpack_48x48_02_233
+  - first:
+      213: -3701564400562617683
+    second: Accessory_03_Backpack_48x48_02_234
+  - first:
+      213: 8213530264154779996
+    second: Accessory_03_Backpack_48x48_02_235
+  - first:
+      213: 3683666530486996433
+    second: Accessory_03_Backpack_48x48_02_236
+  - first:
+      213: 7728232427950919195
+    second: Accessory_03_Backpack_48x48_02_237
+  - first:
+      213: -9157711387106422216
+    second: Accessory_03_Backpack_48x48_02_238
+  - first:
+      213: 1963438507059380312
+    second: Accessory_03_Backpack_48x48_02_239
+  - first:
+      213: 3617728782403601401
+    second: Accessory_03_Backpack_48x48_02_240
+  - first:
+      213: -6263126436693196514
+    second: Accessory_03_Backpack_48x48_02_241
+  - first:
+      213: -7818303234089182577
+    second: Accessory_03_Backpack_48x48_02_242
+  - first:
+      213: 8949978371915950719
+    second: Accessory_03_Backpack_48x48_02_243
+  - first:
+      213: 2711985419765511686
+    second: Accessory_03_Backpack_48x48_02_244
+  - first:
+      213: -9159849507690681407
+    second: Accessory_03_Backpack_48x48_02_245
+  - first:
+      213: -566501692047459952
+    second: Accessory_03_Backpack_48x48_02_246
+  - first:
+      213: -3827170778011526868
+    second: Accessory_03_Backpack_48x48_02_247
+  - first:
+      213: 1602167196251032334
+    second: Accessory_03_Backpack_48x48_02_248
+  - first:
+      213: -1789595848313076933
+    second: Accessory_03_Backpack_48x48_02_249
+  - first:
+      213: 7315921858655891494
+    second: Accessory_03_Backpack_48x48_02_250
+  - first:
+      213: -2585258087616374843
+    second: Accessory_03_Backpack_48x48_02_251
+  - first:
+      213: 7188979996437432958
+    second: Accessory_03_Backpack_48x48_02_252
+  - first:
+      213: 1067209521018060269
+    second: Accessory_03_Backpack_48x48_02_253
+  - first:
+      213: 818522257593416521
+    second: Accessory_03_Backpack_48x48_02_254
+  - first:
+      213: -6677267632844540649
+    second: Accessory_03_Backpack_48x48_02_255
+  - first:
+      213: 2066694389704134725
+    second: Accessory_03_Backpack_48x48_02_256
+  - first:
+      213: 2363948823799518166
+    second: Accessory_03_Backpack_48x48_02_257
+  - first:
+      213: -479351075876289694
+    second: Accessory_03_Backpack_48x48_02_258
+  - first:
+      213: 2452482872977675283
+    second: Accessory_03_Backpack_48x48_02_259
+  - first:
+      213: 4656791184230139099
+    second: Accessory_03_Backpack_48x48_02_260
+  - first:
+      213: -3179798172141768863
+    second: Accessory_03_Backpack_48x48_02_261
+  - first:
+      213: 4968007571473344999
+    second: Accessory_03_Backpack_48x48_02_262
+  - first:
+      213: 8482087400379570615
+    second: Accessory_03_Backpack_48x48_02_263
+  - first:
+      213: 4651401500248963663
+    second: Accessory_03_Backpack_48x48_02_264
+  - first:
+      213: 245977659222672047
+    second: Accessory_03_Backpack_48x48_02_265
+  - first:
+      213: 8780339899387094903
+    second: Accessory_03_Backpack_48x48_02_266
+  - first:
+      213: 2799159395087139838
+    second: Accessory_03_Backpack_48x48_02_267
+  - first:
+      213: 1658634193097095630
+    second: Accessory_03_Backpack_48x48_02_268
+  - first:
+      213: 2747772744843896328
+    second: Accessory_03_Backpack_48x48_02_269
+  - first:
+      213: -6351217528807173155
+    second: Accessory_03_Backpack_48x48_02_270
+  - first:
+      213: 5463282306783903767
+    second: Accessory_03_Backpack_48x48_02_271
+  - first:
+      213: 2577927690772459187
+    second: Accessory_03_Backpack_48x48_02_272
+  - first:
+      213: 5347745115773680168
+    second: Accessory_03_Backpack_48x48_02_273
+  - first:
+      213: 6196269331923397008
+    second: Accessory_03_Backpack_48x48_02_274
+  - first:
+      213: -8971193353543942465
+    second: Accessory_03_Backpack_48x48_02_275
+  - first:
+      213: 4173972152875520800
+    second: Accessory_03_Backpack_48x48_02_276
+  - first:
+      213: 1296262186859774310
+    second: Accessory_03_Backpack_48x48_02_277
+  - first:
+      213: -6373946202040433234
+    second: Accessory_03_Backpack_48x48_02_278
+  - first:
+      213: 4588063928970102814
+    second: Accessory_03_Backpack_48x48_02_279
+  - first:
+      213: 8622607035834633585
+    second: Accessory_03_Backpack_48x48_02_280
+  - first:
+      213: -6245509087829140667
+    second: Accessory_03_Backpack_48x48_02_281
+  - first:
+      213: 2198888730286219831
+    second: Accessory_03_Backpack_48x48_02_282
+  - first:
+      213: -9163721639957644096
+    second: Accessory_03_Backpack_48x48_02_283
+  - first:
+      213: 7552912465253475282
+    second: Accessory_03_Backpack_48x48_02_284
+  - first:
+      213: 1977491249487264997
+    second: Accessory_03_Backpack_48x48_02_285
+  - first:
+      213: 5757545177099545287
+    second: Accessory_03_Backpack_48x48_02_286
+  - first:
+      213: -3256784664572832395
+    second: Accessory_03_Backpack_48x48_02_287
+  - first:
+      213: 8479117438446162036
+    second: Accessory_03_Backpack_48x48_02_288
+  - first:
+      213: -8107572548470298061
+    second: Accessory_03_Backpack_48x48_02_289
+  - first:
+      213: -9198333613337640461
+    second: Accessory_03_Backpack_48x48_02_290
+  - first:
+      213: 6607314170952641594
+    second: Accessory_03_Backpack_48x48_02_291
+  - first:
+      213: -5746917663932538155
+    second: Accessory_03_Backpack_48x48_02_292
+  - first:
+      213: -5379244206354118405
+    second: Accessory_03_Backpack_48x48_02_293
+  - first:
+      213: -7831974391343112975
+    second: Accessory_03_Backpack_48x48_02_294
+  - first:
+      213: 8173643949293722567
+    second: Accessory_03_Backpack_48x48_02_295
+  - first:
+      213: -4179487058004460740
+    second: Accessory_03_Backpack_48x48_02_296
+  - first:
+      213: 9199218686014725977
+    second: Accessory_03_Backpack_48x48_02_297
+  - first:
+      213: -6254173061566294409
+    second: Accessory_03_Backpack_48x48_02_298
+  - first:
+      213: -855266040551445659
+    second: Accessory_03_Backpack_48x48_02_299
+  - first:
+      213: -2102457997471063666
+    second: Accessory_03_Backpack_48x48_02_300
+  - first:
+      213: -6972699619603045694
+    second: Accessory_03_Backpack_48x48_02_301
+  - first:
+      213: -1632763437912441681
+    second: Accessory_03_Backpack_48x48_02_302
+  - first:
+      213: 159563370039272779
+    second: Accessory_03_Backpack_48x48_02_303
+  - first:
+      213: -4350923925564746216
+    second: Accessory_03_Backpack_48x48_02_304
+  - first:
+      213: 1580079898588246650
+    second: Accessory_03_Backpack_48x48_02_305
+  - first:
+      213: 7940604904947898723
+    second: Accessory_03_Backpack_48x48_02_306
+  - first:
+      213: 4514112454417954644
+    second: Accessory_03_Backpack_48x48_02_307
+  - first:
+      213: 363141404824450334
+    second: Accessory_03_Backpack_48x48_02_308
+  - first:
+      213: -3824452990666486704
+    second: Accessory_03_Backpack_48x48_02_309
+  - first:
+      213: 5270237203556369803
+    second: Accessory_03_Backpack_48x48_02_310
+  - first:
+      213: 382332905426246667
+    second: Accessory_03_Backpack_48x48_02_311
+  - first:
+      213: 8806866190688656945
+    second: Accessory_03_Backpack_48x48_02_312
+  - first:
+      213: -8177210219473429101
+    second: Accessory_03_Backpack_48x48_02_313
+  - first:
+      213: -799242913203411663
+    second: Accessory_03_Backpack_48x48_02_314
+  - first:
+      213: -6782643070925096604
+    second: Accessory_03_Backpack_48x48_02_315
+  - first:
+      213: -8084143480662644334
+    second: Accessory_03_Backpack_48x48_02_316
+  - first:
+      213: -522693506070477899
+    second: Accessory_03_Backpack_48x48_02_317
+  - first:
+      213: 274400201142926887
+    second: Accessory_03_Backpack_48x48_02_318
+  - first:
+      213: 556533865977594550
+    second: Accessory_03_Backpack_48x48_02_319
+  - first:
+      213: 4742182841628520051
+    second: Accessory_03_Backpack_48x48_02_320
+  - first:
+      213: 7573533206472232784
+    second: Accessory_03_Backpack_48x48_02_321
+  - first:
+      213: -9174107801908133825
+    second: Accessory_03_Backpack_48x48_02_322
+  - first:
+      213: 8765949089860571834
+    second: Accessory_03_Backpack_48x48_02_323
+  - first:
+      213: 708247116840304734
+    second: Accessory_03_Backpack_48x48_02_324
+  - first:
+      213: 8710719511990706366
+    second: Accessory_03_Backpack_48x48_02_325
+  - first:
+      213: 3943010620120344692
+    second: Accessory_03_Backpack_48x48_02_326
+  - first:
+      213: 143444822054503933
+    second: Accessory_03_Backpack_48x48_02_327
+  - first:
+      213: -1157615680748748485
+    second: Accessory_03_Backpack_48x48_02_328
+  - first:
+      213: 830800028719522251
+    second: Accessory_03_Backpack_48x48_02_329
+  - first:
+      213: 2317242697926338608
+    second: Accessory_03_Backpack_48x48_02_330
+  - first:
+      213: 1587019706961111989
+    second: Accessory_03_Backpack_48x48_02_331
+  - first:
+      213: 2155925790744436534
+    second: Accessory_03_Backpack_48x48_02_332
+  - first:
+      213: -2748530628344682071
+    second: Accessory_03_Backpack_48x48_02_333
+  - first:
+      213: -9043340594315290558
+    second: Accessory_03_Backpack_48x48_02_334
+  - first:
+      213: 2563206983800107659
+    second: Accessory_03_Backpack_48x48_02_335
+  - first:
+      213: 4639729527851572696
+    second: Accessory_03_Backpack_48x48_02_336
+  - first:
+      213: -6461034535682893367
+    second: Accessory_03_Backpack_48x48_02_337
+  - first:
+      213: -6190973065194408838
+    second: Accessory_03_Backpack_48x48_02_338
+  - first:
+      213: -7382326033001943443
+    second: Accessory_03_Backpack_48x48_02_339
+  - first:
+      213: -1462203901695455940
+    second: Accessory_03_Backpack_48x48_02_340
+  - first:
+      213: 1704953519082171247
+    second: Accessory_03_Backpack_48x48_02_341
+  - first:
+      213: 1636639224016390242
+    second: Accessory_03_Backpack_48x48_02_342
+  - first:
+      213: 4225700144534629941
+    second: Accessory_03_Backpack_48x48_02_343
+  - first:
+      213: 4611854962569089711
+    second: Accessory_03_Backpack_48x48_02_344
+  - first:
+      213: 5541321170528617394
+    second: Accessory_03_Backpack_48x48_02_345
+  - first:
+      213: 2559501974237060551
+    second: Accessory_03_Backpack_48x48_02_346
+  - first:
+      213: -2680763021169751661
+    second: Accessory_03_Backpack_48x48_02_347
+  - first:
+      213: 560717761201886281
+    second: Accessory_03_Backpack_48x48_02_348
+  - first:
+      213: -946426087754989027
+    second: Accessory_03_Backpack_48x48_02_349
+  - first:
+      213: -2768398165610354004
+    second: Accessory_03_Backpack_48x48_02_350
+  - first:
+      213: 5382293754851891059
+    second: Accessory_03_Backpack_48x48_02_351
+  - first:
+      213: -7036786606389543601
+    second: Accessory_03_Backpack_48x48_02_352
+  - first:
+      213: -3306403153415753185
+    second: Accessory_03_Backpack_48x48_02_353
+  - first:
+      213: 554073184801494919
+    second: Accessory_03_Backpack_48x48_02_354
+  - first:
+      213: -7896139367620237355
+    second: Accessory_03_Backpack_48x48_02_355
+  - first:
+      213: 5719860842582955358
+    second: Accessory_03_Backpack_48x48_02_356
+  - first:
+      213: -8359089908260864784
+    second: Accessory_03_Backpack_48x48_02_357
+  - first:
+      213: 8943045462394567717
+    second: Accessory_03_Backpack_48x48_02_358
+  - first:
+      213: 2780052360665061245
+    second: Accessory_03_Backpack_48x48_02_359
+  - first:
+      213: -6815617536872532285
+    second: Accessory_03_Backpack_48x48_02_360
+  - first:
+      213: -2218651696864558269
+    second: Accessory_03_Backpack_48x48_02_361
+  - first:
+      213: -2913673414247362424
+    second: Accessory_03_Backpack_48x48_02_362
+  - first:
+      213: -5702483428399314740
+    second: Accessory_03_Backpack_48x48_02_363
+  - first:
+      213: -1865647040244571964
+    second: Accessory_03_Backpack_48x48_02_364
+  - first:
+      213: -9040646340131872377
+    second: Accessory_03_Backpack_48x48_02_365
+  - first:
+      213: 2348805931764523228
+    second: Accessory_03_Backpack_48x48_02_366
+  - first:
+      213: 8679403976905208939
+    second: Accessory_03_Backpack_48x48_02_367
+  - first:
+      213: -4369513178378626137
+    second: Accessory_03_Backpack_48x48_02_368
+  - first:
+      213: -6442400182494882259
+    second: Accessory_03_Backpack_48x48_02_369
+  - first:
+      213: -5033183873489147396
+    second: Accessory_03_Backpack_48x48_02_370
+  - first:
+      213: 4623358949033615329
+    second: Accessory_03_Backpack_48x48_02_371
+  - first:
+      213: -1012632039696367807
+    second: Accessory_03_Backpack_48x48_02_372
+  - first:
+      213: -5890602179367587300
+    second: Accessory_03_Backpack_48x48_02_373
+  - first:
+      213: -5697797060918306206
+    second: Accessory_03_Backpack_48x48_02_374
+  - first:
+      213: -6423040443349061583
+    second: Accessory_03_Backpack_48x48_02_375
+  - first:
+      213: -7915413151105038658
+    second: Accessory_03_Backpack_48x48_02_376
+  - first:
+      213: 8928938494223428292
+    second: Accessory_03_Backpack_48x48_02_377
+  - first:
+      213: 3968370103700025048
+    second: Accessory_03_Backpack_48x48_02_378
+  - first:
+      213: -7968617680859542625
+    second: Accessory_03_Backpack_48x48_02_379
+  - first:
+      213: -1558322692173649027
+    second: Accessory_03_Backpack_48x48_02_380
+  - first:
+      213: -1552030695649186175
+    second: Accessory_03_Backpack_48x48_02_381
+  - first:
+      213: -1829890722548435562
+    second: Accessory_03_Backpack_48x48_02_382
+  - first:
+      213: -6581085217453691402
+    second: Accessory_03_Backpack_48x48_02_383
+  - first:
+      213: 5626795016386693020
+    second: Accessory_03_Backpack_48x48_02_384
+  - first:
+      213: 5867422401264947780
+    second: Accessory_03_Backpack_48x48_02_385
+  - first:
+      213: -3690747316991890381
+    second: Accessory_03_Backpack_48x48_02_386
+  - first:
+      213: 454010795646436437
+    second: Accessory_03_Backpack_48x48_02_387
+  - first:
+      213: -3286205861498390525
+    second: Accessory_03_Backpack_48x48_02_388
+  - first:
+      213: 2428288724136784033
+    second: Accessory_03_Backpack_48x48_02_389
+  - first:
+      213: 2548353996631945324
+    second: Accessory_03_Backpack_48x48_02_390
+  - first:
+      213: -6017565529035223093
+    second: Accessory_03_Backpack_48x48_02_391
+  - first:
+      213: -5151435634995274327
+    second: Accessory_03_Backpack_48x48_02_392
+  - first:
+      213: -7580583002320334082
+    second: Accessory_03_Backpack_48x48_02_393
+  - first:
+      213: -3793435569116122782
+    second: Accessory_03_Backpack_48x48_02_394
+  - first:
+      213: -5770547898593657797
+    second: Accessory_03_Backpack_48x48_02_395
+  - first:
+      213: 301944236643287653
+    second: Accessory_03_Backpack_48x48_02_396
+  - first:
+      213: -1742607170895243491
+    second: Accessory_03_Backpack_48x48_02_397
+  - first:
+      213: 5010392870218822958
+    second: Accessory_03_Backpack_48x48_02_398
+  - first:
+      213: 4350074181537589810
+    second: Accessory_03_Backpack_48x48_02_399
+  - first:
+      213: 2300092226167736021
+    second: Accessory_03_Backpack_48x48_02_400
+  - first:
+      213: 2605508688296261908
+    second: Accessory_03_Backpack_48x48_02_401
+  - first:
+      213: 2788861396046100029
+    second: Accessory_03_Backpack_48x48_02_402
+  - first:
+      213: -2015310171992341495
+    second: Accessory_03_Backpack_48x48_02_403
+  - first:
+      213: 6268381606894875933
+    second: Accessory_03_Backpack_48x48_02_404
+  - first:
+      213: -5003627962659321939
+    second: Accessory_03_Backpack_48x48_02_405
+  - first:
+      213: -5782649543854854700
+    second: Accessory_03_Backpack_48x48_02_406
+  - first:
+      213: -2668797135644093252
+    second: Accessory_03_Backpack_48x48_02_407
+  - first:
+      213: -6248572497568535191
+    second: Accessory_03_Backpack_48x48_02_408
+  - first:
+      213: -5539511621413487371
+    second: Accessory_03_Backpack_48x48_02_409
+  - first:
+      213: 3091974171679801167
+    second: Accessory_03_Backpack_48x48_02_410
+  - first:
+      213: -4033379277952378549
+    second: Accessory_03_Backpack_48x48_02_411
+  - first:
+      213: 242130938881160659
+    second: Accessory_03_Backpack_48x48_02_412
+  - first:
+      213: 3557298097118802354
+    second: Accessory_03_Backpack_48x48_02_413
+  - first:
+      213: -4504391330623067626
+    second: Accessory_03_Backpack_48x48_02_414
+  - first:
+      213: 7230689625837136599
+    second: Accessory_03_Backpack_48x48_02_415
+  - first:
+      213: -1775871853149080923
+    second: Accessory_03_Backpack_48x48_02_416
+  - first:
+      213: 3961186814563437628
+    second: Accessory_03_Backpack_48x48_02_417
+  - first:
+      213: 3850453403635413571
+    second: Accessory_03_Backpack_48x48_02_418
+  - first:
+      213: -2646948583064970529
+    second: Accessory_03_Backpack_48x48_02_419
+  - first:
+      213: -3208669499069545614
+    second: Accessory_03_Backpack_48x48_02_420
+  - first:
+      213: -985029000834257957
+    second: Accessory_03_Backpack_48x48_02_421
+  - first:
+      213: 5846216995926379623
+    second: Accessory_03_Backpack_48x48_02_422
+  - first:
+      213: -3025612943045014179
+    second: Accessory_03_Backpack_48x48_02_423
+  - first:
+      213: 8017553172842783446
+    second: Accessory_03_Backpack_48x48_02_424
+  - first:
+      213: -689577577124277572
+    second: Accessory_03_Backpack_48x48_02_425
+  - first:
+      213: -7303059390798759911
+    second: Accessory_03_Backpack_48x48_02_426
+  - first:
+      213: 523282872951851236
+    second: Accessory_03_Backpack_48x48_02_427
+  - first:
+      213: -4734474780946348756
+    second: Accessory_03_Backpack_48x48_02_428
+  - first:
+      213: -4882941768476182723
+    second: Accessory_03_Backpack_48x48_02_429
+  - first:
+      213: 465228820527792587
+    second: Accessory_03_Backpack_48x48_02_430
+  - first:
+      213: 680633673649198431
+    second: Accessory_03_Backpack_48x48_02_431
+  - first:
+      213: -2182666056610686952
+    second: Accessory_03_Backpack_48x48_02_432
+  - first:
+      213: 8579116278401085458
+    second: Accessory_03_Backpack_48x48_02_433
+  - first:
+      213: 7264153846153357129
+    second: Accessory_03_Backpack_48x48_02_434
+  - first:
+      213: -1432329519645093492
+    second: Accessory_03_Backpack_48x48_02_435
+  - first:
+      213: -4985846057724636597
+    second: Accessory_03_Backpack_48x48_02_436
+  - first:
+      213: -2157446186176985697
+    second: Accessory_03_Backpack_48x48_02_437
+  - first:
+      213: 2087636818704683619
+    second: Accessory_03_Backpack_48x48_02_438
+  - first:
+      213: -4783969677947908210
+    second: Accessory_03_Backpack_48x48_02_439
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0807a3c435ff3b0800000000000000
+      internalID: -5476567034996162373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8100558bd8c13f0800000000000000
+      internalID: -928711600305596218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35c5c6ee6ff7afe0800000000000000
+      internalID: -1177691925750889156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c7eda7b60214be0800000000000000
+      internalID: -1494877955315303384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f0c2ec3e585f070800000000000000
+      internalID: 8139559115005103985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92a2bf78527dfea0800000000000000
+      internalID: -5837383817577192802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d0105c71af2d3c0800000000000000
+      internalID: -4336128511207994002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e339cecb5d14d60e0800000000000000
+      internalID: -2275089850498772162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10590347892c92fc0800000000000000
+      internalID: -3519067673773173503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf56c98f3b420b0800000000000000
+      internalID: -5754276543515460119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b355b2280c64cfb0800000000000000
+      internalID: -4628455734832180302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d238369a273c650800000000000000
+      internalID: 6251966779564961024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670925a0725fe4650800000000000000
+      internalID: 6219177683470946422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2316f0931926a10800000000000000
+      internalID: 1901241666960962225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16420b776584bbc30800000000000000
+      internalID: 4376170999132988513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1943ba426bc03700800000000000000
+      internalID: 518137580168104220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f4f4746f4cdfd90800000000000000
+      internalID: -7062272078609690840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38c65b9deb995940800000000000000
+      internalID: 5285427082511697983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a459b672fd66217f0800000000000000
+      internalID: -643338688135457462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_19
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8ea1b4c0065a9e0800000000000000
+      internalID: -1610775685799155510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677465e882b096ee0800000000000000
+      internalID: -1267469551313467530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_21
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259b56a755edc7b30800000000000000
+      internalID: 4286545404056942930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_22
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c99ae5678d3d54e0800000000000000
+      internalID: -1991367808488138304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 702
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662790c642da237e0800000000000000
+      internalID: -1787175730169679258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1616751946597c0800000000000000
+      internalID: -4065232513232969290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ef3500cb4f83e0800000000000000
+      internalID: -2049336017336408612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c53f8fddd9e18b10800000000000000
+      internalID: 1982122450167477704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad1a87ddc93060e0800000000000000
+      internalID: -2278757855202239061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2288f8a6726d8a560800000000000000
+      internalID: 7325340258697971746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c96ee5d8be80430800000000000000
+      internalID: 3749505682201025611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dbf162050a02d80800000000000000
+      internalID: -8277439849009529581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7660e456d73df0800000000000000
+      internalID: -200455998364287694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c8330297ac202f0800000000000000
+      internalID: -1008020744997467086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452519238ed7d41b0800000000000000
+      internalID: -5670737919555317164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ab28195ea347ed0800000000000000
+      internalID: -2417242342327928228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b335605d7aa7a4b80800000000000000
+      internalID: -8409774492908891333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dd9f15470d33a00800000000000000
+      internalID: 735160362201636156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_37
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582738cb155258330800000000000000
+      internalID: 3712414500822151813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_38
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e976ec56e8d510b0800000000000000
+      internalID: -5758458064610625047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_39
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f15d09e8e93500800000000000000
+      internalID: 376588131510646071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b925c8347f584aec0800000000000000
+      internalID: -3556570508679163237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_41
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fee94e01420727c0800000000000000
+      internalID: -4096302857634320652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_42
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3de0fcae287bb20800000000000000
+      internalID: 3150130409376764901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_43
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f65687bd7cd42d40800000000000000
+      internalID: 5558810272590092023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_44
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c1a596463918040800000000000000
+      internalID: 4648158349896588425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_45
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7966b8e583020ed40800000000000000
+      internalID: 5611520562180089495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_46
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93406b372aca86800800000000000000
+      internalID: 605923963607319609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_03_Backpack_48x48_02_47
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 606
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149add5b7455576a0800000000000000
+      internalID: -6452157124656125631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b570f5ac7524a084ea21272e50cca1c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

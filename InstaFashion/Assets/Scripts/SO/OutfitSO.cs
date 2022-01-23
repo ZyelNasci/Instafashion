@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ItensSO/OutfitSO")]
 public class OutfitSO : ScriptableObject
 {
+    public OutfitType type;
     public Outfit[] outfits;
 }
 
@@ -18,4 +19,6 @@ public class Outfit
     public Sprite outlineIcon;
     public Sprite fillIcon;
     public RuntimeAnimatorController animator;
+    [HideInInspector]
+    public OutfitType myType;
 }

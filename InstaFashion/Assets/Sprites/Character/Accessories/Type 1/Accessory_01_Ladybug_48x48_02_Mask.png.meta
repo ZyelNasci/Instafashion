@@ -1,0 +1,2562 @@
+fileFormatVersion: 2
+guid: b45e92057073c5a45b8e50122fa02163
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7150643190801654230
+    second: Accessory_01_Ladybug_48x48_02_0
+  - first:
+      213: 8997168455876614379
+    second: Accessory_01_Ladybug_48x48_02_1
+  - first:
+      213: 210338302270770451
+    second: Accessory_01_Ladybug_48x48_02_2
+  - first:
+      213: -4351032887800953868
+    second: Accessory_01_Ladybug_48x48_02_3
+  - first:
+      213: 8099449468299480930
+    second: Accessory_01_Ladybug_48x48_02_4
+  - first:
+      213: 7506083057550532370
+    second: Accessory_01_Ladybug_48x48_02_5
+  - first:
+      213: 5655689927371453951
+    second: Accessory_01_Ladybug_48x48_02_6
+  - first:
+      213: -6553713002424066420
+    second: Accessory_01_Ladybug_48x48_02_7
+  - first:
+      213: -2444777864286321021
+    second: Accessory_01_Ladybug_48x48_02_8
+  - first:
+      213: 718912391321091836
+    second: Accessory_01_Ladybug_48x48_02_9
+  - first:
+      213: 3522413313083679841
+    second: Accessory_01_Ladybug_48x48_02_10
+  - first:
+      213: -5679453239468919026
+    second: Accessory_01_Ladybug_48x48_02_11
+  - first:
+      213: -7059304531588119512
+    second: Accessory_01_Ladybug_48x48_02_12
+  - first:
+      213: -4636088422898918540
+    second: Accessory_01_Ladybug_48x48_02_13
+  - first:
+      213: -6322617052485229676
+    second: Accessory_01_Ladybug_48x48_02_14
+  - first:
+      213: -5727941602391008078
+    second: Accessory_01_Ladybug_48x48_02_15
+  - first:
+      213: -7801228204027589142
+    second: Accessory_01_Ladybug_48x48_02_16
+  - first:
+      213: -7269241211097102495
+    second: Accessory_01_Ladybug_48x48_02_17
+  - first:
+      213: -1545178891283075302
+    second: Accessory_01_Ladybug_48x48_02_18
+  - first:
+      213: 3405071190620495327
+    second: Accessory_01_Ladybug_48x48_02_19
+  - first:
+      213: -7589133060137436512
+    second: Accessory_01_Ladybug_48x48_02_20
+  - first:
+      213: -7811818748403226901
+    second: Accessory_01_Ladybug_48x48_02_21
+  - first:
+      213: -5514855776719696677
+    second: Accessory_01_Ladybug_48x48_02_22
+  - first:
+      213: -3435634869699916209
+    second: Accessory_01_Ladybug_48x48_02_23
+  - first:
+      213: 3729928606586536347
+    second: Accessory_01_Ladybug_48x48_02_24
+  - first:
+      213: 7126122218519161085
+    second: Accessory_01_Ladybug_48x48_02_25
+  - first:
+      213: -5922423214787554416
+    second: Accessory_01_Ladybug_48x48_02_26
+  - first:
+      213: -1410761317435179303
+    second: Accessory_01_Ladybug_48x48_02_27
+  - first:
+      213: 434597730245613870
+    second: Accessory_01_Ladybug_48x48_02_28
+  - first:
+      213: -3575815117229278015
+    second: Accessory_01_Ladybug_48x48_02_29
+  - first:
+      213: -5034074037167137045
+    second: Accessory_01_Ladybug_48x48_02_30
+  - first:
+      213: -1984012250896305699
+    second: Accessory_01_Ladybug_48x48_02_31
+  - first:
+      213: 3026631299887447794
+    second: Accessory_01_Ladybug_48x48_02_32
+  - first:
+      213: 8428233035488404737
+    second: Accessory_01_Ladybug_48x48_02_33
+  - first:
+      213: -7417483003563502808
+    second: Accessory_01_Ladybug_48x48_02_34
+  - first:
+      213: 1359433228938356222
+    second: Accessory_01_Ladybug_48x48_02_35
+  - first:
+      213: -2234361859382225974
+    second: Accessory_01_Ladybug_48x48_02_36
+  - first:
+      213: 2383705557657270589
+    second: Accessory_01_Ladybug_48x48_02_37
+  - first:
+      213: 2845292088691345821
+    second: Accessory_01_Ladybug_48x48_02_38
+  - first:
+      213: -4495721800263547508
+    second: Accessory_01_Ladybug_48x48_02_39
+  - first:
+      213: 7753345686173191293
+    second: Accessory_01_Ladybug_48x48_02_40
+  - first:
+      213: -3510293473918059344
+    second: Accessory_01_Ladybug_48x48_02_41
+  - first:
+      213: 7568648892443999282
+    second: Accessory_01_Ladybug_48x48_02_42
+  - first:
+      213: 4612857286017686612
+    second: Accessory_01_Ladybug_48x48_02_43
+  - first:
+      213: -7028959123934833733
+    second: Accessory_01_Ladybug_48x48_02_44
+  - first:
+      213: 4077100489057976807
+    second: Accessory_01_Ladybug_48x48_02_45
+  - first:
+      213: -1025442128132586455
+    second: Accessory_01_Ladybug_48x48_02_46
+  - first:
+      213: 7950956721155595587
+    second: Accessory_01_Ladybug_48x48_02_47
+  - first:
+      213: 4333674536857108632
+    second: Accessory_01_Ladybug_48x48_02_48
+  - first:
+      213: 6030087024088934176
+    second: Accessory_01_Ladybug_48x48_02_49
+  - first:
+      213: -8809455154346828799
+    second: Accessory_01_Ladybug_48x48_02_50
+  - first:
+      213: -1291798454481897522
+    second: Accessory_01_Ladybug_48x48_02_51
+  - first:
+      213: -1919065507281425242
+    second: Accessory_01_Ladybug_48x48_02_52
+  - first:
+      213: -161700175530223322
+    second: Accessory_01_Ladybug_48x48_02_53
+  - first:
+      213: 7786196397095872331
+    second: Accessory_01_Ladybug_48x48_02_54
+  - first:
+      213: -9110690214883710809
+    second: Accessory_01_Ladybug_48x48_02_55
+  - first:
+      213: -422085211845804967
+    second: Accessory_01_Ladybug_48x48_02_56
+  - first:
+      213: -738585446772420746
+    second: Accessory_01_Ladybug_48x48_02_57
+  - first:
+      213: -93206679933760214
+    second: Accessory_01_Ladybug_48x48_02_58
+  - first:
+      213: -4336252003967072318
+    second: Accessory_01_Ladybug_48x48_02_59
+  - first:
+      213: 2151157438849977401
+    second: Accessory_01_Ladybug_48x48_02_60
+  - first:
+      213: -2580591695662118135
+    second: Accessory_01_Ladybug_48x48_02_61
+  - first:
+      213: 2114958151076960923
+    second: Accessory_01_Ladybug_48x48_02_62
+  - first:
+      213: 1986631394790294908
+    second: Accessory_01_Ladybug_48x48_02_63
+  - first:
+      213: 3313743967910902306
+    second: Accessory_01_Ladybug_48x48_02_64
+  - first:
+      213: 3488053329110184893
+    second: Accessory_01_Ladybug_48x48_02_65
+  - first:
+      213: -7538419803762209999
+    second: Accessory_01_Ladybug_48x48_02_66
+  - first:
+      213: 5107781014050129221
+    second: Accessory_01_Ladybug_48x48_02_67
+  - first:
+      213: 2658652541470182411
+    second: Accessory_01_Ladybug_48x48_02_68
+  - first:
+      213: -1110642056483677271
+    second: Accessory_01_Ladybug_48x48_02_69
+  - first:
+      213: 7137858831887828088
+    second: Accessory_01_Ladybug_48x48_02_70
+  - first:
+      213: 3155911584698850922
+    second: Accessory_01_Ladybug_48x48_02_71
+  - first:
+      213: 1224669315027019113
+    second: Accessory_01_Ladybug_48x48_02_72
+  - first:
+      213: -3117928731644858470
+    second: Accessory_01_Ladybug_48x48_02_73
+  - first:
+      213: 8756506049177902332
+    second: Accessory_01_Ladybug_48x48_02_74
+  - first:
+      213: 6020835974747178271
+    second: Accessory_01_Ladybug_48x48_02_75
+  - first:
+      213: 983719774001552871
+    second: Accessory_01_Ladybug_48x48_02_76
+  - first:
+      213: 1968719703017814279
+    second: Accessory_01_Ladybug_48x48_02_77
+  - first:
+      213: 8196393147541134807
+    second: Accessory_01_Ladybug_48x48_02_78
+  - first:
+      213: -8889629217612592612
+    second: Accessory_01_Ladybug_48x48_02_79
+  - first:
+      213: 1915017154119495430
+    second: Accessory_01_Ladybug_48x48_02_80
+  - first:
+      213: 8907622947038933316
+    second: Accessory_01_Ladybug_48x48_02_81
+  - first:
+      213: -9093939387718464642
+    second: Accessory_01_Ladybug_48x48_02_82
+  - first:
+      213: 4658397361157171972
+    second: Accessory_01_Ladybug_48x48_02_83
+  - first:
+      213: -3381152830818782304
+    second: Accessory_01_Ladybug_48x48_02_84
+  - first:
+      213: -8538101211190714451
+    second: Accessory_01_Ladybug_48x48_02_85
+  - first:
+      213: -4525428052783650153
+    second: Accessory_01_Ladybug_48x48_02_86
+  - first:
+      213: -4869098117353526689
+    second: Accessory_01_Ladybug_48x48_02_87
+  - first:
+      213: 8890343150224069857
+    second: Accessory_01_Ladybug_48x48_02_88
+  - first:
+      213: -8205321827223944199
+    second: Accessory_01_Ladybug_48x48_02_89
+  - first:
+      213: 6022231000743869066
+    second: Accessory_01_Ladybug_48x48_02_90
+  - first:
+      213: -1907541219538493822
+    second: Accessory_01_Ladybug_48x48_02_91
+  - first:
+      213: -3438451817258524505
+    second: Accessory_01_Ladybug_48x48_02_92
+  - first:
+      213: 8612540160084133383
+    second: Accessory_01_Ladybug_48x48_02_93
+  - first:
+      213: -1381441175563109629
+    second: Accessory_01_Ladybug_48x48_02_94
+  - first:
+      213: 7660405946903715148
+    second: Accessory_01_Ladybug_48x48_02_95
+  - first:
+      213: -5730300420325990444
+    second: Accessory_01_Ladybug_48x48_02_96
+  - first:
+      213: 4341323492605762691
+    second: Accessory_01_Ladybug_48x48_02_97
+  - first:
+      213: 1604731607834298839
+    second: Accessory_01_Ladybug_48x48_02_98
+  - first:
+      213: -369789808870306928
+    second: Accessory_01_Ladybug_48x48_02_99
+  - first:
+      213: -2669484890217145569
+    second: Accessory_01_Ladybug_48x48_02_100
+  - first:
+      213: -3875750833263435815
+    second: Accessory_01_Ladybug_48x48_02_101
+  - first:
+      213: 9010202633403822985
+    second: Accessory_01_Ladybug_48x48_02_102
+  - first:
+      213: -5049965277683921935
+    second: Accessory_01_Ladybug_48x48_02_103
+  - first:
+      213: -8644822955992123038
+    second: Accessory_01_Ladybug_48x48_02_104
+  - first:
+      213: -676291484654449785
+    second: Accessory_01_Ladybug_48x48_02_105
+  - first:
+      213: 7126157543525143847
+    second: Accessory_01_Ladybug_48x48_02_106
+  - first:
+      213: -7625136618419898975
+    second: Accessory_01_Ladybug_48x48_02_107
+  - first:
+      213: 8044681908891756107
+    second: Accessory_01_Ladybug_48x48_02_108
+  - first:
+      213: -1101045423862760370
+    second: Accessory_01_Ladybug_48x48_02_109
+  - first:
+      213: 7160038191837235766
+    second: Accessory_01_Ladybug_48x48_02_110
+  - first:
+      213: -5762229267487732457
+    second: Accessory_01_Ladybug_48x48_02_111
+  - first:
+      213: 931236941409620680
+    second: Accessory_01_Ladybug_48x48_02_112
+  - first:
+      213: 6632555166886175122
+    second: Accessory_01_Ladybug_48x48_02_113
+  - first:
+      213: 5878302752125431788
+    second: Accessory_01_Ladybug_48x48_02_114
+  - first:
+      213: -1533110006936310662
+    second: Accessory_01_Ladybug_48x48_02_115
+  - first:
+      213: -8069324414348873645
+    second: Accessory_01_Ladybug_48x48_02_116
+  - first:
+      213: 6149055065193229080
+    second: Accessory_01_Ladybug_48x48_02_117
+  - first:
+      213: -6804162632251412248
+    second: Accessory_01_Ladybug_48x48_02_118
+  - first:
+      213: 8211099234190287098
+    second: Accessory_01_Ladybug_48x48_02_119
+  - first:
+      213: 5607736968756254615
+    second: Accessory_01_Ladybug_48x48_02_120
+  - first:
+      213: 1711177019946384796
+    second: Accessory_01_Ladybug_48x48_02_121
+  - first:
+      213: -4176847657662441640
+    second: Accessory_01_Ladybug_48x48_02_122
+  - first:
+      213: 6664461123783110293
+    second: Accessory_01_Ladybug_48x48_02_123
+  - first:
+      213: -7673422470483424175
+    second: Accessory_01_Ladybug_48x48_02_124
+  - first:
+      213: -5266139578637485367
+    second: Accessory_01_Ladybug_48x48_02_125
+  - first:
+      213: -8672098622309695846
+    second: Accessory_01_Ladybug_48x48_02_126
+  - first:
+      213: 1065024924296888619
+    second: Accessory_01_Ladybug_48x48_02_127
+  - first:
+      213: 1461912301528629554
+    second: Accessory_01_Ladybug_48x48_02_128
+  - first:
+      213: -1175343769579814333
+    second: Accessory_01_Ladybug_48x48_02_129
+  - first:
+      213: 993131421772638748
+    second: Accessory_01_Ladybug_48x48_02_130
+  - first:
+      213: -5599696795401576446
+    second: Accessory_01_Ladybug_48x48_02_131
+  - first:
+      213: -1778803077665118177
+    second: Accessory_01_Ladybug_48x48_02_132
+  - first:
+      213: -2420099733352190285
+    second: Accessory_01_Ladybug_48x48_02_133
+  - first:
+      213: 8904334807109229761
+    second: Accessory_01_Ladybug_48x48_02_134
+  - first:
+      213: 3161427870956504536
+    second: Accessory_01_Ladybug_48x48_02_135
+  - first:
+      213: 3156274936724126205
+    second: Accessory_01_Ladybug_48x48_02_136
+  - first:
+      213: 7187562554411450332
+    second: Accessory_01_Ladybug_48x48_02_137
+  - first:
+      213: 3203906993424319806
+    second: Accessory_01_Ladybug_48x48_02_138
+  - first:
+      213: -4229305680536101203
+    second: Accessory_01_Ladybug_48x48_02_139
+  - first:
+      213: -6738710158886328426
+    second: Accessory_01_Ladybug_48x48_02_140
+  - first:
+      213: -8935916937120591201
+    second: Accessory_01_Ladybug_48x48_02_141
+  - first:
+      213: -5632003413697460298
+    second: Accessory_01_Ladybug_48x48_02_142
+  - first:
+      213: -7608111153347026559
+    second: Accessory_01_Ladybug_48x48_02_143
+  - first:
+      213: -8523571763875343444
+    second: Accessory_01_Ladybug_48x48_02_144
+  - first:
+      213: -1293517768641851054
+    second: Accessory_01_Ladybug_48x48_02_145
+  - first:
+      213: 741711923928711733
+    second: Accessory_01_Ladybug_48x48_02_146
+  - first:
+      213: -4819011176600972056
+    second: Accessory_01_Ladybug_48x48_02_147
+  - first:
+      213: -8869041145120114568
+    second: Accessory_01_Ladybug_48x48_02_148
+  - first:
+      213: 7021184158927085162
+    second: Accessory_01_Ladybug_48x48_02_149
+  - first:
+      213: 8892368283044340847
+    second: Accessory_01_Ladybug_48x48_02_150
+  - first:
+      213: -8141246662855566404
+    second: Accessory_01_Ladybug_48x48_02_151
+  - first:
+      213: -4807800982310591289
+    second: Accessory_01_Ladybug_48x48_02_152
+  - first:
+      213: -2644725854273007818
+    second: Accessory_01_Ladybug_48x48_02_153
+  - first:
+      213: 1544109684340152295
+    second: Accessory_01_Ladybug_48x48_02_154
+  - first:
+      213: 5016755262655059505
+    second: Accessory_01_Ladybug_48x48_02_155
+  - first:
+      213: -8315747013045763295
+    second: Accessory_01_Ladybug_48x48_02_156
+  - first:
+      213: -6225792441832168664
+    second: Accessory_01_Ladybug_48x48_02_157
+  - first:
+      213: -195685670575545063
+    second: Accessory_01_Ladybug_48x48_02_158
+  - first:
+      213: -6698188677983119561
+    second: Accessory_01_Ladybug_48x48_02_159
+  - first:
+      213: -3361106307797318908
+    second: Accessory_01_Ladybug_48x48_02_160
+  - first:
+      213: 1401360890272946807
+    second: Accessory_01_Ladybug_48x48_02_161
+  - first:
+      213: 3343013855269221098
+    second: Accessory_01_Ladybug_48x48_02_162
+  - first:
+      213: 3452284064159354677
+    second: Accessory_01_Ladybug_48x48_02_163
+  - first:
+      213: 3212198694482738008
+    second: Accessory_01_Ladybug_48x48_02_164
+  - first:
+      213: -5067807786788552612
+    second: Accessory_01_Ladybug_48x48_02_165
+  - first:
+      213: 6213315722521434443
+    second: Accessory_01_Ladybug_48x48_02_166
+  - first:
+      213: 1006581970275656833
+    second: Accessory_01_Ladybug_48x48_02_167
+  - first:
+      213: 8142677327548503734
+    second: Accessory_01_Ladybug_48x48_02_168
+  - first:
+      213: -1378159933449420549
+    second: Accessory_01_Ladybug_48x48_02_169
+  - first:
+      213: -6143337109743924144
+    second: Accessory_01_Ladybug_48x48_02_170
+  - first:
+      213: -2258173585273123237
+    second: Accessory_01_Ladybug_48x48_02_171
+  - first:
+      213: -6757874612840002347
+    second: Accessory_01_Ladybug_48x48_02_172
+  - first:
+      213: 1629737480650651396
+    second: Accessory_01_Ladybug_48x48_02_173
+  - first:
+      213: 8994433231993425658
+    second: Accessory_01_Ladybug_48x48_02_174
+  - first:
+      213: -6129460326763895063
+    second: Accessory_01_Ladybug_48x48_02_175
+  - first:
+      213: 7212495012135943129
+    second: Accessory_01_Ladybug_48x48_02_176
+  - first:
+      213: 6014014721513095369
+    second: Accessory_01_Ladybug_48x48_02_177
+  - first:
+      213: 1571653976908628278
+    second: Accessory_01_Ladybug_48x48_02_178
+  - first:
+      213: -3004966717871246985
+    second: Accessory_01_Ladybug_48x48_02_179
+  - first:
+      213: -7802615591040199464
+    second: Accessory_01_Ladybug_48x48_02_180
+  - first:
+      213: -2071163596338644437
+    second: Accessory_01_Ladybug_48x48_02_181
+  - first:
+      213: 978870512634133749
+    second: Accessory_01_Ladybug_48x48_02_182
+  - first:
+      213: -2710891759356646284
+    second: Accessory_01_Ladybug_48x48_02_183
+  - first:
+      213: 5260098804575661017
+    second: Accessory_01_Ladybug_48x48_02_184
+  - first:
+      213: 1935537214297922122
+    second: Accessory_01_Ladybug_48x48_02_185
+  - first:
+      213: -6492649472981100663
+    second: Accessory_01_Ladybug_48x48_02_186
+  - first:
+      213: 5012171237339761723
+    second: Accessory_01_Ladybug_48x48_02_187
+  - first:
+      213: -7036652605340143337
+    second: Accessory_01_Ladybug_48x48_02_188
+  - first:
+      213: -6602889367904085731
+    second: Accessory_01_Ladybug_48x48_02_189
+  - first:
+      213: -8620033914337889131
+    second: Accessory_01_Ladybug_48x48_02_190
+  - first:
+      213: -5500494723102565065
+    second: Accessory_01_Ladybug_48x48_02_191
+  - first:
+      213: -454397003240929527
+    second: Accessory_01_Ladybug_48x48_02_192
+  - first:
+      213: 3335530023373697063
+    second: Accessory_01_Ladybug_48x48_02_193
+  - first:
+      213: 1420473076523380469
+    second: Accessory_01_Ladybug_48x48_02_194
+  - first:
+      213: -2273177538861045353
+    second: Accessory_01_Ladybug_48x48_02_195
+  - first:
+      213: -2448195125847490622
+    second: Accessory_01_Ladybug_48x48_02_196
+  - first:
+      213: 8917767484337149502
+    second: Accessory_01_Ladybug_48x48_02_197
+  - first:
+      213: -36776389754926487
+    second: Accessory_01_Ladybug_48x48_02_198
+  - first:
+      213: 2278380209922240905
+    second: Accessory_01_Ladybug_48x48_02_199
+  - first:
+      213: 3424294923051838521
+    second: Accessory_01_Ladybug_48x48_02_200
+  - first:
+      213: 885595610833078251
+    second: Accessory_01_Ladybug_48x48_02_201
+  - first:
+      213: -4683291826830499861
+    second: Accessory_01_Ladybug_48x48_02_202
+  - first:
+      213: 1822742017314388195
+    second: Accessory_01_Ladybug_48x48_02_203
+  - first:
+      213: 681815273147138259
+    second: Accessory_01_Ladybug_48x48_02_204
+  - first:
+      213: -1200811796866168630
+    second: Accessory_01_Ladybug_48x48_02_205
+  - first:
+      213: -6919751315550464823
+    second: Accessory_01_Ladybug_48x48_02_206
+  - first:
+      213: -7379944716296598014
+    second: Accessory_01_Ladybug_48x48_02_207
+  - first:
+      213: -1269750237770690569
+    second: Accessory_01_Ladybug_48x48_02_208
+  - first:
+      213: -3275651019591161485
+    second: Accessory_01_Ladybug_48x48_02_209
+  - first:
+      213: -6508955570502412285
+    second: Accessory_01_Ladybug_48x48_02_210
+  - first:
+      213: -2448995210330155014
+    second: Accessory_01_Ladybug_48x48_02_211
+  - first:
+      213: 8034211851645644003
+    second: Accessory_01_Ladybug_48x48_02_212
+  - first:
+      213: -2289698221747072151
+    second: Accessory_01_Ladybug_48x48_02_213
+  - first:
+      213: 2950768183336801054
+    second: Accessory_01_Ladybug_48x48_02_214
+  - first:
+      213: 6647516200864882128
+    second: Accessory_01_Ladybug_48x48_02_215
+  - first:
+      213: -4453429730010012669
+    second: Accessory_01_Ladybug_48x48_02_216
+  - first:
+      213: 8255460548079843909
+    second: Accessory_01_Ladybug_48x48_02_217
+  - first:
+      213: 8874941153581368147
+    second: Accessory_01_Ladybug_48x48_02_218
+  - first:
+      213: -8103474197270145532
+    second: Accessory_01_Ladybug_48x48_02_219
+  - first:
+      213: 4792458903731262718
+    second: Accessory_01_Ladybug_48x48_02_220
+  - first:
+      213: 5577066489221353987
+    second: Accessory_01_Ladybug_48x48_02_221
+  - first:
+      213: -3585732765756438840
+    second: Accessory_01_Ladybug_48x48_02_222
+  - first:
+      213: -8661661321564193824
+    second: Accessory_01_Ladybug_48x48_02_223
+  - first:
+      213: -4664027890981864829
+    second: Accessory_01_Ladybug_48x48_02_224
+  - first:
+      213: 2083225158044872517
+    second: Accessory_01_Ladybug_48x48_02_225
+  - first:
+      213: 8337928474386440312
+    second: Accessory_01_Ladybug_48x48_02_226
+  - first:
+      213: -7882976351991063025
+    second: Accessory_01_Ladybug_48x48_02_227
+  - first:
+      213: -8969150026600755374
+    second: Accessory_01_Ladybug_48x48_02_228
+  - first:
+      213: 6107764015963499617
+    second: Accessory_01_Ladybug_48x48_02_229
+  - first:
+      213: -100387743812079470
+    second: Accessory_01_Ladybug_48x48_02_230
+  - first:
+      213: -3628119465570055467
+    second: Accessory_01_Ladybug_48x48_02_231
+  - first:
+      213: -1680397722521757739
+    second: Accessory_01_Ladybug_48x48_02_232
+  - first:
+      213: 8780406015359673522
+    second: Accessory_01_Ladybug_48x48_02_233
+  - first:
+      213: -7521907444040671204
+    second: Accessory_01_Ladybug_48x48_02_234
+  - first:
+      213: 2346200466625965121
+    second: Accessory_01_Ladybug_48x48_02_235
+  - first:
+      213: -4180861028987054149
+    second: Accessory_01_Ladybug_48x48_02_236
+  - first:
+      213: -6787639331388218866
+    second: Accessory_01_Ladybug_48x48_02_237
+  - first:
+      213: -5888027500424865892
+    second: Accessory_01_Ladybug_48x48_02_238
+  - first:
+      213: 4055414746798916532
+    second: Accessory_01_Ladybug_48x48_02_239
+  - first:
+      213: -117590527978749129
+    second: Accessory_01_Ladybug_48x48_02_240
+  - first:
+      213: 5936854097787373588
+    second: Accessory_01_Ladybug_48x48_02_241
+  - first:
+      213: 902291708554304755
+    second: Accessory_01_Ladybug_48x48_02_242
+  - first:
+      213: -1418066931180561359
+    second: Accessory_01_Ladybug_48x48_02_243
+  - first:
+      213: -5239386000152603496
+    second: Accessory_01_Ladybug_48x48_02_244
+  - first:
+      213: -1075759797538400498
+    second: Accessory_01_Ladybug_48x48_02_245
+  - first:
+      213: 7079075047867572744
+    second: Accessory_01_Ladybug_48x48_02_246
+  - first:
+      213: 116466399107214829
+    second: Accessory_01_Ladybug_48x48_02_247
+  - first:
+      213: -7000866695583888741
+    second: Accessory_01_Ladybug_48x48_02_248
+  - first:
+      213: -6257094364046773007
+    second: Accessory_01_Ladybug_48x48_02_249
+  - first:
+      213: 3234163347375945501
+    second: Accessory_01_Ladybug_48x48_02_250
+  - first:
+      213: -6561728608046056699
+    second: Accessory_01_Ladybug_48x48_02_251
+  - first:
+      213: 589460809311897537
+    second: Accessory_01_Ladybug_48x48_02_252
+  - first:
+      213: 4590422971162942035
+    second: Accessory_01_Ladybug_48x48_02_253
+  - first:
+      213: -5940786923826193864
+    second: Accessory_01_Ladybug_48x48_02_254
+  - first:
+      213: 6976388047740615518
+    second: Accessory_01_Ladybug_48x48_02_255
+  - first:
+      213: -5029201246566159635
+    second: Accessory_01_Ladybug_48x48_02_256
+  - first:
+      213: 5130129541305350267
+    second: Accessory_01_Ladybug_48x48_02_257
+  - first:
+      213: 4582602997894599852
+    second: Accessory_01_Ladybug_48x48_02_258
+  - first:
+      213: 1073889644256932499
+    second: Accessory_01_Ladybug_48x48_02_259
+  - first:
+      213: -2241157198659224037
+    second: Accessory_01_Ladybug_48x48_02_260
+  - first:
+      213: 4740229424246490315
+    second: Accessory_01_Ladybug_48x48_02_261
+  - first:
+      213: -6850214966305266055
+    second: Accessory_01_Ladybug_48x48_02_262
+  - first:
+      213: 103221931924157452
+    second: Accessory_01_Ladybug_48x48_02_263
+  - first:
+      213: -1207999976885150652
+    second: Accessory_01_Ladybug_48x48_02_264
+  - first:
+      213: 5863982087273223557
+    second: Accessory_01_Ladybug_48x48_02_265
+  - first:
+      213: -3446730151420875481
+    second: Accessory_01_Ladybug_48x48_02_266
+  - first:
+      213: -427318013748146326
+    second: Accessory_01_Ladybug_48x48_02_267
+  - first:
+      213: 6915250508574740424
+    second: Accessory_01_Ladybug_48x48_02_268
+  - first:
+      213: -1762247830950530794
+    second: Accessory_01_Ladybug_48x48_02_269
+  - first:
+      213: -2823830714226848808
+    second: Accessory_01_Ladybug_48x48_02_270
+  - first:
+      213: -454156597671015899
+    second: Accessory_01_Ladybug_48x48_02_271
+  - first:
+      213: -7662537273360598777
+    second: Accessory_01_Ladybug_48x48_02_272
+  - first:
+      213: 4800064334739196349
+    second: Accessory_01_Ladybug_48x48_02_273
+  - first:
+      213: -5855456767716695946
+    second: Accessory_01_Ladybug_48x48_02_274
+  - first:
+      213: 8286506212922760378
+    second: Accessory_01_Ladybug_48x48_02_275
+  - first:
+      213: -8919215745012837719
+    second: Accessory_01_Ladybug_48x48_02_276
+  - first:
+      213: -2797338333643283762
+    second: Accessory_01_Ladybug_48x48_02_277
+  - first:
+      213: -2710278464271094522
+    second: Accessory_01_Ladybug_48x48_02_278
+  - first:
+      213: 1229749377212259774
+    second: Accessory_01_Ladybug_48x48_02_279
+  - first:
+      213: 1832588579184860888
+    second: Accessory_01_Ladybug_48x48_02_280
+  - first:
+      213: -9206345944631699674
+    second: Accessory_01_Ladybug_48x48_02_281
+  - first:
+      213: 7217085305357442742
+    second: Accessory_01_Ladybug_48x48_02_282
+  - first:
+      213: 7140870257164177395
+    second: Accessory_01_Ladybug_48x48_02_283
+  - first:
+      213: 4147867092436198357
+    second: Accessory_01_Ladybug_48x48_02_284
+  - first:
+      213: -8168254194370480743
+    second: Accessory_01_Ladybug_48x48_02_285
+  - first:
+      213: 5618953381191486360
+    second: Accessory_01_Ladybug_48x48_02_286
+  - first:
+      213: -6253004568761387702
+    second: Accessory_01_Ladybug_48x48_02_287
+  - first:
+      213: -6791889781430789500
+    second: Accessory_01_Ladybug_48x48_02_288
+  - first:
+      213: -2824571580426233447
+    second: Accessory_01_Ladybug_48x48_02_289
+  - first:
+      213: -4826987208747080426
+    second: Accessory_01_Ladybug_48x48_02_290
+  - first:
+      213: 777185308068191971
+    second: Accessory_01_Ladybug_48x48_02_291
+  - first:
+      213: -429432171982293231
+    second: Accessory_01_Ladybug_48x48_02_292
+  - first:
+      213: 3995693245536002351
+    second: Accessory_01_Ladybug_48x48_02_293
+  - first:
+      213: 1676877307452756466
+    second: Accessory_01_Ladybug_48x48_02_294
+  - first:
+      213: -7527658290569546121
+    second: Accessory_01_Ladybug_48x48_02_295
+  - first:
+      213: -2149749627884967569
+    second: Accessory_01_Ladybug_48x48_02_296
+  - first:
+      213: -7670852723331091913
+    second: Accessory_01_Ladybug_48x48_02_297
+  - first:
+      213: 3308273125614196912
+    second: Accessory_01_Ladybug_48x48_02_298
+  - first:
+      213: 8662499229178895858
+    second: Accessory_01_Ladybug_48x48_02_299
+  - first:
+      213: 701906916222365270
+    second: Accessory_01_Ladybug_48x48_02_300
+  - first:
+      213: 5900361053231116405
+    second: Accessory_01_Ladybug_48x48_02_301
+  - first:
+      213: 7952039360906648722
+    second: Accessory_01_Ladybug_48x48_02_302
+  - first:
+      213: 4256164938125063066
+    second: Accessory_01_Ladybug_48x48_02_303
+  - first:
+      213: -1090498400976685600
+    second: Accessory_01_Ladybug_48x48_02_304
+  - first:
+      213: -2683518529520001499
+    second: Accessory_01_Ladybug_48x48_02_305
+  - first:
+      213: 3592134751390664086
+    second: Accessory_01_Ladybug_48x48_02_306
+  - first:
+      213: 8691055820082254161
+    second: Accessory_01_Ladybug_48x48_02_307
+  - first:
+      213: 4875189236924711272
+    second: Accessory_01_Ladybug_48x48_02_308
+  - first:
+      213: 562613659293758083
+    second: Accessory_01_Ladybug_48x48_02_309
+  - first:
+      213: -5750343244702893157
+    second: Accessory_01_Ladybug_48x48_02_310
+  - first:
+      213: -5494640170541601974
+    second: Accessory_01_Ladybug_48x48_02_311
+  - first:
+      213: -2077267894314283329
+    second: Accessory_01_Ladybug_48x48_02_312
+  - first:
+      213: 1131540310425785700
+    second: Accessory_01_Ladybug_48x48_02_313
+  - first:
+      213: -5161830868458325865
+    second: Accessory_01_Ladybug_48x48_02_314
+  - first:
+      213: 819661769031556899
+    second: Accessory_01_Ladybug_48x48_02_315
+  - first:
+      213: -1126397940827516392
+    second: Accessory_01_Ladybug_48x48_02_316
+  - first:
+      213: 731673949755485059
+    second: Accessory_01_Ladybug_48x48_02_317
+  - first:
+      213: -4366030816465765088
+    second: Accessory_01_Ladybug_48x48_02_318
+  - first:
+      213: 8383275570721000470
+    second: Accessory_01_Ladybug_48x48_02_319
+  - first:
+      213: 6965359012092316042
+    second: Accessory_01_Ladybug_48x48_02_320
+  - first:
+      213: -8598346108855981607
+    second: Accessory_01_Ladybug_48x48_02_321
+  - first:
+      213: -3008126275307298403
+    second: Accessory_01_Ladybug_48x48_02_322
+  - first:
+      213: -8267397442029769836
+    second: Accessory_01_Ladybug_48x48_02_323
+  - first:
+      213: -4231003731260457574
+    second: Accessory_01_Ladybug_48x48_02_324
+  - first:
+      213: -2939295771255220922
+    second: Accessory_01_Ladybug_48x48_02_325
+  - first:
+      213: -6353224621687505785
+    second: Accessory_01_Ladybug_48x48_02_326
+  - first:
+      213: 8633476161383954386
+    second: Accessory_01_Ladybug_48x48_02_327
+  - first:
+      213: -3748670009852322701
+    second: Accessory_01_Ladybug_48x48_02_328
+  - first:
+      213: -2881479072054850459
+    second: Accessory_01_Ladybug_48x48_02_329
+  - first:
+      213: -8180908580393451265
+    second: Accessory_01_Ladybug_48x48_02_330
+  - first:
+      213: 8163398091902870926
+    second: Accessory_01_Ladybug_48x48_02_331
+  - first:
+      213: 791984925097773253
+    second: Accessory_01_Ladybug_48x48_02_332
+  - first:
+      213: 7236754978274954848
+    second: Accessory_01_Ladybug_48x48_02_333
+  - first:
+      213: -4244474689207993017
+    second: Accessory_01_Ladybug_48x48_02_334
+  - first:
+      213: -2009488331064385076
+    second: Accessory_01_Ladybug_48x48_02_335
+  - first:
+      213: 5888451545177558817
+    second: Accessory_01_Ladybug_48x48_02_336
+  - first:
+      213: -978357235264179586
+    second: Accessory_01_Ladybug_48x48_02_337
+  - first:
+      213: 1735892867294673554
+    second: Accessory_01_Ladybug_48x48_02_338
+  - first:
+      213: 5982292853130397681
+    second: Accessory_01_Ladybug_48x48_02_339
+  - first:
+      213: -8435134979750889546
+    second: Accessory_01_Ladybug_48x48_02_340
+  - first:
+      213: 8678382307814289268
+    second: Accessory_01_Ladybug_48x48_02_341
+  - first:
+      213: 8011658867712119718
+    second: Accessory_01_Ladybug_48x48_02_342
+  - first:
+      213: -1175665303253229177
+    second: Accessory_01_Ladybug_48x48_02_343
+  - first:
+      213: -2792172636625929551
+    second: Accessory_01_Ladybug_48x48_02_344
+  - first:
+      213: -2968490748724912354
+    second: Accessory_01_Ladybug_48x48_02_345
+  - first:
+      213: -2830024160905610437
+    second: Accessory_01_Ladybug_48x48_02_346
+  - first:
+      213: -4095220170719040977
+    second: Accessory_01_Ladybug_48x48_02_347
+  - first:
+      213: 6930203024025669846
+    second: Accessory_01_Ladybug_48x48_02_348
+  - first:
+      213: 8024518390361521020
+    second: Accessory_01_Ladybug_48x48_02_349
+  - first:
+      213: -2693925847616638918
+    second: Accessory_01_Ladybug_48x48_02_350
+  - first:
+      213: -5279082014414677841
+    second: Accessory_01_Ladybug_48x48_02_351
+  - first:
+      213: 2768919988015386427
+    second: Accessory_01_Ladybug_48x48_02_352
+  - first:
+      213: -7732639988501436557
+    second: Accessory_01_Ladybug_48x48_02_353
+  - first:
+      213: 406497108611244147
+    second: Accessory_01_Ladybug_48x48_02_354
+  - first:
+      213: 4400016633560382503
+    second: Accessory_01_Ladybug_48x48_02_355
+  - first:
+      213: 7156700581770231285
+    second: Accessory_01_Ladybug_48x48_02_356
+  - first:
+      213: -6235311001749292044
+    second: Accessory_01_Ladybug_48x48_02_357
+  - first:
+      213: -5819048307596620512
+    second: Accessory_01_Ladybug_48x48_02_358
+  - first:
+      213: -5441609926465498388
+    second: Accessory_01_Ladybug_48x48_02_359
+  - first:
+      213: 6207031774879886657
+    second: Accessory_01_Ladybug_48x48_02_360
+  - first:
+      213: -647121656827867003
+    second: Accessory_01_Ladybug_48x48_02_361
+  - first:
+      213: -2671087615862656166
+    second: Accessory_01_Ladybug_48x48_02_362
+  - first:
+      213: -5267241853887998515
+    second: Accessory_01_Ladybug_48x48_02_363
+  - first:
+      213: 4656769625378344872
+    second: Accessory_01_Ladybug_48x48_02_364
+  - first:
+      213: 8369342492529345931
+    second: Accessory_01_Ladybug_48x48_02_365
+  - first:
+      213: -6066870522069303146
+    second: Accessory_01_Ladybug_48x48_02_366
+  - first:
+      213: -834216138771608497
+    second: Accessory_01_Ladybug_48x48_02_367
+  - first:
+      213: -5574886060887826791
+    second: Accessory_01_Ladybug_48x48_02_368
+  - first:
+      213: -8391790687066531490
+    second: Accessory_01_Ladybug_48x48_02_369
+  - first:
+      213: 8417422408673133712
+    second: Accessory_01_Ladybug_48x48_02_370
+  - first:
+      213: -5908460945630051585
+    second: Accessory_01_Ladybug_48x48_02_371
+  - first:
+      213: 3330050861445459160
+    second: Accessory_01_Ladybug_48x48_02_372
+  - first:
+      213: -5364945562267012840
+    second: Accessory_01_Ladybug_48x48_02_373
+  - first:
+      213: -8657096196669407457
+    second: Accessory_01_Ladybug_48x48_02_374
+  - first:
+      213: -2958998886756944799
+    second: Accessory_01_Ladybug_48x48_02_375
+  - first:
+      213: -4465288308374897698
+    second: Accessory_01_Ladybug_48x48_02_376
+  - first:
+      213: -9164498648489974317
+    second: Accessory_01_Ladybug_48x48_02_377
+  - first:
+      213: -1597060776018138413
+    second: Accessory_01_Ladybug_48x48_02_378
+  - first:
+      213: -342996738541596247
+    second: Accessory_01_Ladybug_48x48_02_379
+  - first:
+      213: -6119138650817146769
+    second: Accessory_01_Ladybug_48x48_02_380
+  - first:
+      213: -2471780208160427531
+    second: Accessory_01_Ladybug_48x48_02_381
+  - first:
+      213: -2889575342775723469
+    second: Accessory_01_Ladybug_48x48_02_382
+  - first:
+      213: 5959030173250939996
+    second: Accessory_01_Ladybug_48x48_02_383
+  - first:
+      213: 206566277481868805
+    second: Accessory_01_Ladybug_48x48_02_384
+  - first:
+      213: -6478516222225855524
+    second: Accessory_01_Ladybug_48x48_02_385
+  - first:
+      213: -39042180517924291
+    second: Accessory_01_Ladybug_48x48_02_386
+  - first:
+      213: 8923057530422813558
+    second: Accessory_01_Ladybug_48x48_02_387
+  - first:
+      213: -6491019211584426738
+    second: Accessory_01_Ladybug_48x48_02_388
+  - first:
+      213: 6580796537954751876
+    second: Accessory_01_Ladybug_48x48_02_389
+  - first:
+      213: 1079426875633373477
+    second: Accessory_01_Ladybug_48x48_02_390
+  - first:
+      213: -5014055790380282230
+    second: Accessory_01_Ladybug_48x48_02_391
+  - first:
+      213: -7664067890887205745
+    second: Accessory_01_Ladybug_48x48_02_392
+  - first:
+      213: 6776025681954533427
+    second: Accessory_01_Ladybug_48x48_02_393
+  - first:
+      213: 2186090226732154664
+    second: Accessory_01_Ladybug_48x48_02_394
+  - first:
+      213: 8215239941112801551
+    second: Accessory_01_Ladybug_48x48_02_395
+  - first:
+      213: 8995787592852648878
+    second: Accessory_01_Ladybug_48x48_02_396
+  - first:
+      213: 2878352352738909773
+    second: Accessory_01_Ladybug_48x48_02_397
+  - first:
+      213: 9121759951026007647
+    second: Accessory_01_Ladybug_48x48_02_398
+  - first:
+      213: -193172612427269526
+    second: Accessory_01_Ladybug_48x48_02_399
+  - first:
+      213: 5464330657614991431
+    second: Accessory_01_Ladybug_48x48_02_400
+  - first:
+      213: -885659205857989882
+    second: Accessory_01_Ladybug_48x48_02_401
+  - first:
+      213: -1400929813720279964
+    second: Accessory_01_Ladybug_48x48_02_402
+  - first:
+      213: 3875798962921922218
+    second: Accessory_01_Ladybug_48x48_02_403
+  - first:
+      213: 2266683202859169093
+    second: Accessory_01_Ladybug_48x48_02_404
+  - first:
+      213: -1197902314679906829
+    second: Accessory_01_Ladybug_48x48_02_405
+  - first:
+      213: -6623649200063224494
+    second: Accessory_01_Ladybug_48x48_02_406
+  - first:
+      213: -6595935398643838907
+    second: Accessory_01_Ladybug_48x48_02_407
+  - first:
+      213: 5541466161618333768
+    second: Accessory_01_Ladybug_48x48_02_408
+  - first:
+      213: 6612336343260785036
+    second: Accessory_01_Ladybug_48x48_02_409
+  - first:
+      213: -5992514755727574354
+    second: Accessory_01_Ladybug_48x48_02_410
+  - first:
+      213: 6251521442234785820
+    second: Accessory_01_Ladybug_48x48_02_411
+  - first:
+      213: -8016359193198515152
+    second: Accessory_01_Ladybug_48x48_02_412
+  - first:
+      213: -2305192678403389099
+    second: Accessory_01_Ladybug_48x48_02_413
+  - first:
+      213: -8701542484873593439
+    second: Accessory_01_Ladybug_48x48_02_414
+  - first:
+      213: 5271589920405724356
+    second: Accessory_01_Ladybug_48x48_02_415
+  - first:
+      213: -7329602548836519592
+    second: Accessory_01_Ladybug_48x48_02_416
+  - first:
+      213: -5487065531708925675
+    second: Accessory_01_Ladybug_48x48_02_417
+  - first:
+      213: 2522871620373002044
+    second: Accessory_01_Ladybug_48x48_02_418
+  - first:
+      213: -8631936453379689113
+    second: Accessory_01_Ladybug_48x48_02_419
+  - first:
+      213: -1592855736313868453
+    second: Accessory_01_Ladybug_48x48_02_420
+  - first:
+      213: 327426771246993506
+    second: Accessory_01_Ladybug_48x48_02_421
+  - first:
+      213: 6476454388501636930
+    second: Accessory_01_Ladybug_48x48_02_422
+  - first:
+      213: 676615157669107198
+    second: Accessory_01_Ladybug_48x48_02_423
+  - first:
+      213: -6002440923493087863
+    second: Accessory_01_Ladybug_48x48_02_424
+  - first:
+      213: -7987973076962338378
+    second: Accessory_01_Ladybug_48x48_02_425
+  - first:
+      213: -6383580439868033192
+    second: Accessory_01_Ladybug_48x48_02_426
+  - first:
+      213: 8324659053346507534
+    second: Accessory_01_Ladybug_48x48_02_427
+  - first:
+      213: 3842601660990655685
+    second: Accessory_01_Ladybug_48x48_02_428
+  - first:
+      213: -8046869721449009212
+    second: Accessory_01_Ladybug_48x48_02_429
+  - first:
+      213: -7686674637428206593
+    second: Accessory_01_Ladybug_48x48_02_430
+  - first:
+      213: 7377784080766028692
+    second: Accessory_01_Ladybug_48x48_02_431
+  - first:
+      213: 3049858018456795453
+    second: Accessory_01_Ladybug_48x48_02_432
+  - first:
+      213: -2237052745694522794
+    second: Accessory_01_Ladybug_48x48_02_433
+  - first:
+      213: 2689826820951629507
+    second: Accessory_01_Ladybug_48x48_02_434
+  - first:
+      213: -8536887762577632490
+    second: Accessory_01_Ladybug_48x48_02_435
+  - first:
+      213: -4458879843518792084
+    second: Accessory_01_Ladybug_48x48_02_436
+  - first:
+      213: 6955969874298373593
+    second: Accessory_01_Ladybug_48x48_02_437
+  - first:
+      213: 5567470564485167662
+    second: Accessory_01_Ladybug_48x48_02_438
+  - first:
+      213: 3357471491555131986
+    second: Accessory_01_Ladybug_48x48_02_439
+  - first:
+      213: -9103846235342932947
+    second: Accessory_01_Ladybug_48x48_02_440
+  - first:
+      213: 4815416111286287359
+    second: Accessory_01_Ladybug_48x48_02_441
+  - first:
+      213: -1522862071474266421
+    second: Accessory_01_Ladybug_48x48_02_442
+  - first:
+      213: -6567356535082072814
+    second: Accessory_01_Ladybug_48x48_02_443
+  - first:
+      213: 7475937819361287276
+    second: Accessory_01_Ladybug_48x48_02_444
+  - first:
+      213: -5604098320612428553
+    second: Accessory_01_Ladybug_48x48_02_445
+  - first:
+      213: 7450720805877250431
+    second: Accessory_01_Ladybug_48x48_02_446
+  - first:
+      213: 6570873120424828860
+    second: Accessory_01_Ladybug_48x48_02_447
+  - first:
+      213: -333032509163475484
+    second: Accessory_01_Ladybug_48x48_02_448
+  - first:
+      213: -8594330134567194618
+    second: Accessory_01_Ladybug_48x48_02_449
+  - first:
+      213: 1257984570376783398
+    second: Accessory_01_Ladybug_48x48_02_450
+  - first:
+      213: -3814955580358978022
+    second: Accessory_01_Ladybug_48x48_02_451
+  - first:
+      213: 4231656209906752949
+    second: Accessory_01_Ladybug_48x48_02_452
+  - first:
+      213: 6402728263736402980
+    second: Accessory_01_Ladybug_48x48_02_453
+  - first:
+      213: -5607348548082270315
+    second: Accessory_01_Ladybug_48x48_02_454
+  - first:
+      213: 8772331781361462862
+    second: Accessory_01_Ladybug_48x48_02_455
+  - first:
+      213: -8317450474684774450
+    second: Accessory_01_Ladybug_48x48_02_456
+  - first:
+      213: -3620123881534437519
+    second: Accessory_01_Ladybug_48x48_02_457
+  - first:
+      213: 3861802053755079754
+    second: Accessory_01_Ladybug_48x48_02_458
+  - first:
+      213: 6664495410689935080
+    second: Accessory_01_Ladybug_48x48_02_459
+  - first:
+      213: 7550030016469570291
+    second: Accessory_01_Ladybug_48x48_02_460
+  - first:
+      213: 7978494005558857053
+    second: Accessory_01_Ladybug_48x48_02_461
+  - first:
+      213: 7303232785443404200
+    second: Accessory_01_Ladybug_48x48_02_462
+  - first:
+      213: -8985246864312325574
+    second: Accessory_01_Ladybug_48x48_02_463
+  - first:
+      213: 6107080395130669867
+    second: Accessory_01_Ladybug_48x48_02_464
+  - first:
+      213: 6168679291321241907
+    second: Accessory_01_Ladybug_48x48_02_465
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e93b857efc3cc90800000000000000
+      internalID: -7150643190801654230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be810e4aa0d5cdc70800000000000000
+      internalID: 8997168455876614379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d028d42954be200800000000000000
+      internalID: 210338302270770451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3059c24a60e93c0800000000000000
+      internalID: -4351032887800953868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f8732f066076070800000000000000
+      internalID: 8099449468299480930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f90eb95c6fa2860800000000000000
+      internalID: 7506083057550532370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5fab8160c0d7e40800000000000000
+      internalID: 5655689927371453951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e97a25fb88c05a0800000000000000
+      internalID: -6553713002424066420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c9744c77621ed0800000000000000
+      internalID: -2444777864286321021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef15dc2071af900800000000000000
+      internalID: 718912391321091836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164a576ee3022e030800000000000000
+      internalID: 3522413313083679841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e077307ae578e21b0800000000000000
+      internalID: -5679453239468919026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82482692eef480e90800000000000000
+      internalID: -7059304531588119512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b1fc5742e49afb0800000000000000
+      internalID: -4636088422898918540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4936ac71a4d8148a0800000000000000
+      internalID: -6322617052485229676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc5d47e5734280b0800000000000000
+      internalID: -5727941602391008078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed4d27f7487cb390800000000000000
+      internalID: -7801228204027589142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1674de1f1a77e1b90800000000000000
+      internalID: -7269241211097102495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fe3ae2cfb6e8ae0800000000000000
+      internalID: -1545178891283075302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_19
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddd9dff43e314f20800000000000000
+      internalID: 3405071190620495327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_20
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aab555d0bbfda690800000000000000
+      internalID: -7589133060137436512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_21
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be660b3bc38d69390800000000000000
+      internalID: -7811818748403226901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_22
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc8c19d3eb4773b0800000000000000
+      internalID: -5514855776719696677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 887
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e479de94c2250d0800000000000000
+      internalID: -3435634869699916209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9188214e4e53c330800000000000000
+      internalID: 3729928606586536347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df86ad4e66215e260800000000000000
+      internalID: 7126122218519161085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0939f09e6735fcda0800000000000000
+      internalID: -5922423214787554416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9def96b6e08fb6ce0800000000000000
+      internalID: -1410761317435179303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e291b734550080600800000000000000
+      internalID: 434597730245613870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccb31ba817206ec0800000000000000
+      internalID: -3575815117229278015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beed2a9b550632ab0800000000000000
+      internalID: -5034074037167137045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd17d4b9e5f5774e0800000000000000
+      internalID: -1984012250896305699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2febed7a121c00a20800000000000000
+      internalID: 3026631299887447794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_33
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105af748a4917f470800000000000000
+      internalID: 8428233035488404737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823991df18ecf0990800000000000000
+      internalID: -7417483003563502808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_35
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5abb2b15dadd210800000000000000
+      internalID: 1359433228938356222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac357df1ab3fdf0e0800000000000000
+      internalID: -2234361859382225974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_37
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d393945439f941120800000000000000
+      internalID: 2383705557657270589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_38
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d994da464128c7720800000000000000
+      internalID: 2845292088691345821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_39
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85cf4e87dcfb91c0800000000000000
+      internalID: -4495721800263547508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c092592da699b60800000000000000
+      internalID: 7753345686173191293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_41
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcfdbd0faee84fc0800000000000000
+      internalID: -3510293473918059344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_42
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c37c7311e390960800000000000000
+      internalID: 7568648892443999282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_43
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c18acf249240040800000000000000
+      internalID: 4612857286017686612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_44
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb39f15faee147e90800000000000000
+      internalID: -7028959123934833733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_45
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e14fdb1b45c49830800000000000000
+      internalID: 4077100489057976807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_46
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924cfe641d5e4c1f0800000000000000
+      internalID: -1025442128132586455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Accessory_01_Ladybug_48x48_02_47
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 791
+        width: 48
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ddbfc0309775e60800000000000000
+      internalID: 7950956721155595587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 58048c1dc371bea42850d40ec3dc81a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
