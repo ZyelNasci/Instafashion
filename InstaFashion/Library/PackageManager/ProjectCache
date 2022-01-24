@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637785480297544647
-    m_Hash: 3384787573
+      ticks: 637785666039144284
+    m_Hash: 2587184645
   m_LockFileStatus:
     m_FilePath: C:/Users/josie/Documents/Unity_Instafashion/InstaFashion/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637785480297661679
-    m_Hash: 2628699523
+      ticks: 637785666039154256
+    m_Hash: 278112087
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

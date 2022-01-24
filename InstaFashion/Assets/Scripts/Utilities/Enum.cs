@@ -19,3 +19,10 @@ public enum InventoryType
     Store_1,
     Store_2
 }
+
+public enum SmartphoneScreen
+{
+    None,
+    Home,
+    Camera
+}

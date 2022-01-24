@@ -11,7 +11,15 @@ public class NPC_Controler : CharacterBase
     [SerializeField]
     private GameObject iconInteraction;
     [SerializeField]
+    private InventoryManager inventory;
+
+    [SerializeField]
     private Gradient colorSkin;
+
+    public void OnClick_Interact()
+    {
+        inventory.gameObject.SetActive(true);
+    }
 
     public void RandomizeOutfit()
     {

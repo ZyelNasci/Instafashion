@@ -21,6 +21,7 @@ public class CharacterBase : MonoBehaviour
     //States
     public readonly IdleState idleState = new IdleState();
     public readonly WalkState walkState = new WalkState();
+    public readonly InteractState interactState = new InteractState();
     protected BaseState currentState;
     #endregion
 
@@ -72,6 +73,7 @@ public class CharacterBase : MonoBehaviour
     {
         idleState.InitialiseState(this, anim);
         walkState.InitializeState(this, anim, body);
+        interactState.InitializeState(this, anim);
     }
 
     public void SwitchState(BaseState newState)

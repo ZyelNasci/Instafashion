@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class InventoryManager : MonoBehaviour
     private PlayerController player;
     [SerializeField]
     private Transform content;
+    [SerializeField]
+    private RectTransform ScreenPivot;
     [SerializeField]
     private OutfitContainer outfitContainerPrefab;        
 
@@ -88,6 +91,20 @@ public class InventoryManager : MonoBehaviour
     public void OnClick_AccessoriesPage()
     {
         SwitchScreen(accessoriesPage);
+    }
+
+    public void OnClick_OpenInventory()
+    {
+        player.SwitchState(player.interactState);
+        ScreenPivot.DOKill();
+        ScreenPivot.DOAnchorPosY(0, 1f);
+    }
+
+    public void OnClick_CloseCloseInventory()
+    {
+        player.SwitchState(player.idleState);
+        ScreenPivot.DOKill();
+        ScreenPivot.DOAnchorPosY(-600f, 1f);
     }
     #endregion
 
