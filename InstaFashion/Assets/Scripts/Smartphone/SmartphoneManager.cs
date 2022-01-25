@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.UI;
+
 public class SmartphoneManager : MonoBehaviour
 {
     [SerializeField]
@@ -24,6 +26,10 @@ public class SmartphoneManager : MonoBehaviour
     [SerializeField]
     private GameObject cameraGroup;
     [SerializeField]
+    private GameObject createCharacterGroup;
+    [SerializeField]
+    private Image photoPerfil;
+    [SerializeField]
     private SmartphoneScreen currentScreen;
 
     private int totalLikes;
@@ -37,15 +43,24 @@ public class SmartphoneManager : MonoBehaviour
     public void Start()
     {
         CreateContainers();
-        SwitchScreen(SmartphoneScreen.None);
+        SwitchScreen(currentScreen);
     }
 
     public void AddPhotoOnGallery(Sprite _sprite)
-    {
+    {        
         PhotoContainer temp = GetContainer();
         temp.transform.SetAsFirstSibling();
         temp.SetPhotoContainer(_sprite);
         SwitchScreen(SmartphoneScreen.Home);
+    }
+    public void AddPerfilPhoto(Sprite _sprite)
+    {
+        photoPerfil.sprite = _sprite;
+        SwitchScreen(SmartphoneScreen.Home);
+    }
+    public void SetPerfilname(string _name)
+    {
+        nameText.text = "@" + _name;
     }
 
     public void SwitchScreen(SmartphoneScreen _newScreen)
@@ -60,6 +75,9 @@ public class SmartphoneManager : MonoBehaviour
             case SmartphoneScreen.Camera:
                 cameraGroup.SetActive(false);
                 break;
+            case SmartphoneScreen.CreateCharacter:
+                createCharacterGroup.SetActive(false);
+                break;
         }
         switch (_newScreen)
         {
@@ -70,6 +88,9 @@ public class SmartphoneManager : MonoBehaviour
                 break;
             case SmartphoneScreen.Camera:
                 cameraGroup.SetActive(true);
+                break;
+            case SmartphoneScreen.CreateCharacter:
+                createCharacterGroup.SetActive(true);
                 break;
         }
         currentScreen = _newScreen;

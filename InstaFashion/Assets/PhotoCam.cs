@@ -9,55 +9,39 @@ using UnityEngine.Rendering;
 public class PhotoCam : PointerClickBase
 {
     [SerializeField]
+    private CameraDrag dragCamera;
+    [SerializeField]
     private Camera photoCam;
-    [SerializeField]
-    private RectTransform rect;
-    [SerializeField]
-    private Canvas canvas;
     [SerializeField]
     private SmartphoneManager manager;
     [SerializeField]
-    private Image screen;
-
-    private Vector3 mOffset;
-    private float mZCoord;
-    private Mouse myMouse;
-    private Camera myCam;
+    private GameObject camGroup;
+    [SerializeField]
+    private GameObject confirmationGroup;
+    [SerializeField]
+    private RenderTexture renderTexture;
 
     private bool Screenshot;
-
     public int photoIndex { get; private set; }
 
-    public void Awake()
-    {
-        myCam = Camera.main;
-        myMouse = Mouse.current;  
-    }
+    private Texture2D currenTexture;
+    private int width = 248;
+    private int height = 248;
+
+    private bool tutorial = true;
 
     public void OnEnable()
     {
-        Vector3 newPos = myCam.ScreenToWorldPoint(rect.position);
-        newPos.z = photoCam.transform.position.z;
-        newPos.y += 1f;
-        photoCam.transform.position = newPos;
-
-        RenderPipelineManager.endCameraRendering += DoTest;
+        RenderPipelineManager.endCameraRendering += RenderCamera;
+        dragCamera.ResetCameraPosition();
     }
 
     public void OnDisable()
     {
-        RenderPipelineManager.endCameraRendering -= DoTest;
-    }
-
-
-    protected override void PointerDrag(PointerEventData eventData)
-    {
-        rect.anchoredPosition += eventData.delta / canvas.scaleFactor;
-
-        Vector3 newPos = myCam.ScreenToWorldPoint(rect.position);
-        newPos.z = photoCam.transform.position.z;
-        newPos.y += 1f;
-        photoCam.transform.position = newPos;
+        RenderPipelineManager.endCameraRendering -= RenderCamera;
+        photoCam.targetTexture = renderTexture;
+        confirmationGroup.SetActive(false);
+        camGroup.SetActive(true);
     }
 
     public void OnSlider_Zoom(float _value)
@@ -67,38 +51,60 @@ public class PhotoCam : PointerClickBase
     }
     public void OnClick_Back()
     {
-        manager.SwitchScreen(SmartphoneScreen.Home);
+        if (!tutorial)
+            manager.SwitchScreen(SmartphoneScreen.Home);
     }
 
-
-    private void DoTest(ScriptableRenderContext arg1, Camera arg2)
+    private void RenderCamera(ScriptableRenderContext arg1, Camera arg2)
     {
         if (Screenshot)
         {
+            currenTexture = null;
             Screenshot = false;
 
-            int width = 248;
-            int height = 248;
-
-            Texture2D renderResult = new Texture2D(width, height, TextureFormat.ARGB32, false);
+            currenTexture = new Texture2D(width, height, TextureFormat.ARGB32, false);
             Rect rect = new Rect(0, 0, width, height);
-            renderResult.ReadPixels(rect, 0, 0);
-            renderResult.Apply();
-
-            Sprite _sprite = Sprite.Create(renderResult, rect, new Vector2(width * 0.5f, width * 0.5f));
-
-            byte[] byteArray = renderResult.EncodeToPNG();
-            string path = Application.dataPath + "/Screenshots/CameraScreenshot_" + photoIndex.ToString("00") + ".png";
-            photoIndex++;
-            Debug.Log("Path: " + path);
-            System.IO.File.WriteAllBytes(path, byteArray);
-
-            manager.AddPhotoOnGallery(_sprite);
+            currenTexture.ReadPixels(rect, 0, 0);
+            currenTexture.Apply();
+            OpenConfirmationScreen();
         }
     }
+    public void OpenConfirmationScreen()
+    {
+        confirmationGroup.SetActive(true);
+        camGroup.SetActive(false);
+    }
+
+    public void OnClick_PostPhoto()
+    {
+        photoCam.targetTexture = renderTexture;
+
+        confirmationGroup.SetActive(false);
+        camGroup.SetActive(true);
+
+        Sprite _sprite = Sprite.Create(currenTexture, new Rect(0, 0, width, height), new Vector2(width * 0.5f, width * 0.5f));
+
+        if (!tutorial)
+        {
+            manager.AddPhotoOnGallery(_sprite);            
+        }
+        else
+        {
+            manager.AddPerfilPhoto(_sprite);
+            tutorial = false;
+        }        
+    }
+    public void OnClick_Delete()
+    {
+        photoCam.targetTexture = renderTexture;
+        dragCamera.ResetCameraPosition();
+        confirmationGroup.SetActive(false);
+        camGroup.SetActive(true);
+    }
+
     public void TakeScreenshot()
     {
-        //photoCam.targetTexture = RenderTexture.GetTemporary((int)248.25f, (int)248.25, 16);
+        photoCam.targetTexture = RenderTexture.GetTemporary(248,248, 16);
         Screenshot = true;
     }
 }

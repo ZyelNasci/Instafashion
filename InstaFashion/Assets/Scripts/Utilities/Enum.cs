@@ -24,5 +24,6 @@ public enum SmartphoneScreen
 {
     None,
     Home,
-    Camera
+    Camera,
+    CreateCharacter
 }

@@ -27,7 +27,7 @@ public class CharacterBase : MonoBehaviour
 
     #region Unity Functions
 
-    public void Start()
+    public void Awake()
     {
         InitializeStates();
         SwitchState(idleState);
