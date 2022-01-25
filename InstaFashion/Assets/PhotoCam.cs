@@ -30,6 +30,13 @@ public class PhotoCam : PointerClickBase
 
     private bool tutorial = true;
 
+    private GameData dataSO;
+
+    private void Start()
+    {
+        dataSO = Resources.Load<GameData>("Scriptables/GameData");
+    }
+
     public void OnEnable()
     {
         RenderPipelineManager.endCameraRendering += RenderCamera;
@@ -66,6 +73,7 @@ public class PhotoCam : PointerClickBase
             Rect rect = new Rect(0, 0, width, height);
             currenTexture.ReadPixels(rect, 0, 0);
             currenTexture.Apply();
+            
             OpenConfirmationScreen();
         }
     }
@@ -83,6 +91,10 @@ public class PhotoCam : PointerClickBase
         camGroup.SetActive(true);
 
         Sprite _sprite = Sprite.Create(currenTexture, new Rect(0, 0, width, height), new Vector2(width * 0.5f, width * 0.5f));
+        
+        //dataSO.spritesList.Add(_sprite);
+        dataSO.SavePhotos(currenTexture.EncodeToPNG());
+
 
         if (!tutorial)
         {

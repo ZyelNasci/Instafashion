@@ -12,6 +12,9 @@ public class PlayerController : CharacterBase
 
     [SerializeField]
     protected Outfit[] outfitInfos = new Outfit[4];
+
+    private bool input_save = false;
+    private bool input_load = false;
     #endregion
 
     #region Unity Functions
@@ -20,6 +23,21 @@ public class PlayerController : CharacterBase
         //RandomizeOutfit();
     }
     #endregion
+
+    public override void Update()
+    {
+        base.Update();
+        if (input_save)
+        {
+            input_save = false;
+            SaveSystem.Instance.SaveGame();
+        }
+        if (input_load)
+        {
+            input_load = false;
+            SaveSystem.Instance.LoadGame();
+        }
+    }
 
     public int GetTotalPopularityOutift()
     {
@@ -86,14 +104,15 @@ public class PlayerController : CharacterBase
 
     public void Input_Save(InputAction.CallbackContext _value)
     {
-        //input_walk = _value.ReadValue<Vector2>();
-        SaveSystem.Instance.SaveGame();
+        //input_walk = _value.ReadValue<Vector2>();        
+        input_save = _value.ReadValueAsButton();
     }
 
     public void Input_Load(InputAction.CallbackContext _value)
     {
         //input_walk = _value.ReadValue<Vector2>();
-        SaveSystem.Instance.LoadGame();
+        
+        input_load = _value.ReadValueAsButton();
     }
     #endregion
 }

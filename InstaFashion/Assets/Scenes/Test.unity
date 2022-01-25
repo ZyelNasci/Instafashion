@@ -13016,7 +13016,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -600}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 295.8999, y: 510.9701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136720520
@@ -16491,7 +16491,7 @@ MonoBehaviour:
   cameraGroup: {fileID: 1916391383}
   createCharacterGroup: {fileID: 1777083776}
   photoPerfil: {fileID: 1824062416}
-  currentScreen: 3
+  currentScreen: 0
   content: {fileID: 466126767}
 --- !u!1 &1627563942
 GameObject:

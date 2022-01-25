@@ -33,7 +33,7 @@ public class CharacterBase : MonoBehaviour
         SwitchState(idleState);
     }
 
-    private void Update()
+    public virtual void Update()
     {
         currentState?.UpdateState();
         input_test = false;

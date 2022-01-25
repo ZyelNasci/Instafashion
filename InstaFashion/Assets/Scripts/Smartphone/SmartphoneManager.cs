@@ -51,6 +51,10 @@ public class SmartphoneManager : MonoBehaviour
     {
         CreateContainers();
         SwitchScreen(currentScreen);
+
+        GameData dataSO = Resources.Load<GameData>("Scriptables/GameData");
+        SaveSystem.Instance.LoadGame();
+        photoPerfil.sprite = dataSO.GetPhoto();
     }
 
     private int currentLikes;

@@ -9,29 +9,11 @@ public class OutfitSO : ScriptableObject
     public OutfitType type;
     public Outfit[] outfits;
 
-    public void Start()
-    {
-        ResetSO();
-    }
-
-    public bool Reset;
-    private void OnValidate()
-    {
-        if (Reset)
-        {
-            ResetSO();
-            Reset = false;
-        }
-    }
-
-    public void ResetSO()
-    {
+    public void RestoreOutfitsValue(Outfit[] _outfits)
+    {        
         for (int i = 0; i < outfits.Length; i++)
         {
-            if(i > 0)            
-                outfits[i].ResetIndividualOutfit(false);            
-            else            
-                outfits[i].ResetIndividualOutfit(true);            
+            outfits[i].RestoreValue(_outfits[i]);
         }
     }
 
@@ -46,6 +28,27 @@ public class OutfitSO : ScriptableObject
             }
         }
         return array;
+    }
+
+    public void ResetSO()
+    {
+        for (int i = 0; i < outfits.Length; i++)
+        {
+            if(i > 0)            
+                outfits[i].ResetIndividualOutfit(false);            
+            else            
+                outfits[i].ResetIndividualOutfit(true);            
+        }
+    }
+
+    public bool Reset;
+    private void OnValidate()
+    {
+        if (Reset)
+        {
+            ResetSO();
+            Reset = false;
+        }
     }
 }
 
@@ -77,4 +80,13 @@ public class Outfit
         selected = _value;        
         currentPopularityStar = popularityStars;
     }
+
+    public void RestoreValue(Outfit _outfit)
+    {
+        unlocked = _outfit.unlocked;
+        currentPopularityStar = _outfit.currentPopularityStar;
+        selected = _outfit.selected;
+
+        itemColor = _outfit.itemColor;
+}
 }

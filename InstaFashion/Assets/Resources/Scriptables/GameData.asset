@@ -22,3 +22,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 33861f9825537534c887849d94905e35, type: 2}
   - {fileID: 11400000, guid: 048655098ac1f5b4d8e6e3ed94af9c61, type: 2}
   - {fileID: 11400000, guid: 83f9c630e87fbbe4ba4eabcaec080eef, type: 2}
+  photosBytes: []
+  sprites: []
+  test: 0
+  clear: 0
