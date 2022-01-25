@@ -28,8 +28,6 @@ public class PhotoCam : PointerClickBase
     private int width = 248;
     private int height = 248;
 
-    private bool tutorial = true;
-
     private GameData dataSO;
 
     private void Start()
@@ -58,7 +56,7 @@ public class PhotoCam : PointerClickBase
     }
     public void OnClick_Back()
     {
-        if (!tutorial)
+        if (!SaveSystem.Instance.dataSO.tutorial)
             manager.SwitchScreen(SmartphoneScreen.Home);
     }
 
@@ -96,14 +94,15 @@ public class PhotoCam : PointerClickBase
         dataSO.SavePhotos(currenTexture.EncodeToPNG());
 
 
-        if (!tutorial)
+        if (!SaveSystem.Instance.dataSO.tutorial)
         {
             manager.AddPhotoOnGallery(_sprite);            
         }
         else
         {
             manager.AddPerfilPhoto(_sprite);
-            tutorial = false;
+            SaveSystem.Instance.dataSO.tutorial = false;
+            SaveSystem.Instance.SaveGame();
         }        
     }
     public void OnClick_Delete()

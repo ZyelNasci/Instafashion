@@ -27,16 +27,16 @@ public class PlayerController : CharacterBase
     public override void Update()
     {
         base.Update();
-        if (input_save)
-        {
-            input_save = false;
-            SaveSystem.Instance.SaveGame();
-        }
-        if (input_load)
-        {
-            input_load = false;
-            SaveSystem.Instance.LoadGame();
-        }
+        //if (input_save)
+        //{
+        //    input_save = false;
+        //    SaveSystem.Instance.SaveGame();
+        //}
+        //if (input_load)
+        //{
+        //    input_load = false;
+        //    SaveSystem.Instance.LoadGame();
+        //}
     }
 
     public int GetTotalPopularityOutift()
@@ -61,38 +61,43 @@ public class PlayerController : CharacterBase
         inventory.AddNewInventoryOutfit(_newOutfit);
     }
 
+    public void LoadPlayerSettings(GameData _data)
+    {
+        int numb = 0;
+        for (int i = 0; i < _data.outfitsSO.Length; i++)
+        {
+            Outfit[] temp = _data.outfitsSO[i].outfits;
+            for (int j = 0; j < temp.Length; j++)
+            {
+                if (temp[j].selected)
+                {                    
+                    Debug.Log("name: " + temp[j].name);
+                    SetClotheOutfit(temp[j]);
+                }
+                Debug.Log("Number2: " + numb.ToString());
+            }
+        }
+    }
     public override void SetClotheOutfit(Outfit _newOutfit, bool _inEditor = false)
     {
-        base.SetClotheOutfit(_newOutfit, _inEditor);
+        //base.SetClotheOutfit(_newOutfit, _inEditor);
+
+        int index = (int)_newOutfit.myType;
+        spRender[index].material.SetColor("_ColorMask", _newOutfit.itemColor);
+        anim[index].runtimeAnimatorController = _newOutfit.animator;
+        SetAnimatorTime();
+
+        if (outfitInfos[index] != null)
+            outfitInfos[index].selected = false;
 
         _newOutfit.selected = true;
-
-        if (outfitInfos[(int)_newOutfit.myType] != null)
-            outfitInfos[(int)_newOutfit.myType].selected = false;
-
-        outfitInfos[(int)_newOutfit.myType] = _newOutfit;
+        outfitInfos[index] = _newOutfit;
+        Debug.Log("Trocou: ");
     }
 
     public void SetSkinColor(Color _color)
     {
         spRender[0].material.SetColor("_ColorMask", _color);
-    }
-
-    public void RandomizeOutfit()
-    {
-        OutfitSO clothes = Resources.Load<OutfitSO>("Scriptables/ClothesSO");
-        OutfitSO hairs = Resources.Load<OutfitSO>("Scriptables/HairSO");
-        OutfitSO Accessories = Resources.Load<OutfitSO>("Scriptables/AccessoriesSO");
-
-        int clothesIndex = Random.Range(0, clothes.outfits.Length);
-        int hairIndex = Random.Range(0, hairs.outfits.Length);
-        int accessoriesIndex = Random.Range(0, Accessories.outfits.Length);
-
-        SetClotheOutfit(clothes.outfits[clothesIndex]);
-        SetClotheOutfit(hairs.outfits[hairIndex]);
-        SetClotheOutfit(Accessories.outfits[accessoriesIndex]);
-
-        //spRender[0].material.SetColor("_ColorMask", colorSkin.Evaluate(Random.Range(0f, 1f)));
     }
     #endregion
 

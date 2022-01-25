@@ -30,7 +30,7 @@ public class CharacterBase : MonoBehaviour
     public void Awake()
     {
         InitializeStates();
-        SwitchState(idleState);
+        //SwitchState(idleState);
     }
 
     public virtual void Update()

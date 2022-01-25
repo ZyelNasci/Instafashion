@@ -14,13 +14,15 @@ public class GameData : ScriptableObject
     [Header("Smartphone Data")]
     public int totalLikes;
     public int totalFollowers;
-    public bool tutorial = true;
+    public bool tutorial;
 
     [Header("Inventory Data")]
     public OutfitSO[] outfitsSO;
 
     public List<string> photosBytes = new List<string>();
     public List<Sprite> sprites = new List<Sprite>();
+
+#if UNITY_EDITOR
 
     public bool test;
     public bool clear;
@@ -38,6 +40,7 @@ public class GameData : ScriptableObject
         }
     }
 
+#endif
     public void SavePhotos(byte[] _bytes)
     {
         string imageString = Convert.ToBase64String(_bytes);
@@ -48,13 +51,20 @@ public class GameData : ScriptableObject
         //var sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(tex.width / 2, tex.height / 2));
     }
 
-    public Sprite GetPhoto()
+    public void ResetGameData()
     {
-        var tex = new Texture2D(1, 1, TextureFormat.ARGB32, false); // note that the size is overridden
-        tex.LoadImage(Convert.FromBase64String(photosBytes[0]));
-        tex.Apply();
-        var sprite = Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(tex.width / 2, tex.height / 2));
-        return sprite;
+        Money = 0;
+        playerName = "";
+        totalLikes = 0;
+        totalFollowers = 0;
+        tutorial = true;
+        photosBytes.Clear();
+        sprites.Clear();
+
+        for (int i = 0; i < outfitsSO.Length; i++)
+        {
+            outfitsSO[i].ResetSO();
+        }
     }
 
 }

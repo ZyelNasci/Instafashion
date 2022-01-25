@@ -30,7 +30,7 @@ public class SmartphoneManager : MonoBehaviour
     [SerializeField]
     private GameObject cameraGroup;
     [SerializeField]
-    private GameObject createCharacterGroup;
+    private SmartphoneCreateCharacter createCharacterGroup;
     [SerializeField]
     private Image photoPerfil;
     [SerializeField]
@@ -47,14 +47,16 @@ public class SmartphoneManager : MonoBehaviour
 
     private Stack<PhotoContainer> containerStack = new Stack<PhotoContainer>();
 
+    private SaveSystem save { get { return SaveSystem.Instance; }}
+
     public void Start()
     {
         CreateContainers();
-        SwitchScreen(currentScreen);
 
-        GameData dataSO = Resources.Load<GameData>("Scriptables/GameData");
-        SaveSystem.Instance.LoadGame();
-        photoPerfil.sprite = dataSO.GetPhoto();
+        //SwitchScreen(currentScreen);
+        //GameData dataSO = Resources.Load<GameData>("Scriptables/GameData");
+        //SaveSystem.Instance.LoadGame();
+        //photoPerfil.sprite = dataSO.GetPhoto();
     }
 
     private int currentLikes;
@@ -90,10 +92,10 @@ public class SmartphoneManager : MonoBehaviour
         followCoroutine = null;
     }
 
-
     public void AddLikes(int _value)
     {
         totalLikes += _value;
+        save.dataSO.totalLikes = totalLikes;
         likeText.text = totalLikes.ToString("00");
         likeGroup.DOKill();
         likeGroup.localScale = Vector3.one;
@@ -102,6 +104,7 @@ public class SmartphoneManager : MonoBehaviour
     public void AddFollower(int _value)
     {
         totalFolowers += _value;
+        save.dataSO.totalFollowers= totalFolowers;
         followersText.text = totalFolowers.ToString("00");
         followerGroup.DOKill();
         followerGroup.localScale = Vector3.one;
@@ -138,6 +141,31 @@ public class SmartphoneManager : MonoBehaviour
     public void SetPerfilname(string _name)
     {
         nameText.text = "@" + _name;
+        save.dataSO.playerName = _name;
+    }
+
+    public void LoadSmartphone(GameData _data)
+    {
+        SetPerfilname(_data.playerName);
+        totalLikes      = _data.totalLikes;
+        totalFolowers   = _data.totalFollowers;
+
+        likeText.text = totalLikes.ToString("00");
+        followersText.text = totalFolowers.ToString("00");
+
+        for (int i = 0; i < _data.sprites.Count; i++)
+        {
+            if(i > 0)
+            {
+                PhotoContainer temp = GetContainer();
+                temp.transform.SetAsFirstSibling();
+                temp.SetPhotoContainer(_data.sprites[i], 0);
+            }
+            else
+            {
+                photoPerfil.sprite = _data.sprites[i];
+            }
+        }
     }
 
     public void SwitchScreen(SmartphoneScreen _newScreen)
@@ -153,7 +181,7 @@ public class SmartphoneManager : MonoBehaviour
                 cameraGroup.SetActive(false);
                 break;
             case SmartphoneScreen.CreateCharacter:
-                createCharacterGroup.SetActive(false);
+                createCharacterGroup.gameObject.SetActive(false);
                 break;
         }
         switch (_newScreen)
@@ -167,7 +195,8 @@ public class SmartphoneManager : MonoBehaviour
                 cameraGroup.SetActive(true);
                 break;
             case SmartphoneScreen.CreateCharacter:
-                createCharacterGroup.SetActive(true);
+                createCharacterGroup.gameObject.SetActive(true);
+                createCharacterGroup.InitializeScreen();
                 break;
         }
         currentScreen = _newScreen;
@@ -177,6 +206,14 @@ public class SmartphoneManager : MonoBehaviour
     public void OnClick_OpenSmartphone()
     {
         SwitchScreen(SmartphoneScreen.Home);
+        miniButton.SetActive(false);
+        player.SwitchState(player.interactState);
+        SmartGroup.DOKill();
+        SmartGroup.DOAnchorPosY(0, 0.5f);
+    }
+    public void Open_CreateCharacter()
+    {
+        SwitchScreen(SmartphoneScreen.CreateCharacter);
         miniButton.SetActive(false);
         player.SwitchState(player.interactState);
         SmartGroup.DOKill();

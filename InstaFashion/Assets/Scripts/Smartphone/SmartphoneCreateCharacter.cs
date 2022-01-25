@@ -17,6 +17,7 @@ public class SmartphoneCreateCharacter : MonoBehaviour
     [SerializeField]
     private Gradient color;
 
+    private SaveSystem save;
 
     public List<Outfit> hairs;
     public List<Outfit> clothes;
@@ -26,18 +27,12 @@ public class SmartphoneCreateCharacter : MonoBehaviour
     private int clothesIndex;
     private int accessoriesIndex;
     private float skinIndex = 0.5f;
-
-    private bool tutorial = true;
+    
     private string name;
-
-
-    public void Start()
-    {
-        InitializeScreen();
-    }
 
     public void InitializeScreen()
     {
+        save = SaveSystem.Instance;
         OutfitSO hairsTemp          = Resources.Load<OutfitSO>("Scriptables/HairSO");
         OutfitSO clothesTemp        = Resources.Load<OutfitSO>("Scriptables/ClothesSO");
         OutfitSO accessoriesTemp    = Resources.Load<OutfitSO>("Scriptables/AccessoriesSO");
@@ -110,6 +105,6 @@ public class SmartphoneCreateCharacter : MonoBehaviour
     public void OnInput_Setname(string _value)
     {
         name = inputField.text;
-        manager.SetPerfilname(name);
+        manager.SetPerfilname(name);        
     }
 }

@@ -4,13 +4,14 @@ using UnityEngine;
 
 
 [CreateAssetMenu(menuName = "ItensSO/OutfitSO")]
+[System.Serializable]
 public class OutfitSO : ScriptableObject
 {
     public OutfitType type;
     public Outfit[] outfits;
 
     public void RestoreOutfitsValue(Outfit[] _outfits)
-    {        
+    {
         for (int i = 0; i < outfits.Length; i++)
         {
             outfits[i].RestoreValue(_outfits[i]);
@@ -67,8 +68,7 @@ public class Outfit
     public Sprite fillIcon;
     public RuntimeAnimatorController animator;
 
-    public int currentPopularityStar;
-    [HideInInspector]
+    public int currentPopularityStar;    
     public bool selected;
     
     [HideInInspector]
@@ -77,7 +77,7 @@ public class Outfit
     public void ResetIndividualOutfit(bool _value)
     {
         unlocked = _value;
-        selected = _value;        
+        selected = _value;
         currentPopularityStar = popularityStars;
     }
 
@@ -86,7 +86,6 @@ public class Outfit
         unlocked = _outfit.unlocked;
         currentPopularityStar = _outfit.currentPopularityStar;
         selected = _outfit.selected;
-
         itemColor = _outfit.itemColor;
 }
 }

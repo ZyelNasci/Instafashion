@@ -14,7 +14,10 @@ public class DataInfo
     public int totalFollowers;
     public bool tutorial;
 
-    public Outfit[] outfits;
+    public Outfit[] Hair;
+    public Outfit[] Clothes;
+    public Outfit[] Accessories;
+
     public string[] photos;
 
     public DataInfo(GameData _data)
@@ -36,7 +39,18 @@ public class DataInfo
 
         for (int i = 0; i < _data.outfitsSO.Length; i++)
         {
-            outfits = _data.outfitsSO[i].outfits;
+            switch (_data.outfitsSO[i].type)
+            {
+                case OutfitType.Accessories:
+                    Accessories = _data.outfitsSO[i].outfits;
+                    break;
+                case OutfitType.Hairs:
+                    Hair = _data.outfitsSO[i].outfits;
+                    break;
+                case OutfitType.Clothes:
+                    Clothes = _data.outfitsSO[i].outfits;
+                    break;
+            }
         }
     }
 
@@ -49,6 +63,21 @@ public class DataInfo
         _data.totalFollowers    = totalFollowers;
         _data.tutorial          = tutorial;
 
+        for (int i = 0; i < _data.outfitsSO.Length; i++)
+        {
+            switch (_data.outfitsSO[i].type)
+            {
+                case OutfitType.Accessories:
+                    _data.outfitsSO[i].RestoreOutfitsValue(Accessories);
+                    break;
+                case OutfitType.Hairs:
+                    _data.outfitsSO[i].RestoreOutfitsValue(Hair);
+                    break;
+                case OutfitType.Clothes:
+                    _data.outfitsSO[i].RestoreOutfitsValue(Clothes);
+                    break;
+            }
+        }
 
         _data.photosBytes.Clear();
         _data.sprites.Clear();
@@ -63,9 +92,5 @@ public class DataInfo
             _data.sprites.Add(sprite);
         }
 
-        for (int i = 0; i < _data.outfitsSO.Length; i++)
-        {
-            _data.outfitsSO[i].RestoreOutfitsValue(outfits);
-        }
     }
 }

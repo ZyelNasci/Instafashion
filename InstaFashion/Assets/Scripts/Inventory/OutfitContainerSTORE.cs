@@ -47,6 +47,7 @@ public class OutfitContainerSTORE : OutfitContainer
             BuyText.text = "SOLD";
             GlobalValues.playerMoney -= myInfo.price;
             manager.BuyOutfit(myInfo);
+            myInfo.unlocked = true;
         }
         else
         {
