@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: c26ebd6dda489f744928948460ce1590
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 156091259102932652
+    second: Early_Birds_Tileset_48x48_0
+  - first:
+      213: 7545068353486073245
+    second: Early_Birds_Tileset_48x48_1
+  - first:
+      213: -4877550388015357848
+    second: Early_Birds_Tileset_48x48_2
+  - first:
+      213: -250308970600537689
+    second: Early_Birds_Tileset_48x48_3
+  - first:
+      213: 3624966270881682361
+    second: Early_Birds_Tileset_48x48_4
+  - first:
+      213: 3389853525068361969
+    second: Early_Birds_Tileset_48x48_5
+  - first:
+      213: -4604095195401288402
+    second: Early_Birds_Tileset_48x48_6
+  - first:
+      213: -5953318087445109723
+    second: Early_Birds_Tileset_48x48_7
+  - first:
+      213: -6194351707409780116
+    second: Early_Birds_Tileset_48x48_8
+  - first:
+      213: -5362159738332451222
+    second: Early_Birds_Tileset_48x48_9
+  - first:
+      213: -869300350295376066
+    second: Early_Birds_Tileset_48x48_10
+  - first:
+      213: -2559810726952314944
+    second: Early_Birds_Tileset_48x48_11
+  - first:
+      213: 1583960309468054811
+    second: Early_Birds_Tileset_48x48_12
+  - first:
+      213: -7210398355988039951
+    second: Early_Birds_Tileset_48x48_13
+  - first:
+      213: 1619426347440813298
+    second: Early_Birds_Tileset_48x48_14
+  - first:
+      213: 4851046146936372839
+    second: Early_Birds_Tileset_48x48_15
+  - first:
+      213: -3436536084861894961
+    second: Early_Birds_Tileset_48x48_16
+  - first:
+      213: -566349312623327882
+    second: Early_Birds_Tileset_48x48_17
+  - first:
+      213: 3199959233290100954
+    second: Early_Birds_Tileset_48x48_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 288
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeaf535c2c8a2200800000000000000
+      internalID: 156091259102932652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1056
+        width: 288
+        height: 576
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d249721b775b860800000000000000
+      internalID: 7545068353486073245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860a644b3c57f4cb0800000000000000
+      internalID: -4877550388015357848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 288
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1e2434159b68cf0800000000000000
+      internalID: -250308970600537689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 384
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3dca21e977e4230800000000000000
+      internalID: 3624966270881682361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 387
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f03e4222dd2b0f20800000000000000
+      internalID: 3389853525068361969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 387
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25060630d7fa10c0800000000000000
+      internalID: -4604095195401288402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 387
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242de2ddb0916da0800000000000000
+      internalID: -5953318087445109723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 432
+        width: 138
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c627102f0fd390aa0800000000000000
+      internalID: -6194351707409780116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eeacfb028c595b0800000000000000
+      internalID: -5362159738332451222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f7589efef9fe3f0800000000000000
+      internalID: -869300350295376066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 195
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d5cfc4b9b97cd0800000000000000
+      internalID: -2559810726952314944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 195
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b154920628b5bf510800000000000000
+      internalID: 1583960309468054811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 288
+        width: 138
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b546c5e48feb90800000000000000
+      internalID: -7210398355988039951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f43e13deab597610800000000000000
+      internalID: 1619426347440813298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 3
+        width: 96
+        height: 171
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e7b29c4c0625340800000000000000
+      internalID: 4851046146936372839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 144
+        width: 138
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcebefb63a8fe40d0800000000000000
+      internalID: -3436536084861894961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675cc420d4ce328f0800000000000000
+      internalID: -566349312623327882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Early_Birds_Tileset_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3
+        width: 183
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ecf3f7f9886c20800000000000000
+      internalID: 3199959233290100954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

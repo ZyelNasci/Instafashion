@@ -17,7 +17,8 @@ public enum InventoryType
 {
     PlayerInventory,
     Store_1,
-    Store_2
+    Store_2,
+    store_3
 }
 
 public enum SmartphoneScreen

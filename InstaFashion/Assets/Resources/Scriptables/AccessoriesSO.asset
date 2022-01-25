@@ -19,71 +19,179 @@ MonoBehaviour:
     price: 10
     unlocked: 1
     inventoryType: 0
-    itemColor: {r: 0, g: 0.74235535, b: 1, a: 1}
+    itemColor: {r: 0.44949272, g: 0.7526324, b: 0.8584906, a: 1}
     outlineIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     animator: {fileID: 9100000, guid: 3085d1f40b37a134ea6de54f226da32a, type: 2}
     currentPopularityStar: 0
     selected: 0
     myType: 3
-  - name: Green Bee
+  - name: Bee
     popularityStars: 5
     price: 10
     unlocked: 0
     inventoryType: 0
-    itemColor: {r: 0.20864272, g: 1, b: 0, a: 1}
+    itemColor: {r: 0.44134095, g: 0.8773585, b: 0.32694018, a: 1}
     outlineIcon: {fileID: 2484948497721290677, guid: ad19970d15c9d9148ab94d9e22363b5d, type: 3}
     fillIcon: {fileID: 2484948497721290677, guid: 6e210c7ce6931324dadde6b398d25b03, type: 3}
     animator: {fileID: 22100000, guid: 65d1aeef3b4ef24489376bed297c7c11, type: 2}
-    currentPopularityStar: 5
+    currentPopularityStar: 4
     selected: 1
     myType: 3
-  - name: 'Red '
+  - name: Ladybug
     popularityStars: 5
     price: 10
     unlocked: 0
     inventoryType: 0
-    itemColor: {r: 1, g: 0, b: 0, a: 1}
+    itemColor: {r: 1, g: 0.3726415, b: 0.3726415, a: 1}
     outlineIcon: {fileID: -1545178891283075302, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: -1545178891283075302, guid: b45e92057073c5a45b8e50122fa02163, type: 3}
     animator: {fileID: 22100000, guid: 45b441f6e6e82c7468a3471ea3188a01, type: 2}
     currentPopularityStar: 5
     selected: 0
     myType: 3
-  - name: Yellow Backpack
+  - name: Backpack
     popularityStars: 2
     price: 10
     unlocked: 0
     inventoryType: 1
-    itemColor: {r: 1, g: 0.91594565, b: 0, a: 1}
+    itemColor: {r: 0.764151, g: 0.7300144, b: 0.34963512, a: 1}
     outlineIcon: {fileID: -4336128511207994002, guid: ea175c36f26338f42ab2f620695b1239, type: 3}
     fillIcon: {fileID: -4336128511207994002, guid: ac74907a51bb00540925918d8f1da19a, type: 3}
     animator: {fileID: 22100000, guid: 81f02a5eb61ff2c47bcf13eecc06b7f1, type: 2}
-    currentPopularityStar: 1
+    currentPopularityStar: 2
     selected: 0
     myType: 3
-  - name: Pink Cap
+  - name: 'Dino '
     popularityStars: 3
     price: 10
     unlocked: 0
     inventoryType: 1
-    itemColor: {r: 1, g: 0, b: 0.95686245, a: 1}
+    itemColor: {r: 0.8207547, g: 0.36004803, b: 0.80088097, a: 1}
     outlineIcon: {fileID: 4408885963988937364, guid: 354dcc4512be2c74cbd53d410565098a, type: 3}
     fillIcon: {fileID: 4408885963988937364, guid: de03fafa0eb0baf46a22858bff7a8826, type: 3}
     animator: {fileID: 22100000, guid: e18fa095418912e4ab0aef9805ef0862, type: 2}
     currentPopularityStar: 3
     selected: 0
     myType: 3
-  - name: Cyan Dress
+  - name: Dino 2
     popularityStars: 3
     price: 10
-    unlocked: 0
+    unlocked: 1
     inventoryType: 1
-    itemColor: {r: 0, g: 0.74235535, b: 1, a: 1}
+    itemColor: {r: 0.31283376, g: 0.59839386, b: 0.6981132, a: 1}
     outlineIcon: {fileID: -718633104670949679, guid: 3cc7a92ce094e994db2c5b7145004aea, type: 3}
     fillIcon: {fileID: -718633104670949679, guid: 76bc3d853e11c024095b2557f9a176a4, type: 3}
     animator: {fileID: 22100000, guid: fea17be9e9231054d926415eb4df2542, type: 2}
-    currentPopularityStar: 2
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Cap
+    popularityStars: 4
+    price: 20
+    unlocked: 0
+    inventoryType: 2
+    itemColor: {r: 0.31283376, g: 0.59839386, b: 0.6981132, a: 1}
+    outlineIcon: {fileID: -4790943203215549178, guid: 218f96e3d13192646a01b347504b9dfc, type: 3}
+    fillIcon: {fileID: -4790943203215549178, guid: 471b9ad3c1b09e44590ac138cce56127, type: 3}
+    animator: {fileID: 22100000, guid: 5d0c9f084e8187840b92d504a314d49d, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Bataclava
+    popularityStars: 3
+    price: 10
+    unlocked: 0
+    inventoryType: 2
+    itemColor: {r: 0.64595944, g: 0.7169812, b: 0.7093502, a: 1}
+    outlineIcon: {fileID: -8951905243301464705, guid: bac37ab6886e6bd4095f063abaca3e0d, type: 3}
+    fillIcon: {fileID: -8951905243301464705, guid: 92a3d9dd4f9a7184781094795b8afbcf, type: 3}
+    animator: {fileID: 22100000, guid: 42b9798b887768e44a5cbdf5f381512d, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Indiana Cap
+    popularityStars: 5
+    price: 70
+    unlocked: 0
+    inventoryType: 2
+    itemColor: {r: 0.7254902, g: 0.60784316, b: 0.56078434, a: 1}
+    outlineIcon: {fileID: 7200199329766875112, guid: d4b75488ef3b7784e89e9f34d4092629, type: 3}
+    fillIcon: {fileID: 7200199329766875112, guid: bb994f8aa0c6406448bbf3265ac38767, type: 3}
+    animator: {fileID: 22100000, guid: 52df5dfcbe897e54797e2574c3978dd0, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Zombie Cap
+    popularityStars: 3
+    price: 20
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.32133323, g: 0.7830189, b: 0.44194126, a: 1}
+    outlineIcon: {fileID: -8103279709152926053, guid: 886a471536671834380406e3ff954ade, type: 3}
+    fillIcon: {fileID: -8103279709152926053, guid: 886a471536671834380406e3ff954ade, type: 3}
+    animator: {fileID: 22100000, guid: 3630bcf3a9af38648963f821b09a786e, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Bolt
+    popularityStars: 2
+    price: 10
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.45723566, g: 0.69774634, b: 0.7075472, a: 1}
+    outlineIcon: {fileID: 7718919784034856790, guid: bee886594c7ecdf4b91764cc8b7d16b8, type: 3}
+    fillIcon: {fileID: 7718919784034856790, guid: bee886594c7ecdf4b91764cc8b7d16b8, type: 3}
+    animator: {fileID: 22100000, guid: 8c5bb78c714f3924ea0c0b6e93868e8e, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Beanie
+    popularityStars: 4
+    price: 40
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.8773585, g: 0.7856204, b: 0.29383236, a: 1}
+    outlineIcon: {fileID: -546362609894148381, guid: 4c7ba28e1edd0e343afcfbd9f4cc260c, type: 3}
+    fillIcon: {fileID: -546362609894148381, guid: 1b68cddd7363b8148aea2a52df45c501, type: 3}
+    animator: {fileID: 22100000, guid: 5e1ffc6273d18f745b6092eefb7dbcc3, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Party Cone
+    popularityStars: 4
+    price: 40
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.59362763, g: 0.8578893, b: 0.8679245, a: 1}
+    outlineIcon: {fileID: 3892556201260566377, guid: 6e596ccc9f9b96c42acef97de66a1696, type: 3}
+    fillIcon: {fileID: 3892556201260566377, guid: ad2f501d5cc35824fa6ed77736be806f, type: 3}
+    animator: {fileID: 22100000, guid: d741abf4acc735d46926b99b57d37fef, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Glove
+    popularityStars: 2
+    price: 5
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.9334342, g: 0.33490568, b: 1, a: 1}
+    outlineIcon: {fileID: 1796904442171443159, guid: 961a067faff823640bb3543da6c65533, type: 3}
+    fillIcon: {fileID: 1796904442171443159, guid: c2c97890f9f30c54da09971b1c97d4dc, type: 3}
+    animator: {fileID: 22100000, guid: cb8c4e04b901ac14c9e4209b41883554, type: 2}
+    currentPopularityStar: 1
+    selected: 0
+    myType: 3
+  - name: Chef
+    popularityStars: 5
+    price: 70
+    unlocked: 0
+    inventoryType: 1
+    itemColor: {r: 0.7735849, g: 0.7554607, b: 0.44152722, a: 1}
+    outlineIcon: {fileID: -3697139408487491227, guid: c18c1bef0d4a0af43ba2682ce61da990, type: 3}
+    fillIcon: {fileID: -3697139408487491227, guid: 3c76d0360c5bcdd4186d37663fc911dc, type: 3}
+    animator: {fileID: 22100000, guid: 5f5b660d402a1db43b2d65fb56e63628, type: 2}
+    currentPopularityStar: 1
     selected: 0
     myType: 3
   Reset: 0
