@@ -23,10 +23,11 @@ MonoBehaviour:
     outlineIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     animator: {fileID: 9100000, guid: 3085d1f40b37a134ea6de54f226da32a, type: 2}
-    selected: 0
+    currentPopularityStar: 1
+    selected: 1
     myType: 3
   - name: Red Bee
-    popularityStars: 1
+    popularityStars: 5
     price: 10
     unlocked: 0
     inventoryType: 0
@@ -34,10 +35,11 @@ MonoBehaviour:
     outlineIcon: {fileID: 2484948497721290677, guid: ad19970d15c9d9148ab94d9e22363b5d, type: 3}
     fillIcon: {fileID: 2484948497721290677, guid: 6e210c7ce6931324dadde6b398d25b03, type: 3}
     animator: {fileID: 22100000, guid: 65d1aeef3b4ef24489376bed297c7c11, type: 2}
+    currentPopularityStar: 5
     selected: 0
     myType: 3
   - name: Green Bee 2
-    popularityStars: 1
+    popularityStars: 5
     price: 10
     unlocked: 0
     inventoryType: 0
@@ -45,10 +47,11 @@ MonoBehaviour:
     outlineIcon: {fileID: -1545178891283075302, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: -1545178891283075302, guid: b45e92057073c5a45b8e50122fa02163, type: 3}
     animator: {fileID: 22100000, guid: 45b441f6e6e82c7468a3471ea3188a01, type: 2}
+    currentPopularityStar: 5
     selected: 0
     myType: 3
   - name: Yellow Backpack
-    popularityStars: 1
+    popularityStars: 2
     price: 10
     unlocked: 0
     inventoryType: 1
@@ -56,10 +59,11 @@ MonoBehaviour:
     outlineIcon: {fileID: -4336128511207994002, guid: ea175c36f26338f42ab2f620695b1239, type: 3}
     fillIcon: {fileID: -4336128511207994002, guid: ac74907a51bb00540925918d8f1da19a, type: 3}
     animator: {fileID: 22100000, guid: 81f02a5eb61ff2c47bcf13eecc06b7f1, type: 2}
-    selected: 1
+    currentPopularityStar: 2
+    selected: 0
     myType: 3
   - name: Pink Cap
-    popularityStars: 1
+    popularityStars: 3
     price: 10
     unlocked: 0
     inventoryType: 1
@@ -67,10 +71,11 @@ MonoBehaviour:
     outlineIcon: {fileID: 4408885963988937364, guid: 354dcc4512be2c74cbd53d410565098a, type: 3}
     fillIcon: {fileID: 4408885963988937364, guid: de03fafa0eb0baf46a22858bff7a8826, type: 3}
     animator: {fileID: 22100000, guid: e18fa095418912e4ab0aef9805ef0862, type: 2}
+    currentPopularityStar: 3
     selected: 0
     myType: 3
   - name: Cyan Dress
-    popularityStars: 1
+    popularityStars: 3
     price: 10
     unlocked: 0
     inventoryType: 1
@@ -78,5 +83,7 @@ MonoBehaviour:
     outlineIcon: {fileID: -718633104670949679, guid: 3cc7a92ce094e994db2c5b7145004aea, type: 3}
     fillIcon: {fileID: -718633104670949679, guid: 76bc3d853e11c024095b2557f9a176a4, type: 3}
     animator: {fileID: 22100000, guid: fea17be9e9231054d926415eb4df2542, type: 2}
+    currentPopularityStar: 3
     selected: 0
     myType: 3
+  Reset: 0

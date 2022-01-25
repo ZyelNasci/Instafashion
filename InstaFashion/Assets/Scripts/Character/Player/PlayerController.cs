@@ -21,6 +21,21 @@ public class PlayerController : CharacterBase
     }
     #endregion
 
+    public int GetTotalPopularityOutift()
+    {
+        int total = 0;
+        for (int i = 0; i < outfitInfos.Length; i++)
+        {
+            if (outfitInfos[i] != null)
+            {
+                total += outfitInfos[i].currentPopularityStar;
+                if (outfitInfos[i].currentPopularityStar > 0)
+                    outfitInfos[i].currentPopularityStar--;
+            }                
+        }
+        return total;
+    }
+
     #region Outfit_Methods
     public override void BuyingOutfit(Outfit _newOutfit)
     {
@@ -67,6 +82,18 @@ public class PlayerController : CharacterBase
     public void Input_Move(InputAction.CallbackContext _value)
     {
         input_walk = _value.ReadValue<Vector2>();        
+    }
+
+    public void Input_Save(InputAction.CallbackContext _value)
+    {
+        //input_walk = _value.ReadValue<Vector2>();
+        SaveSystem.Instance.SaveGame();
+    }
+
+    public void Input_Load(InputAction.CallbackContext _value)
+    {
+        //input_walk = _value.ReadValue<Vector2>();
+        SaveSystem.Instance.LoadGame();
     }
     #endregion
 }

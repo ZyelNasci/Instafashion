@@ -16,6 +16,10 @@ public class SmartphoneManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI followersText;
     [SerializeField]
+    private Transform likeGroup;
+    [SerializeField]
+    private Transform followerGroup;
+    [SerializeField]
     private PhotoContainer prefab;
     [SerializeField]
     private RectTransform SmartGroup;
@@ -33,7 +37,10 @@ public class SmartphoneManager : MonoBehaviour
     private SmartphoneScreen currentScreen;
 
     private int totalLikes;
-    private int totalFolowers;
+    private int totalFolowers = 0;
+
+    private Coroutine likeCoroutine;
+    private Coroutine followCoroutine;
 
     [SerializeField]
     private Transform content;
@@ -46,17 +53,83 @@ public class SmartphoneManager : MonoBehaviour
         SwitchScreen(currentScreen);
     }
 
+    private int currentLikes;
+    IEnumerator DelayToLike()
+    {
+        float initiTime = Random.Range(0.1f, 0.5f);
+        yield return new WaitForSeconds(initiTime);
+
+        while (currentLikes > 0)
+        {
+            int likeValue = Random.Range(1, currentLikes + 1);
+            float timer = Random.Range(0.2f, 1.5f);
+            yield return new WaitForSeconds(timer);
+            AddLikes(likeValue);
+            currentLikes -= likeValue;
+        }
+
+        likeCoroutine = null;
+    }
+    private int currentFollowers;
+    IEnumerator DelayToFollowers()
+    {
+        float initiTime = Random.Range(0.1f, 0.5f);
+        yield return new WaitForSeconds(initiTime);
+        while (currentFollowers > 0)
+        {
+            int likeValue = Random.Range(1, currentFollowers + 1);
+            float timer = Random.Range(0.2f, 1.5f);
+            yield return new WaitForSeconds(timer);
+            AddFollower(likeValue);
+            currentFollowers -= likeValue;
+        }
+        followCoroutine = null;
+    }
+
+
+    public void AddLikes(int _value)
+    {
+        totalLikes += _value;
+        likeText.text = totalLikes.ToString("00");
+        likeGroup.DOKill();
+        likeGroup.localScale = Vector3.one;
+        likeGroup.DOScale(Vector3.one * 1.1f, 0.2f).SetLoops(2, LoopType.Yoyo);
+    }
+    public void AddFollower(int _value)
+    {
+        totalFolowers += _value;
+        followersText.text = totalFolowers.ToString("00");
+        followerGroup.DOKill();
+        followerGroup.localScale = Vector3.one;
+        followerGroup.DOScale(Vector3.one * 1.1f, 0.2f).SetLoops(1, LoopType.Yoyo);
+    }
+
     public void AddPhotoOnGallery(Sprite _sprite)
-    {        
+    {
+        float percentage    = player.GetTotalPopularityOutift() * 0.03f;
+        int likes           = Mathf.CeilToInt(percentage * totalFolowers);
+
+        float followerPercentage = Random.Range(0.3f, 0.5f);
+        currentFollowers    += Mathf.CeilToInt(likes * followerPercentage);
+        currentLikes        += likes;
+
+        if (followCoroutine == null)
+            followCoroutine = StartCoroutine(DelayToFollowers());
+        if (likeCoroutine == null)
+            likeCoroutine = StartCoroutine(DelayToLike());
+        
+
         PhotoContainer temp = GetContainer();
         temp.transform.SetAsFirstSibling();
-        temp.SetPhotoContainer(_sprite);
+        temp.SetPhotoContainer(_sprite, likes);
         SwitchScreen(SmartphoneScreen.Home);
     }
+
     public void AddPerfilPhoto(Sprite _sprite)
     {
         photoPerfil.sprite = _sprite;
         SwitchScreen(SmartphoneScreen.Home);
+        AddFollower(10);
     }
     public void SetPerfilname(string _name)
     {
@@ -124,6 +197,7 @@ public class SmartphoneManager : MonoBehaviour
         for (int i = 0; i < 12; i++)
         {
             PhotoContainer temp = Instantiate(prefab, content);
+            temp.InitializeContainer(this);
             containerStack.Push(temp);
         }
     }
