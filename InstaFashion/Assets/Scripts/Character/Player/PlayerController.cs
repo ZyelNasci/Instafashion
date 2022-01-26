@@ -14,14 +14,20 @@ public class PlayerController : CharacterBase
 
     private bool input_money = false;
     #endregion
-
-    #region Outfit_Methods
-    public override void BuyingOutfit(Outfit _newOutfit)
+    public override void Update()
     {
-        SetClotheOutfit(_newOutfit);
-        inventory.AddNewInventoryOutfit(_newOutfit);
+        base.Update();
+        if(input_money == true)
+        {
+            GameController.Instance.UpdateMoney(30);
+            input_money = false;
+        }        
     }
 
+    /// <summary>
+    /// Set all player settings
+    /// </summary>
+    /// <param name="_data"></param>
     public void LoadPlayerSettings(GameData _data)
     {
         int numb = 0;
@@ -37,6 +43,13 @@ public class PlayerController : CharacterBase
                 }                
             }
         }
+    }
+
+    #region Outfit_Methods
+    public override void BuyingOutfit(Outfit _newOutfit)
+    {
+        SetClotheOutfit(_newOutfit);
+        inventory.AddNewInventoryOutfit(_newOutfit);
     }
 
     public override void SetClotheOutfit(Outfit _newOutfit, bool _inEditor = false)
@@ -55,6 +68,11 @@ public class PlayerController : CharacterBase
     {
         spRender[0].material.SetColor("_ColorMask", _color);
     }
+
+    /// <summary>
+    /// Returns the total popularity of the clothes
+    /// </summary>
+    /// <returns></returns>
     public int GetTotalPopularityOutift()
     {
         int total = 0;
@@ -71,15 +89,6 @@ public class PlayerController : CharacterBase
     }
     #endregion
 
-    public override void Update()
-    {
-        base.Update();
-        if(input_money == true)
-        {
-            GameController.Instance.UpdateMoney(30);
-            input_money = false;
-        }        
-    }
 
     #region InputMethods
     public void Input_Move(InputAction.CallbackContext _value)

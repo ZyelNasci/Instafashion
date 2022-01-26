@@ -29,6 +29,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField]
     public InventoryType myType;
 
+    private OutfitContainer currentOutfitContainer;
     private InventoryPage currentPage;
     private OutfitType currentScreen;
     private Stack<OutfitContainer> outfitStack = new Stack<OutfitContainer>();
@@ -102,7 +103,9 @@ public class InventoryManager : MonoBehaviour
             player = GameController.Instance.GetPlayer;
             virtualCamera.Follow = player.transform;
         }
-            
+
+        GameController.Instance.HideHUD();
+
         player.SwitchState(player.interactState);
         ScreenPivot.DOKill();
         ScreenPivot.DOAnchorPosY(0, 0.5f);
@@ -116,6 +119,7 @@ public class InventoryManager : MonoBehaviour
 
     public void OnClick_CloseCloseInventory()
     {
+        GameController.Instance.ShowHUD();
         player.SwitchState(player.idleState);
         ScreenPivot.DOKill();
         ScreenPivot.DOAnchorPosY(-600f, 0.5f);

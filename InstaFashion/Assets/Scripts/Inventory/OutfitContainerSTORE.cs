@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class OutfitContainerSTORE : OutfitContainer
 {
@@ -11,10 +12,12 @@ public class OutfitContainerSTORE : OutfitContainer
     private Button buyButton;
     [SerializeField]
     private TextMeshProUGUI BuyText;
+    [SerializeField]
+    protected TextMeshProUGUI priceText;
 
-    public override void SetContainer(InventoryManager _manager, Outfit _outfitInfo)
+    public override void SetContainer(InventoryPage _manager, Outfit _outfitInfo)
     {
-        manager         = _manager;
+        pageManager     = _manager;
         myInfo          = _outfitInfo;
         nameText.text   = _outfitInfo.name;
         popularity      = _outfitInfo.popularityStars;
@@ -26,7 +29,7 @@ public class OutfitContainerSTORE : OutfitContainer
         mat.SetColor("_ColorMask", _outfitInfo.itemColor);
         fillImage.material = mat;
 
-        posted.text = "Price:" + '\n' + "$" + _outfitInfo.price.ToString("0.00");
+        priceText.text = "$" + _outfitInfo.price.ToString();
         if (_outfitInfo.unlocked)
         {
             buyButton.interactable = false;
@@ -45,11 +48,15 @@ public class OutfitContainerSTORE : OutfitContainer
         {
             buyButton.interactable = false;
             BuyText.text = "SOLD";
-            manager.BuyOutfit(myInfo);
+            pageManager.BuyOutfit(myInfo);
             myInfo.unlocked = true;
         }
         else
         {
+            priceText.DOKill();
+            priceText.color = Color.black;
+            priceText.DOColor(Color.red, 0.3f).SetLoops(2, LoopType.Yoyo);
+            priceText.transform.DOShakePosition(0.2f, 3);
             Debug.Log("Have no money left");
         }
     }

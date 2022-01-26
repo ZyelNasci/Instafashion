@@ -2010,10 +2010,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2021626031566336481, guid: 03f66494aab9322439fc9b453bfb9c64, type: 3}
-      propertyPath: m_CellSize.x
-      value: 176
-      objectReference: {fileID: 0}
     - target: {fileID: 2021626032689415965, guid: 03f66494aab9322439fc9b453bfb9c64, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1

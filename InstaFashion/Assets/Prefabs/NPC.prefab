@@ -1287,22 +1287,6 @@ PrefabInstance:
       propertyPath: virtualCamera
       value: 
       objectReference: {fileID: 962147189022940000}
-    - target: {fileID: 2515457829287802265, guid: fbe8880e931cdfd4692863a7d6110010, type: 3}
-      propertyPath: m_Pivot.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2515457829287802265, guid: fbe8880e931cdfd4692863a7d6110010, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2515457829287802265, guid: fbe8880e931cdfd4692863a7d6110010, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2515457829287802265, guid: fbe8880e931cdfd4692863a7d6110010, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -16
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbe8880e931cdfd4692863a7d6110010, type: 3}
 --- !u!224 &1418304294254870311 stripped

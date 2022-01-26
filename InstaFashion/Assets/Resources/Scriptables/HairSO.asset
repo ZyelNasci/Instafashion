@@ -27,8 +27,8 @@ MonoBehaviour:
     selected: 1
     myType: 2
   - name: Hair 1
-    popularityStars: 5
-    price: 10
+    popularityStars: 2
+    price: 20
     unlocked: 0
     inventoryType: 0
     itemColor: {r: 0.43184975, g: 0.8584906, b: 0.31990921, a: 1}
@@ -39,8 +39,8 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 2
-    popularityStars: 5
-    price: 10
+    popularityStars: 2
+    price: 15
     unlocked: 0
     inventoryType: 0
     itemColor: {r: 0.8396226, g: 0.4000089, b: 0.4000089, a: 1}
@@ -51,8 +51,8 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 3
-    popularityStars: 1
-    price: 10
+    popularityStars: 2
+    price: 15
     unlocked: 0
     inventoryType: 0
     itemColor: {r: 0.754717, g: 0.7280381, b: 0.43075827, a: 1}
@@ -63,7 +63,7 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 4
-    popularityStars: 2
+    popularityStars: 3
     price: 15
     unlocked: 0
     inventoryType: 1
@@ -71,12 +71,12 @@ MonoBehaviour:
     outlineIcon: {fileID: 7282743251114054685, guid: 608087c3d5b33c0469a1e885747644e2, type: 3}
     fillIcon: {fileID: -3111357429699748455, guid: 159fa587952a67e4abd93e93fc14d366, type: 3}
     animator: {fileID: 22100000, guid: 845316b190c710e4e8721af52f04522a, type: 2}
-    currentPopularityStar: 3
+    currentPopularityStar: 2
     selected: 0
     myType: 2
   - name: Hair 5
     popularityStars: 2
-    price: 10
+    price: 25
     unlocked: 0
     inventoryType: 1
     itemColor: {r: 0.35684407, g: 0.65873045, b: 0.764151, a: 1}
@@ -88,7 +88,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair 6
     popularityStars: 3
-    price: 20
+    price: 35
     unlocked: 0
     inventoryType: 1
     itemColor: {r: 0.72529036, g: 0.754717, b: 0.36667857, a: 1}
@@ -100,7 +100,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair x
     popularityStars: 3
-    price: 10
+    price: 35
     unlocked: 0
     inventoryType: 1
     itemColor: {r: 0.19534142, g: 1, b: 0.08018869, a: 1}
@@ -124,7 +124,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair 8
     popularityStars: 3
-    price: 25
+    price: 45
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.15619436, g: 0.16627614, b: 0.16981131, a: 1}
@@ -136,7 +136,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair 8
     popularityStars: 3
-    price: 20
+    price: 35
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.14231044, g: 0.7735849, b: 0.5981554, a: 1}
@@ -148,7 +148,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair 9
     popularityStars: 3
-    price: 20
+    price: 40
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.9433962, g: 0.53576845, b: 0.20914915, a: 1}
@@ -159,8 +159,8 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 10
-    popularityStars: 3
-    price: 10
+    popularityStars: 4
+    price: 70
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.81960785, g: 0.36988097, b: 0.29803917, a: 1}
@@ -171,7 +171,7 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 11
-    popularityStars: 2
+    popularityStars: 3
     price: 10
     unlocked: 0
     inventoryType: 3
@@ -184,7 +184,7 @@ MonoBehaviour:
     myType: 2
   - name: Hair 12
     popularityStars: 3
-    price: 10
+    price: 35
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.6415094, g: 0.4616312, b: 0.2753649, a: 1}
@@ -195,8 +195,8 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 12
-    popularityStars: 3
-    price: 10
+    popularityStars: 4
+    price: 40
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.2924528, g: 0.17161496, b: 0.04552332, a: 1}
@@ -207,15 +207,15 @@ MonoBehaviour:
     selected: 0
     myType: 2
   - name: Hair 13
-    popularityStars: 4
-    price: 40
+    popularityStars: 5
+    price: 60
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.39242336, g: 0.9150943, b: 0.30647027, a: 1}
     outlineIcon: {fileID: 2294157501090850156, guid: 6885ba79f641b414ea30c26ae3fffae7, type: 3}
     fillIcon: {fileID: 306160638259440043, guid: 0e064c932f8e8f24eac3dd177b66b184, type: 3}
     animator: {fileID: 22100000, guid: ff005d30cb6f5e548ac4e531170549bc, type: 2}
-    currentPopularityStar: 3
+    currentPopularityStar: 4
     selected: 0
     myType: 2
   Reset: 0

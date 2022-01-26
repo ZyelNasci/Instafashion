@@ -13,10 +13,10 @@ public class CharacterBase : MonoBehaviour
     protected Animator[] anim;
     [SerializeField]
     protected SpriteRenderer[] spRender;
+    public float speed { get; protected set; } = 4;
 
     //Inputs
     public Vector2 input_walk { get; protected set; }
-    public bool input_test { get; protected set; }
 
     //States
     public readonly IdleState idleState = new IdleState();
@@ -35,7 +35,6 @@ public class CharacterBase : MonoBehaviour
     public virtual void Update()
     {
         currentState?.UpdateState();
-        input_test = false;
     }
 
     private void FixedUpdate()

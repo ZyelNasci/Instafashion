@@ -23,48 +23,48 @@ MonoBehaviour:
     outlineIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     animator: {fileID: 9100000, guid: 3085d1f40b37a134ea6de54f226da32a, type: 2}
-    currentPopularityStar: 1
-    selected: 1
+    currentPopularityStar: 0
+    selected: 0
     myType: 3
   - name: Bee
     popularityStars: 2
-    price: 10
+    price: 15
     unlocked: 0
     inventoryType: 0
     itemColor: {r: 0.44134095, g: 0.8773585, b: 0.32694018, a: 1}
     outlineIcon: {fileID: 2484948497721290677, guid: ad19970d15c9d9148ab94d9e22363b5d, type: 3}
     fillIcon: {fileID: 2484948497721290677, guid: 6e210c7ce6931324dadde6b398d25b03, type: 3}
     animator: {fileID: 22100000, guid: 65d1aeef3b4ef24489376bed297c7c11, type: 2}
-    currentPopularityStar: 5
+    currentPopularityStar: 0
     selected: 0
     myType: 3
   - name: Ladybug
     popularityStars: 3
-    price: 20
+    price: 35
     unlocked: 0
     inventoryType: 0
     itemColor: {r: 1, g: 0.3726415, b: 0.3726415, a: 1}
     outlineIcon: {fileID: -1545178891283075302, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     fillIcon: {fileID: -1545178891283075302, guid: b45e92057073c5a45b8e50122fa02163, type: 3}
     animator: {fileID: 22100000, guid: 45b441f6e6e82c7468a3471ea3188a01, type: 2}
-    currentPopularityStar: 5
+    currentPopularityStar: 3
     selected: 0
     myType: 3
   - name: Backpack
     popularityStars: 2
-    price: 15
-    unlocked: 0
+    price: 20
+    unlocked: 1
     inventoryType: 1
     itemColor: {r: 0.764151, g: 0.7300144, b: 0.34963512, a: 1}
     outlineIcon: {fileID: -4336128511207994002, guid: ea175c36f26338f42ab2f620695b1239, type: 3}
     fillIcon: {fileID: -4336128511207994002, guid: ac74907a51bb00540925918d8f1da19a, type: 3}
     animator: {fileID: 22100000, guid: 81f02a5eb61ff2c47bcf13eecc06b7f1, type: 2}
     currentPopularityStar: 2
-    selected: 0
+    selected: 1
     myType: 3
   - name: Backpack 2
     popularityStars: 2
-    price: 15
+    price: 20
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.9150943, g: 0.2170529, b: 0.19424175, a: 1}
@@ -76,7 +76,7 @@ MonoBehaviour:
     myType: 3
   - name: 'Dino '
     popularityStars: 3
-    price: 25
+    price: 30
     unlocked: 0
     inventoryType: 1
     itemColor: {r: 0.8207547, g: 0.36004803, b: 0.80088097, a: 1}
@@ -88,7 +88,7 @@ MonoBehaviour:
     myType: 3
   - name: Dino 2
     popularityStars: 3
-    price: 25
+    price: 35
     unlocked: 0
     inventoryType: 1
     itemColor: {r: 0.31283376, g: 0.59839386, b: 0.6981132, a: 1}
@@ -100,7 +100,7 @@ MonoBehaviour:
     myType: 3
   - name: Cap
     popularityStars: 4
-    price: 20
+    price: 40
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.31283376, g: 0.59839386, b: 0.6981132, a: 1}
@@ -111,32 +111,32 @@ MonoBehaviour:
     selected: 0
     myType: 3
   - name: Cap 2
-    popularityStars: 3
-    price: 20
+    popularityStars: 5
+    price: 60
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.126253, g: 1, b: 0.08962262, a: 1}
     outlineIcon: {fileID: -4790943203215549178, guid: 218f96e3d13192646a01b347504b9dfc, type: 3}
     fillIcon: {fileID: -4790943203215549178, guid: 471b9ad3c1b09e44590ac138cce56127, type: 3}
     animator: {fileID: 22100000, guid: 5d0c9f084e8187840b92d504a314d49d, type: 2}
-    currentPopularityStar: 4
+    currentPopularityStar: 3
     selected: 0
     myType: 3
   - name: Cap 3
     popularityStars: 3
-    price: 25
+    price: 40
     unlocked: 0
     inventoryType: 1
-    itemColor: {r: 0.126253, g: 1, b: 0.08962262, a: 1}
+    itemColor: {r: 0.3937653, g: 0.7264151, b: 0.38033998, a: 1}
     outlineIcon: {fileID: -4790943203215549178, guid: 218f96e3d13192646a01b347504b9dfc, type: 3}
     fillIcon: {fileID: -4790943203215549178, guid: 471b9ad3c1b09e44590ac138cce56127, type: 3}
     animator: {fileID: 22100000, guid: 5d0c9f084e8187840b92d504a314d49d, type: 2}
-    currentPopularityStar: 4
+    currentPopularityStar: 3
     selected: 0
     myType: 3
   - name: Bataclava
-    popularityStars: 3
-    price: 10
+    popularityStars: 4
+    price: 40
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.64595944, g: 0.7169812, b: 0.7093502, a: 1}
@@ -148,7 +148,7 @@ MonoBehaviour:
     myType: 3
   - name: Bataclava 2
     popularityStars: 3
-    price: 10
+    price: 35
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.22877358, g: 0.26584694, b: 0.9150943, a: 1}
@@ -183,8 +183,8 @@ MonoBehaviour:
     selected: 0
     myType: 3
   - name: Zombie Cap
-    popularityStars: 3
-    price: 20
+    popularityStars: 4
+    price: 40
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.32133323, g: 0.7830189, b: 0.44194126, a: 1}
@@ -196,7 +196,7 @@ MonoBehaviour:
     myType: 3
   - name: Bolt
     popularityStars: 2
-    price: 10
+    price: 30
     unlocked: 0
     inventoryType: 3
     itemColor: {r: 0.45723566, g: 0.69774634, b: 0.7075472, a: 1}
@@ -255,7 +255,7 @@ MonoBehaviour:
     selected: 0
     myType: 3
   - name: Glove
-    popularityStars: 2
+    popularityStars: 1
     price: 5
     unlocked: 0
     inventoryType: 3

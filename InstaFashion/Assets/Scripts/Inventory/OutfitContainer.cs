@@ -8,8 +8,7 @@ public class OutfitContainer : MonoBehaviour
 {
     [SerializeField]
     protected TextMeshProUGUI nameText;
-    [SerializeField]
-    protected TextMeshProUGUI posted;
+
     [SerializeField]
     protected Image outlineImage;
     [SerializeField]
@@ -18,6 +17,12 @@ public class OutfitContainer : MonoBehaviour
     protected Color yellowStar;
     [SerializeField]
     protected Color grayStar;
+    [SerializeField]
+    protected Color unselecColor;
+    [SerializeField]
+    protected Color selectedColor;
+    [SerializeField]
+    protected Image selectedImage;
     [SerializeField]
     protected Image[] starImage;
 
@@ -28,11 +33,11 @@ public class OutfitContainer : MonoBehaviour
     private int postedCount;
     private int myIndex;
 
-    protected InventoryManager manager;
+    protected InventoryPage pageManager;
     protected Outfit myInfo;
-    public virtual void SetContainer(InventoryManager _manager, Outfit _outfitInfo)
+    public virtual void SetContainer(InventoryPage _manager, Outfit _outfitInfo)
     {
-        manager             = _manager;
+        pageManager         = _manager;
         myInfo              = _outfitInfo;
         nameText.text       = _outfitInfo.name;
         popularity          = _outfitInfo.currentPopularityStar;
@@ -45,7 +50,7 @@ public class OutfitContainer : MonoBehaviour
         mat.SetColor("_ColorMask", _outfitInfo.itemColor);
         fillImage.material = mat;
 
-        posted.text         = "Posts: 00";        
+        //posted.text         = "Posts: 00";        
     }
 
     public void CheckPopularity()
@@ -66,6 +71,16 @@ public class OutfitContainer : MonoBehaviour
 
     public void OnClick_SetOutfit()
     {
-        manager.SetPlayerOutfit(myInfo);
+        pageManager.SelectOutfit(myInfo, this);
+        SelectFeedback();
+    }
+
+    public void SelectFeedback()
+    {
+        selectedImage.color = selectedColor;
+    }
+    public void UnselectedFeedback()
+    {
+        selectedImage.color = unselecColor;
     }
 }

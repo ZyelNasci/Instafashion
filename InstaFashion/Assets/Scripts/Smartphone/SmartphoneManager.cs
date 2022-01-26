@@ -99,6 +99,7 @@ public class SmartphoneManager : MonoBehaviour
             case SmartphoneScreen.CreateCharacter:
                 createCharacterGroup.gameObject.SetActive(false);
                 whiteFade.DOFade(0, 1f);
+
                 break;
         }
         switch (_newScreen)
@@ -112,12 +113,22 @@ public class SmartphoneManager : MonoBehaviour
                 cameraGroup.SetActive(true);
                 break;
             case SmartphoneScreen.CreateCharacter:
+                whiteFade.DOFade(1, 0);
                 createCharacterGroup.gameObject.SetActive(true);
                 createCharacterGroup.InitializeScreen();
-                whiteFade.DOFade(1, 0);
                 break;
         }
         currentScreen = _newScreen;
+    }
+
+    public IEnumerator DelayToOpenCreateScreen()
+    {
+        whiteFade.DOFade(1, 0);
+        yield return new WaitForSeconds(1f);
+        SwitchScreen(SmartphoneScreen.CreateCharacter);
+        player.SwitchState(player.interactState);
+        SmartGroup.DOKill();
+        SmartGroup.DOAnchorPosY(0, 0.5f);
     }
     #endregion
 
@@ -215,26 +226,33 @@ public class SmartphoneManager : MonoBehaviour
     #region OnClick Methods
     public void OnClick_OpenSmartphone()
     {
+        GameController.Instance.HideHUD();
         SwitchScreen(SmartphoneScreen.Home);
-        miniButton.SetActive(false);
+        
         player.SwitchState(player.interactState);
         SmartGroup.DOKill();
         SmartGroup.DOAnchorPosY(0, 0.5f);
     }
     public void Open_CreateCharacter()
     {
-        SwitchScreen(SmartphoneScreen.CreateCharacter);
-        miniButton.SetActive(false);
-        player.SwitchState(player.interactState);
-        SmartGroup.DOKill();
-        SmartGroup.DOAnchorPosY(0, 0.5f);
+        StartCoroutine(DelayToOpenCreateScreen());
     }
     public void OnClick_CloseSmartphone()
     {
         if (currentScreen == SmartphoneScreen.CreateCharacter) return;
-        SwitchScreen(SmartphoneScreen.None);
-        player.SwitchState(player.idleState);
+
+        if (!save.dataSO.tutorial)
+        {
+            GameController.Instance.ShowHUD();
+            player.SwitchState(player.idleState);
+        }
+        else
+        {
+            GameController.Instance.ShowWelcome();
+        }
+
         SmartGroup.DOKill();
+        SwitchScreen(SmartphoneScreen.None);
         SmartGroup.DOAnchorPosY(-600, 0.5f).OnComplete(() => miniButton.SetActive(true));
     }
     public void OnClick_OpenCameraGroup()

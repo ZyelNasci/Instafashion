@@ -13,6 +13,8 @@ public class InventoryPage : MonoBehaviour
     protected InventoryManager manager;
     public List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
 
+    protected OutfitContainer currentContainer;
+
     public void InitializePage(InventoryManager _manager, InventoryType _type)
     {
         manager = _manager;
@@ -38,6 +40,19 @@ public class InventoryPage : MonoBehaviour
         }
     }
 
+    public void SelectOutfit(Outfit _newOutfit, OutfitContainer _newContainer)
+    {
+        manager.SetPlayerOutfit(_newOutfit);
+        currentContainer?.UnselectedFeedback();
+        _newContainer.SelectFeedback();
+        currentContainer = _newContainer;
+    }
+
+    public void BuyOutfit(Outfit _outfit)
+    {
+        manager.BuyOutfit(_outfit);
+    }
+
     public virtual void SetContainer(InventoryType type)
     {
         currentOutfits.Clear();
@@ -52,7 +67,7 @@ public class InventoryPage : MonoBehaviour
                 outfits[i].myType       = outfitSO.type;
                 temp.transform.parent   = Content;  
                 temp.transform.SetAsLastSibling();
-                temp.SetContainer(manager, outfits[i]);
+                temp.SetContainer(this, outfits[i]);
                 currentOutfits.Add(temp);                
             }
         }
@@ -64,7 +79,7 @@ public class InventoryPage : MonoBehaviour
         _outfitInfo.myType = outfitSO.type;
         temp.transform.parent = Content;
         temp.transform.SetAsLastSibling();
-        temp.SetContainer(manager, _outfitInfo);
+        temp.SetContainer(this, _outfitInfo);
         currentOutfits.Add(temp);
     }
 }

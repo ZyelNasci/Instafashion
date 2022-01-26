@@ -45,7 +45,6 @@ public class SmartphoneCreateCharacter : MonoBehaviour
         player.SetClotheOutfit(hairs[0]);
         player.SetClotheOutfit(clothes[0]);
         player.SetClotheOutfit(accessories[0]);
-        
     }
 
     private void OnEnable()

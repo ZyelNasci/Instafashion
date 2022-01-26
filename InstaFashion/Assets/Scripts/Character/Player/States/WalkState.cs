@@ -6,7 +6,7 @@ using UnityEngine;
 public class WalkState : BaseState
 {
     private Rigidbody2D body;
-    private float speed = 4;
+    
 
     public void InitializeState(CharacterBase _player, Animator[] _anim, Rigidbody2D _body)
     {
@@ -36,15 +36,25 @@ public class WalkState : BaseState
             player.SwitchState(player.idleState);
             return;
         }
-        
-        for (int i = 0; i < anim.Length; i++)
-        {
-            anim[i].SetFloat("velX", player.input_walk.x);
-            anim[i].SetFloat("velY", player.input_walk.y);
-        }
+
+        SetAnim();
 
         Vector2 velocity = player.input_walk;
-        body.velocity = velocity * speed;
+        body.velocity = velocity * player.speed;
+    }
+
+    private Vector2 currentDirection;
+    public void SetAnim()
+    {
+        if(currentDirection != player.input_walk)
+        {
+            for (int i = 0; i < anim.Length; i++)
+            {
+                anim[i].SetFloat("velX", Mathf.RoundToInt(player.input_walk.x));
+                anim[i].SetFloat("velY", Mathf.RoundToInt(player.input_walk.y));
+            }
+            currentDirection = player.input_walk;
+        }  
     }
 
     public override void FixedUpdateState()

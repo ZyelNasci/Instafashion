@@ -38,6 +38,7 @@ public class PhotoCam : PointerClickBase
     public void OnEnable()
     {
         RenderPipelineManager.endCameraRendering += RenderCamera;
+        photoCam.enabled = true;
         dragCamera.ResetCameraPosition();
     }
 
@@ -47,6 +48,7 @@ public class PhotoCam : PointerClickBase
         photoCam.targetTexture = renderTexture;
         confirmationGroup.SetActive(false);
         camGroup.SetActive(true);
+        photoCam.enabled = false;
     }
 
     public void OnSlider_Zoom(float _value)
@@ -100,8 +102,7 @@ public class PhotoCam : PointerClickBase
         }
         else
         {
-            manager.AddPerfilPhoto(_sprite);
-            SaveSystem.Instance.dataSO.tutorial = false;
+            manager.AddPerfilPhoto(_sprite);            
             SaveSystem.Instance.SaveGame();
         }        
     }
