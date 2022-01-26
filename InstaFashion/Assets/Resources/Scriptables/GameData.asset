@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Money: 0
   playerName: 
-  colorSkin: {r: 0, g: 1, b: 0.15914106, a: 0}
+  colorSkin: {r: 0.41509432, g: 0.29735023, b: 0.24083304, a: 1}
   totalLikes: 0
   totalFollowers: 0
   tutorial: 1

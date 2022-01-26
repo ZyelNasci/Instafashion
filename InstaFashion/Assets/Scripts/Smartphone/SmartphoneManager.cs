@@ -38,6 +38,8 @@ public class SmartphoneManager : MonoBehaviour
     private GameObject cameraGroup;
     [SerializeField]
     private SmartphoneCreateCharacter createCharacterGroup;
+    [SerializeField]
+    private Button CloseButton;
     public SmartphoneScreen currentScreen { get; private set; }
 
     private int totalLikes;
@@ -215,11 +217,14 @@ public class SmartphoneManager : MonoBehaviour
         photoPerfil.sprite = _sprite;
         SwitchScreen(SmartphoneScreen.Home);
         AddFollower(10);
+        CloseButton.interactable = true;
     }
     public void SetPerfilname(string _name)
     {
         nameText.text = "@" + _name;
         save.dataSO.playerName = _name;
+
+        
     }
     #endregion
 
@@ -235,6 +240,7 @@ public class SmartphoneManager : MonoBehaviour
     }
     public void Open_CreateCharacter()
     {
+        CloseButton.interactable = false;
         StartCoroutine(DelayToOpenCreateScreen());
     }
     public void OnClick_CloseSmartphone()
