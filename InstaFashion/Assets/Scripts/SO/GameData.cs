@@ -34,9 +34,7 @@ public class GameData : ScriptableObject
         }
         if (clear)
         {
-            clear = false;
-            photosBytes.Clear();
-            sprites.Clear();
+            ResetGameData();
         }
     }
 

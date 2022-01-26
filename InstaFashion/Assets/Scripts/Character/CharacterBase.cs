@@ -30,7 +30,6 @@ public class CharacterBase : MonoBehaviour
     public void Awake()
     {
         InitializeStates();
-        //SwitchState(idleState);
     }
 
     public virtual void Update()
@@ -83,40 +82,4 @@ public class CharacterBase : MonoBehaviour
 
         currentState = newState;
     }
-    /*
-    #region Outfit_Methods
-    public void BuyingOutfit(Outfit _newOutfit)
-    {
-        SetClotheOutfit(_newOutfit);
-        inventory.AddNewInventoryOutfit(_newOutfit);
-    }
-    public void SetClotheOutfit(Outfit _newOutfit)
-    {
-        int index = (int)_newOutfit.myType;
-        spRender[index].material.SetColor("_ColorMask", _newOutfit.itemColor);
-        anim[index].runtimeAnimatorController = _newOutfit.animator;
-        SetAnimatorTime();
-    }
-    public void SetAnimatorTime()
-    {
-        float normalizedTime = anim[0].GetCurrentAnimatorStateInfo(0).normalizedTime;
-        int hashTemp = anim[0].GetCurrentAnimatorStateInfo(0).fullPathHash;
-        anim[0].Play(hashTemp, 0, normalizedTime);
-        anim[1].Play(hashTemp, 0, normalizedTime);
-        anim[2].Play(hashTemp, 0, normalizedTime);
-    }
-    #endregion
-    #region InputMethods
-    public void Input_Move(InputAction.CallbackContext _value)
-    {
-        input_walk = _value.ReadValue<Vector2>();
-        Debug.Log("Andou: " + input_walk);
-    }
-
-    public void Input_Test(InputAction.CallbackContext _value)
-    {
-        input_test = _value.ReadValueAsButton();
-    }
-    #endregion
-    */
 }

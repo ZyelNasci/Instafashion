@@ -5,8 +5,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 
-public class CameraDrag : PointerClickBase
+public class CameraDrag : MonoBehaviour, IDragHandler
 {
+    [SerializeField]
+    private SmartphoneManager manager;
     [SerializeField]
     private RectTransform rect;
     [SerializeField]
@@ -16,16 +18,11 @@ public class CameraDrag : PointerClickBase
     
     private Camera mainCamera;
 
+    bool tutorial = false;
     public void Awake()
     {
         mainCamera = Camera.main;
     }
-
-    public void OnEnable()
-    {
-        //ResetCameraPosition();
-    }
-
     public void ResetCameraPosition()
     {
         Vector3 newPos = mainCamera.ScreenToWorldPoint(rect.position);
@@ -34,8 +31,10 @@ public class CameraDrag : PointerClickBase
         photoCam.transform.position = newPos;
     }
 
-    protected override void PointerDrag(PointerEventData eventData)
+    public void OnDrag(PointerEventData eventData)
     {
+        if (manager.currentScreen == SmartphoneScreen.CreateCharacter) return;
+
         Vector2 newRectPos = rect.anchoredPosition;
         newRectPos += eventData.delta / canvas.scaleFactor;
 
@@ -43,9 +42,6 @@ public class CameraDrag : PointerClickBase
         newRectPos.y = Mathf.Clamp(newRectPos.y, -216, 62);
 
         rect.anchoredPosition = newRectPos;
-
-
-        
 
         Vector3 newPos = mainCamera.ScreenToWorldPoint(rect.position);
         newPos.z = photoCam.transform.position.z;

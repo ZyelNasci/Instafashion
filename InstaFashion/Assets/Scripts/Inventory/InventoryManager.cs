@@ -13,7 +13,9 @@ public class InventoryManager : MonoBehaviour
     [SerializeField]
     private RectTransform ScreenPivot;
     [SerializeField]
-    private OutfitContainer outfitContainerPrefab;        
+    private OutfitContainer outfitContainerPrefab;
+    [SerializeField]
+    private Cinemachine.CinemachineVirtualCamera virtualCamera;
 
     [Header("PageComponents")]
     [SerializeField]
@@ -25,7 +27,7 @@ public class InventoryManager : MonoBehaviour
 
     [Header("Attributes")]
     [SerializeField]
-    private InventoryType myType;
+    public InventoryType myType;
 
     private InventoryPage currentPage;
     private OutfitType currentScreen;
@@ -95,16 +97,30 @@ public class InventoryManager : MonoBehaviour
 
     public void OnClick_OpenInventory()
     {
+        if (player == null)
+        {
+            player = GameController.Instance.GetPlayer;
+            virtualCamera.Follow = player.transform;
+        }
+            
         player.SwitchState(player.interactState);
         ScreenPivot.DOKill();
-        ScreenPivot.DOAnchorPosY(0, 1f);
+        ScreenPivot.DOAnchorPosY(0, 0.5f);
+        accessoriesPage.CheckAllOutfits();
+        clothesPage.CheckAllOutfits();
+        hairsPage.CheckAllOutfits();
+        if (virtualCamera != null)
+            virtualCamera.enabled = true;
+
     }
 
     public void OnClick_CloseCloseInventory()
     {
         player.SwitchState(player.idleState);
         ScreenPivot.DOKill();
-        ScreenPivot.DOAnchorPosY(-600f, 1f);
+        ScreenPivot.DOAnchorPosY(-600f, 0.5f);
+        if(virtualCamera != null)
+            virtualCamera.enabled = false;
     }
     #endregion
 

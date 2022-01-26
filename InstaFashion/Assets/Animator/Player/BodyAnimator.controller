@@ -313,6 +313,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: velY
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velX
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: velX
+    m_EventTreshold: -0.5
   - m_ConditionMode: 1
     m_ConditionEvent: walk
     m_EventTreshold: 0
@@ -409,6 +415,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: velY
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velX
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: velX
+    m_EventTreshold: -0.5
   - m_ConditionMode: 1
     m_ConditionEvent: walk
     m_EventTreshold: 0
@@ -591,22 +603,22 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4501948194112994037}
-    m_Position: {x: 360, y: 130, z: 0}
+    m_Position: {x: 450, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7465064885932205001}
-    m_Position: {x: 360, y: 80, z: 0}
+    m_Position: {x: 450, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7426663409877172067}
-    m_Position: {x: 360, y: 230, z: 0}
+    m_Position: {x: 450, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4980175201777274261}
-    m_Position: {x: 360, y: 180, z: 0}
+    m_Position: {x: 450, y: 70, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 660, y: 160, z: 0}
+  m_AnyStatePosition: {x: 760, y: 150, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 50, y: 40, z: 0}
   m_ParentStateMachinePosition: {x: 30, y: 210, z: 0}
@@ -622,6 +634,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: velY
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velX
+    m_EventTreshold: 0.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: velX
+    m_EventTreshold: -0.5
   - m_ConditionMode: 2
     m_ConditionEvent: walk
     m_EventTreshold: 0

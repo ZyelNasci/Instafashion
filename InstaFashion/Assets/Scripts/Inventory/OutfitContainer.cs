@@ -14,6 +14,15 @@ public class OutfitContainer : MonoBehaviour
     protected Image outlineImage;
     [SerializeField]
     protected Image fillImage;
+    [SerializeField]
+    protected Color yellowStar;
+    [SerializeField]
+    protected Color grayStar;
+    [SerializeField]
+    protected Image[] starImage;
+
+    //[SerializeField]
+    //private Image
 
     protected int popularity;
     private int postedCount;
@@ -26,15 +35,33 @@ public class OutfitContainer : MonoBehaviour
         manager             = _manager;
         myInfo              = _outfitInfo;
         nameText.text       = _outfitInfo.name;
-        popularity          = _outfitInfo.popularityStars;
+        popularity          = _outfitInfo.currentPopularityStar;
         outlineImage.sprite = _outfitInfo.outlineIcon;
         fillImage.sprite    = _outfitInfo.fillIcon;
+
+        CheckPopularity();
 
         Material mat = Instantiate(fillImage.material);
         mat.SetColor("_ColorMask", _outfitInfo.itemColor);
         fillImage.material = mat;
 
         posted.text         = "Posts: 00";        
+    }
+
+    public void CheckPopularity()
+    {
+        popularity = myInfo.currentPopularityStar;
+        for (int i = 0; i < starImage.Length; i++)
+        {
+            if (i < popularity)
+            {
+                starImage[i].color = yellowStar;
+            }
+            else
+            {
+                starImage[i].color = grayStar;
+            }
+        }
     }
 
     public void OnClick_SetOutfit()

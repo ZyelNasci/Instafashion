@@ -41,11 +41,10 @@ public class OutfitContainerSTORE : OutfitContainer
 
     public void OnClick_BuyOutfit()
     {
-        if (GlobalValues.playerMoney >= myInfo.price)
+        if (GameController.Instance.CheckHasMoney((int)myInfo.price))
         {
             buyButton.interactable = false;
             BuyText.text = "SOLD";
-            GlobalValues.playerMoney -= myInfo.price;
             manager.BuyOutfit(myInfo);
             myInfo.unlocked = true;
         }

@@ -45,6 +45,16 @@ public class SmartphoneCreateCharacter : MonoBehaviour
         player.SetClotheOutfit(hairs[0]);
         player.SetClotheOutfit(clothes[0]);
         player.SetClotheOutfit(accessories[0]);
+        
+    }
+
+    private void OnEnable()
+    {
+        cam.gameObject.SetActive(true);
+    }
+    private void OnDisable()
+    {
+        cam.gameObject.SetActive(false);
     }
 
     public void OnClick_SwitchHair(int _dir)
@@ -70,7 +80,9 @@ public class SmartphoneCreateCharacter : MonoBehaviour
         else if (skinIndex < 0)
             skinIndex = 1;
 
-        player.SetSkinColor(color.Evaluate(skinIndex));
+        Color newColor          = color.Evaluate(skinIndex);
+        save.dataSO.colorSkin   = newColor;
+        player.SetSkinColor(newColor);
     }
 
     public void OnClick_SwitchClothes(int _dir)

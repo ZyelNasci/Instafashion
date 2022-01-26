@@ -23,9 +23,10 @@ public class WalkState : BaseState
 
     public override void ExitState()
     {
-        body.velocity = Vector2.zero;
-        for (int i = 0; i < anim.Length; i++)
+        body.velocity = Vector2.zero;        
+        for (int i = 0; i < anim.Length; i++)        
             anim[i].SetBool("walk", false);
+        
     }
 
     public override void UpdateState()

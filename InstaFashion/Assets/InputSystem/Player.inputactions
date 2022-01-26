@@ -14,17 +14,9 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Save",
+                    "name": "MonetCheat",
                     "type": "Button",
                     "id": "2dd8119e-fdff-4750-a4d3-e7171ef76767",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
-                    "name": "Load",
-                    "type": "Button",
-                    "id": "30af946d-841f-475e-802a-5438fdd3ba23",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -144,22 +136,11 @@
                 {
                     "name": "",
                     "id": "14772af3-6df0-475e-a429-d1bccd92bdb2",
-                    "path": "<Keyboard>/1",
+                    "path": "<Keyboard>/numpadPlus",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
-                    "action": "Save",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "b59fdba6-1e21-4aff-a181-aa284b749626",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard",
-                    "action": "Load",
+                    "action": "MonetCheat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

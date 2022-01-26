@@ -24,7 +24,7 @@ MonoBehaviour:
     fillIcon: {fileID: 4333674536857108632, guid: 49f365ed20d9373409620032c2be313a, type: 3}
     animator: {fileID: 9100000, guid: 3085d1f40b37a134ea6de54f226da32a, type: 2}
     currentPopularityStar: 0
-    selected: 0
+    selected: 1
     myType: 1
   - name: Green Dress
     popularityStars: 5
@@ -48,7 +48,7 @@ MonoBehaviour:
     fillIcon: {fileID: -353501473770525153, guid: e7a2ee20a4204a5459f905c2288ed849, type: 3}
     animator: {fileID: 22100000, guid: 9392f6c4a76bdfb47909a1519d46cbd3, type: 2}
     currentPopularityStar: 5
-    selected: 1
+    selected: 0
     myType: 1
   - name: Yellow Dress
     popularityStars: 2
@@ -59,7 +59,7 @@ MonoBehaviour:
     outlineIcon: {fileID: 8802913035944514198, guid: 05f5e42590d5aac40a7ef1565af2ac28, type: 3}
     fillIcon: {fileID: 4105489828954677280, guid: 7bc40daa2bfe56247bef392991f36f5a, type: 3}
     animator: {fileID: 22100000, guid: b95e4bf9a8204a64c94f18204de516b5, type: 2}
-    currentPopularityStar: 1
+    currentPopularityStar: 2
     selected: 0
     myType: 1
   - name: Cyan Dress
@@ -74,7 +74,7 @@ MonoBehaviour:
     currentPopularityStar: 3
     selected: 0
     myType: 1
-  - name: Pink Dress
+  - name: Dress
     popularityStars: 2
     price: 10
     unlocked: 0
@@ -95,12 +95,12 @@ MonoBehaviour:
     outlineIcon: {fileID: -2694479390684961197, guid: 3e199568bae7b67459686a5b76ee9c04, type: 3}
     fillIcon: {fileID: -2694479390684961197, guid: 6793140de0bf3e44798e549bdd5c1fd1, type: 3}
     animator: {fileID: 22100000, guid: 12b275a89a988a14e803ecb85659db31, type: 2}
-    currentPopularityStar: 2
+    currentPopularityStar: 3
     selected: 0
     myType: 1
   - name: Shirt
-    popularityStars: 2
-    price: 15
+    popularityStars: 4
+    price: 35
     unlocked: 0
     inventoryType: 2
     itemColor: {r: 0.09411766, g: 0.5137255, b: 0.5411765, a: 1}
@@ -119,7 +119,19 @@ MonoBehaviour:
     outlineIcon: {fileID: 8581969986913997214, guid: e42dc4e5acb041d4786845b7f383dfef, type: 3}
     fillIcon: {fileID: 8581969986913997214, guid: e42dc4e5acb041d4786845b7f383dfef, type: 3}
     animator: {fileID: 22100000, guid: 42b1ab904b2b6ad469e46174390c26e5, type: 2}
-    currentPopularityStar: 2
+    currentPopularityStar: 4
+    selected: 0
+    myType: 1
+  - name: Black Prist
+    popularityStars: 5
+    price: 60
+    unlocked: 0
+    inventoryType: 2
+    itemColor: {r: 0.13207549, g: 0.10777858, b: 0.10777858, a: 1}
+    outlineIcon: {fileID: 8581969986913997214, guid: e42dc4e5acb041d4786845b7f383dfef, type: 3}
+    fillIcon: {fileID: 8581969986913997214, guid: e42dc4e5acb041d4786845b7f383dfef, type: 3}
+    animator: {fileID: 22100000, guid: 42b1ab904b2b6ad469e46174390c26e5, type: 2}
+    currentPopularityStar: 4
     selected: 0
     myType: 1
   - name: cloak
@@ -131,7 +143,7 @@ MonoBehaviour:
     outlineIcon: {fileID: -4295796039724312639, guid: 825b7c67e73cf9941ae0b88f09c695ab, type: 3}
     fillIcon: {fileID: -4295796039724312639, guid: 76faf2ddd53accb4598550901a481703, type: 3}
     animator: {fileID: 22100000, guid: caa56c03e03ff2c4ca6943269324f064, type: 2}
-    currentPopularityStar: 2
+    currentPopularityStar: 4
     selected: 0
     myType: 1
   - name: Sweatshirt
@@ -143,7 +155,31 @@ MonoBehaviour:
     outlineIcon: {fileID: 3854863367031087225, guid: 492fb336ca541914294e82ed5ec62ba3, type: 3}
     fillIcon: {fileID: 3854863367031087225, guid: ad41201c6aa1e414cb843ee1ef3beeb5, type: 3}
     animator: {fileID: 22100000, guid: fdb23ff53cdf4e544997a78fa81b3f7e, type: 2}
-    currentPopularityStar: 2
+    currentPopularityStar: 3
+    selected: 0
+    myType: 1
+  - name: Sweatshirt
+    popularityStars: 3
+    price: 35
+    unlocked: 0
+    inventoryType: 3
+    itemColor: {r: 0.3301887, g: 0.06697223, b: 0.3235544, a: 1}
+    outlineIcon: {fileID: 3854863367031087225, guid: 492fb336ca541914294e82ed5ec62ba3, type: 3}
+    fillIcon: {fileID: 3854863367031087225, guid: ad41201c6aa1e414cb843ee1ef3beeb5, type: 3}
+    animator: {fileID: 22100000, guid: fdb23ff53cdf4e544997a78fa81b3f7e, type: 2}
+    currentPopularityStar: 3
+    selected: 0
+    myType: 1
+  - name: Sweatshirt
+    popularityStars: 3
+    price: 35
+    unlocked: 0
+    inventoryType: 2
+    itemColor: {r: 0.29999074, g: 1, b: 0.28773582, a: 1}
+    outlineIcon: {fileID: 3854863367031087225, guid: 492fb336ca541914294e82ed5ec62ba3, type: 3}
+    fillIcon: {fileID: 3854863367031087225, guid: ad41201c6aa1e414cb843ee1ef3beeb5, type: 3}
+    animator: {fileID: 22100000, guid: fdb23ff53cdf4e544997a78fa81b3f7e, type: 2}
+    currentPopularityStar: 3
     selected: 0
     myType: 1
   Reset: 0

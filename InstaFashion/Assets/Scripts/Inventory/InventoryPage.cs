@@ -11,12 +11,13 @@ public class InventoryPage : MonoBehaviour
     protected OutfitSO outfitSO;
 
     protected InventoryManager manager;
-    protected List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
+    public List<OutfitContainer> currentOutfits = new List<OutfitContainer>();
 
     public void InitializePage(InventoryManager _manager, InventoryType _type)
     {
         manager = _manager;
         SetContainer(_type);
+        //SetContainer(manager.myType);
     }
 
     public void OpenPage()
@@ -29,10 +30,19 @@ public class InventoryPage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    public void CheckAllOutfits()
+    {
+        for (int i = 0; i < currentOutfits.Count; i++)
+        {
+            currentOutfits[i].CheckPopularity();
+        }
+    }
+
     public virtual void SetContainer(InventoryType type)
     {
         currentOutfits.Clear();
         Outfit[] outfits = outfitSO.outfits;
+        Debug.Log(type);
         for (int i = 0; i < outfits.Length; i++)
         {
             if (type == outfits[i].inventoryType|| 
@@ -40,7 +50,7 @@ public class InventoryPage : MonoBehaviour
             {
                 OutfitContainer temp    = manager.GetContainer();
                 outfits[i].myType       = outfitSO.type;
-                temp.transform.parent   = Content;
+                temp.transform.parent   = Content;  
                 temp.transform.SetAsLastSibling();
                 temp.SetContainer(manager, outfits[i]);
                 currentOutfits.Add(temp);                

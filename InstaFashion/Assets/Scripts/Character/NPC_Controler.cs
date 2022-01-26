@@ -4,6 +4,7 @@ using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
+using DG.Tweening;
 
 public class NPC_Controler : CharacterBase
 {
@@ -12,6 +13,10 @@ public class NPC_Controler : CharacterBase
     private GameObject iconInteraction;
     [SerializeField]
     private InventoryManager inventory;
+    [SerializeField]
+    Animator animIcon;
+
+    private bool canTalk = false;
 
     [SerializeField]
     private Gradient colorSkin;
@@ -39,6 +44,42 @@ public class NPC_Controler : CharacterBase
         spRender[1].sprite = clothes.outfits[clothesIndex].outlineIcon;
         spRender[2].sprite = hairs.outfits[hairIndex].outlineIcon;
         spRender[3].sprite = Accessories.outfits[accessoriesIndex].outlineIcon;
+    }
+
+    public void OnClick_OpenInventory()
+    {
+        if(canTalk)
+            inventory.OnClick_OpenInventory();
+    }
+
+    public void PlayerIn()
+    {
+        animIcon.transform.DOKill();
+        animIcon.transform.DOScale(Vector3.one * 1.3f, 1f).SetEase(Ease.OutElastic);
+        canTalk = true;
+        animIcon.SetBool("talk", canTalk);
+        Debug.Log("PlayerEntrou");
+    }
+    public void PlayerOut()
+    {
+        animIcon.transform.DOKill();
+        animIcon.transform.DOScale(Vector3.one * 0.9f, 0.8f).SetEase(Ease.InElastic);
+        canTalk = false;
+        animIcon.SetBool("talk", canTalk);
+        Debug.Log("PlayerSaiu");
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!canTalk && collision.CompareTag("Player"))        
+            PlayerIn();        
+    }
+
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (canTalk && collision.CompareTag("Player"))
+            PlayerOut();        
     }
 }
 
